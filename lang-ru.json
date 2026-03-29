@@ -14064,11 +14064,11 @@
     },
     "mobiglas_ui_GroundMining": {
       "en": "Ground Vehicle Mining",
-      "tr": "ДОБЫЧА ПОЛЕЗНЫХ ИСКОПАЕМЫХ НА НАЗЕМНОЙ ТЕХНИКЕ"
+      "tr": "ДОБЫЧА НА НАЗЕМНОЙ ТЕХНИКЕ"
     },
     "mobiglas_ui_FPSMining": {
       "en": "Hand Mining",
-      "tr": "РУЧНАЯ ДОБЫЧА ПОЛЕЗНЫХ ИСКОПАЕМЫХ"
+      "tr": "РУЧНАЯ ДОБЫЧА"
     },
     "mobiGlas_ui_MissionType_Hauling": {
       "en": "Hauling",
@@ -14116,7 +14116,7 @@
     },
     "mobiglas_ui_ShipMining": {
       "en": "Ship Mining",
-      "tr": "ДОБЫЧА ПОЛЕЗНЫХ ИСКОПАЕМЫХ НА КОРАБЛЕ"
+      "tr": "ДОБЫЧА НА КОРАБЛЕ"
     },
     "ContractManager_TempTab_Small_Items": {
       "en": "Wikelo - Other Items",
