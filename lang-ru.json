@@ -2,10 +2,10 @@
   "version": "4.7.0-live.11518367",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 3463,
+  "keyCount": 3484,
   "stats": {
-    "total": 3463,
-    "translated": 3312,
+    "total": 3484,
+    "translated": 3333,
     "missing": 2,
     "noLocKey": 80,
     "placeholderFallback": 69,
@@ -14045,6 +14045,90 @@
     "items_commodities_tungsten_ore": {
       "en": "Tungsten (Ore)",
       "tr": "Tungsten (Ore)"
+    },
+    "mobiglas_ui_BountyHunter": {
+      "en": "Bounty Hunter",
+      "tr": "ОХОТА ЗА ГОЛОВАМИ"
+    },
+    "mobiGlas_ui_MissionType_Collection": {
+      "en": "Collection",
+      "tr": "СБОР РЕСУРСОВ"
+    },
+    "mobiGlas_ui_MissionType_Courier": {
+      "en": "Courier",
+      "tr": "КУРЬЕРСКАЯ ДОСТАВКА"
+    },
+    "mobiGlas_ui_MissionType_Delivery": {
+      "en": "Delivery",
+      "tr": "ДОСТАВКА"
+    },
+    "mobiglas_ui_GroundMining": {
+      "en": "Ground Vehicle Mining",
+      "tr": "ДОБЫЧА ПОЛЕЗНЫХ ИСКОПАЕМЫХ НА НАЗЕМНОЙ ТЕХНИКЕ"
+    },
+    "mobiglas_ui_FPSMining": {
+      "en": "Hand Mining",
+      "tr": "РУЧНАЯ ДОБЫЧА ПОЛЕЗНЫХ ИСКОПАЕМЫХ"
+    },
+    "mobiGlas_ui_MissionType_Hauling": {
+      "en": "Hauling",
+      "tr": "ГРУЗОПЕРЕВОЗКА"
+    },
+    "mobiGlas_ui_MissionType_Hauling_Interstellar": {
+      "en": "Hauling - Interstellar",
+      "tr": "ГРУЗОПЕРЕВОЗКА — МЕЖЗВЁЗДНАЯ"
+    },
+    "mobiGlas_ui_MissionType_Hauling_Local": {
+      "en": "Hauling - Local",
+      "tr": "ГРУЗОПЕРЕВОЗКА — МЕСТНАЯ"
+    },
+    "mobiGlas_ui_MissionType_Hauling_Planetary": {
+      "en": "Hauling - Planetary",
+      "tr": "ГРУЗОПЕРЕВОЗКА — ПЛАНЕТАРНАЯ"
+    },
+    "mobiGlas_ui_MissionType_Hauling_Solar": {
+      "en": "Hauling - Stellar",
+      "tr": "ГРУЗОПЕРЕВОЗКА — ВНУТРИСИСТЕМНАЯ"
+    },
+    "mobiglas_ui_Investigation": {
+      "en": "Investigation",
+      "tr": "РАССЛЕДОВАНИЯ"
+    },
+    "mobiglas_ui_Maintenance": {
+      "en": "Maintenance",
+      "tr": "ОБСЛУЖИВАНИЕ"
+    },
+    "mobiglas_ui_Mercenary": {
+      "en": "Mercenary",
+      "tr": "НАЙМ"
+    },
+    "mobiglas_ui_Priority": {
+      "en": "Priority",
+      "tr": "ПРИОРИТЕТ"
+    },
+    "mobiglas_ui_PVPMissions": {
+      "en": "PvP Missions",
+      "tr": "PVP МИССИИ"
+    },
+    "mobiglas_ui_Salvage": {
+      "en": "Salvage",
+      "tr": "УТИЛИЗАЦИЯ"
+    },
+    "mobiglas_ui_ShipMining": {
+      "en": "Ship Mining",
+      "tr": "ДОБЫЧА ПОЛЕЗНЫХ ИСКОПАЕМЫХ НА КОРАБЛЕ"
+    },
+    "ContractManager_TempTab_Small_Items": {
+      "en": "Wikelo - Other Items",
+      "tr": "ВИКЕЛО — ДРУГИЕ ПРЕДМЕТЫ"
+    },
+    "ContractManager_TempTab_Vehicles": {
+      "en": "Wikelo - Vehicles",
+      "tr": "ВИКЕЛО — ТЕХНИКА"
+    },
+    "chat_command_local": {
+      "en": "local",
+      "tr": "МЕСТНЫЙ"
     }
   }
 }
