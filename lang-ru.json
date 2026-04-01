@@ -1365,7 +1365,7 @@
     },
     "headhunters_killship_cfp_mrt_title_001": {
       "en": "Hit a CFP Ship",
-      "tr": "СБИЛ КОРАБЛЬ CFP"
+      "tr": "СБИТЬ КОРАБЛЬ CFP"
     },
     "headhunters_ChainElimAll_Boss_XenoThreat_VH_title_001": {
       "en": "Hit on XenoThreat command",
@@ -1429,7 +1429,7 @@
     },
     "ItemGathering_ASD_Title": {
       "en": "Jorrit Dossier: Lab Sample",
-      "tr": "ДОСЬЕ НА ЙОРРИТ: ЛАБОРАТОРНЫЙ ОБРАЗЕЦ"
+      "tr": "ДОСЬЕ НА ЙОРРИТА: ЛАБОРАТОРНЫЙ ОБРАЗЕЦ"
     },
     "Hockrow_FacilityDelve_P1M1_title": {
       "en": "Jorrit Dossier: Onyx Personnel Files",
@@ -2733,7 +2733,7 @@
     },
     "bhg_bounty_title_XT_001": {
       "en": "Verified Bounty: [TARGET] | XenoThreat | Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
-      "tr": "НАГРАДА ЗА: [TARGET] | XenoThreat | [DANGER]"
+      "tr": "НАГРАДА ЗА: [TARGET] | XENOTHREAT | [DANGER]"
     },
     "Hockrow_searchbody_space_S_Title_001": {
       "en": "Verify Deceased Criminal: [TARGET]",
@@ -7841,7 +7841,7 @@
     },
     "asteroidbase_Interior_001": {
       "en": "Asteroid Base",
-      "tr": "Астероидная база"
+      "tr": "астероидная база"
     },
     "mission_location_stanton_604": {
       "en": "Wala Derelict Outpost",
@@ -8097,7 +8097,7 @@
     },
     "asteroidbase_Hangar_001": {
       "en": "Asteroid Base Hangar",
-      "tr": "Ангар на астероидной базе"
+      "tr": "ангар на астероидной базе"
     },
     "mission_location_pyro_023": {
       "en": "The Yard",
@@ -9357,7 +9357,7 @@
     },
     "Vaughn_RepUI_Name": {
       "en": "Vaughn",
-      "tr": "ВОН"
+      "tr": "Вон"
     },
     "WallaceKlim_RepUI_Name": {
       "en": "Wallace Klim",
