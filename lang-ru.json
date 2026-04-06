@@ -1,5 +1,5 @@
 {
-  "version": "4.7.0-live.11545720",
+  "version": "4.7.0-live.11576750",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
   "keyCount": 2525,
@@ -9689,7 +9689,7 @@
     },
     "ui_interactor_ground_floor": {
       "en": "Ground Floor",
-      "tr": "ПЕРВЫЙ ЭТАЖ"
+      "tr": "ЦОКОЛЬНЫЙ ЭТАЖ"
     },
     "Tutorial_Shop_Area18": {
       "en": "Cubby Blast",
