@@ -1,13 +1,13 @@
 {
-  "version": "4.7.0-live.11592622",
+  "version": "4.7.1-live.11592622",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 2388,
+  "keyCount": 3498,
   "stats": {
-    "total": 2388,
-    "translated": 2243,
+    "total": 3498,
+    "translated": 3348,
     "missing": 1,
-    "noLocKey": 75,
+    "noLocKey": 80,
     "placeholderFallback": 69,
     "lengthFallback": 0,
     "mismatch": 175,
@@ -221,6 +221,10 @@
       "en": "[LOCATION] needs massive repairs",
       "tr": "НУЖЕН КАПИТАЛЬНЫЙ РЕМОНТ\\n([LOCATION])"
     },
+    "headhunters_maintenance_local_E_title_001": {
+      "en": "Last Landings needs some repairs",
+      "tr": "НУЖЕН НЕКОТОРЫЙ РЕМОНТ\\n([LOCATION])"
+    },
     "TarPits_ShipStrip_title_001": {
       "en": "[SHIP] clean up",
       "tr": "ОЧИСТИТЬ [SHIP]"
@@ -312,6 +316,14 @@
     "Adagio_Industrial_Salvage_Universal_Intro_Title_001": {
       "en": "Adagio Holdings in Need of Salvagers",
       "tr": "ADAGIO HOLDINGS ТРЕБУЮТСЯ УТИЛИЗАТОРЫ"
+    },
+    "SalvageContractor_Title": {
+      "en": "Risky [SHIP] Salvage Job",
+      "tr": "Risky [SHIP] Salvage Job"
+    },
+    "Adagio_BasicSalvage_Title_01": {
+      "en": "Claim #[CLAIM]: [SHIP] Salvage Rights",
+      "tr": "ПРАВО НА УТИЛИЗАЦИЮ #[CLAIM]: [SHIP]"
     },
     "RAIN_collectresources_multiple_GEN_name_01": {
       "en": "Additional Resources For Research",
@@ -728,14 +740,6 @@
     "vaughn_searchbody_space_E_Title_001": {
       "en": "Checking For a Pulse",
       "tr": "ПРОВЕРИТЬ НАЛИЧИЕ ПУЛЬСА"
-    },
-    "SalvageContractor_Title": {
-      "en": "Risky [SHIP] Salvage Job",
-      "tr": "Risky [SHIP] Salvage Job"
-    },
-    "Adagio_BasicSalvage_Title_01": {
-      "en": "Claim #[CLAIM]: [SHIP] Salvage Rights",
-      "tr": "ПРАВО НА УТИЛИЗАЦИЮ #[CLAIM]: [SHIP]"
     },
     "Adagio_LocateSalvage_Title_01,P": {
       "en": "Claim #[CLAIM]: [SHIP] Salvage Rights",
@@ -1162,7 +1166,7 @@
       "tr": "ТРЕБУЕТСЯ ОПЫТНЫЙ СПЕЦИАЛИСТ ПО ЗАЩИТЕ"
     },
     "cfp_maintenance_H_title_001": {
-      "en": "Extensive Repairs Needed: Jackson's Swap",
+      "en": "Extensive Repairs Needed: Yang's Place",
       "tr": "ТРЕБУЕТСЯ КАПИТАЛЬНЫЙ РЕМОНТ\\n([LOCATION])"
     },
     "Covalex_RecoverCargo_VeryEasy_Title": {
@@ -1497,10 +1501,6 @@
       "en": "Last Landings needs massive repairs",
       "tr": "НУЖЕН КАПИТАЛЬНЫЙ РЕМОНТ\\n([LOCATION])"
     },
-    "headhunters_maintenance_local_E_title_001": {
-      "en": "Last Landings needs some repairs",
-      "tr": "НУЖЕН НЕКОТОРЫЙ РЕМОНТ\\n([LOCATION])"
-    },
     "Eckhart_ShipAmbush_M_title": {
       "en": "Launch Surprise Attack",
       "tr": "НАЧАТЬ ВНЕЗАПНУЮ АТАКУ"
@@ -1718,7 +1718,7 @@
       "tr": "НЕОБХОДИМ МЕЛКИЙ РЕМОНТ\\n([LOCATION])"
     },
     "cfp_maintenance_local_E_title_001": {
-      "en": "Minor Repairs Needed: Jackson's Swap",
+      "en": "Minor Repairs Needed: Yang's Place",
       "tr": "НЕОБХОДИМ МЕЛКИЙ РЕМОНТ\\n([LOCATION])"
     },
     "Shubin_Industrial_ShipMining_Stanton_S_Secondary_Title_001": {
@@ -1738,7 +1738,7 @@
       "tr": "ТРЕБУЕТСЯ НЕБОЛЬШОЙ РЕМОНТ\\n([LOCATION])"
     },
     "cfp_maintenance_local_M_title_001": {
-      "en": "Moderate Repairs Needed: Jackson's Swap",
+      "en": "Moderate Repairs Needed: Yang's Place",
       "tr": "ТРЕБУЕТСЯ НЕБОЛЬШОЙ РЕМОНТ\\n([LOCATION])"
     },
     "TheCollector_Ships_Starlift_Max_TItle": {
@@ -2682,15 +2682,15 @@
       "tr": "ПРЕВРАЩУ ВЕЩИ В FAVOR"
     },
     "Tutorial01_MissionTitle": {
-      "en": "Tutorial: ArcCorp (Part 1/3)",
+      "en": "Tutorial: microTech (Part 1/3)",
       "tr": "ОБУЧЕНИЕ — ВАШИ ПЕРВЫЕ ШАГИ"
     },
     "Tutorial02_MissionTitle": {
-      "en": "Tutorial: ArcCorp (Part 2/3)",
+      "en": "Tutorial: microTech (Part 2/3)",
       "tr": "ОБУЧЕНИЕ — ВАШ ПЕРВЫЙ ВЫХОД"
     },
     "Tutorial03_MissionTitle": {
-      "en": "Tutorial: ArcCorp (Part 3/3)",
+      "en": "Tutorial: microTech (Part 3/3)",
       "tr": "ОБУЧЕНИЕ — ВАШ ПЕРВЫЙ ПОЛЁТ"
     },
     "TheCollector_Ships_Intrepid_TItle": {
@@ -2977,6 +2977,10 @@
       "en": "The storms over at <EM4>[LOCATION]</EM4> are getting to be a real pain in the ass. One of our outposts got absolutely reamed yesterday and needs some serious repairs so we're looking for help.\\n\\nFigure you'd need to bring <EM4>about six fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to deal with at most eight busted pipes</EM4>. We think that’ll cover, but you'll get exact numbers on site.\\n\\nHell with this place.\\n\\nHopefully you know what you're doing, but just in case, that <EM4>“Guide to Maintenance”</EM4> in your mobiGlas Journal might be worth a look.\\n\\nStows out.",
       "tr": "Штормы в <EM4>[LOCATION]</EM4> уже реально достали. Один из наших аванпостов вчера получил по полной и требует серьёзного ремонта, поэтому мы ищем помощь.\\n\\nДумаю, тебе нужно будет взять <EM4>около шести предохранителей</EM4>, <EM4>инструмент для ремонта</EM4>, и <EM4>достаточное количество канистр Композита из переработанного материала (RMC), чтобы справиться максимум с восемью повреждёнными трубами</EM4>. Мы думаем, этого должно хватить, но точные цифры узнаешь на месте.\\n\\nЧёрт бы побрал это местом.\\n\\nНадеюсь, ты знаешь, что делаешь, но на всякий случай стоит заглянуть в <EM4>\"Руководство по техническому обслуживанию\"</EM4> в журнале твоего mobiGlas.\\n\\nСтоус, конец связи."
     },
+    "headhunters_maintenance_local_E_desc_001": {
+      "en": "Hey if you’re reading this, we need a hand. An outpost of ours down at <EM4>[LOCATION]</EM4> got hit by a nasty storm and suffered some damage. None of our usual techs are available (or alive) to swing by so we wanna hire someone to go fix some fuses (no idea how many but <EM4>no more than three</EM4> I think). If you can bring a <EM4>salvaging tool</EM4> with <EM4>enough RMC canisters to sort out around three pipes</EM4>, we should be good.\\n\\nHopefully you know what you're doing, but just in case, the <EM4>“Guide to Maintenance”</EM4> in your mobiGlas Journal might be worth a look.\\n\\nStows out.",
+      "tr": "Эй, если ты это читаешь — нужна помощь. Наша база в районе <EM4>[LOCATION]</EM4> попала под серьёзный шторм и получила повреждения. Сейчас не может приехать никто из наших доступных (и живых) обычных техников, так что мы готовы нанять кого угодно для замены предохранителей (без понятия, сколько именно — думаю, что <EM4>не больше трёх</EM4>). Захвати с собой <EM4>инструмент для ремонта</EM4> и <EM4>достаточным количеством Композита из переработанного материала (RMC) канистр для починки</EM4>.\\n\\nНадеюсь, ты знаешь, что делаешь, но на всякий случай напомню, что можно заглянуть в <EM4>\"Руководство по техническому обслуживанию\"</EM4> в журнале твоего mobiGlas.\\n\\nСтоус, конец связи."
+    },
     "TarPits_ShipStrip_desc_001": {
       "en": "Got a particular salvage job that we could use some extra hands on. \\n\\nWe need you to find a [SHIP] that got punched out around [LOCATION]. Security’s already searching for it and if they find it, they’ll ID it for sure and we’ll be in loads of trouble.\\n\\nSo, we want you to make sure that can’t happen. Either tow the ship out of the search area or rip the entire hull off so nobody can tell who it belonged to. Whatever you decide, keep your mouth shut about this. \\n\\nWe’ll cred you up and anything you scrap is yours to keep. But if security finds the ship before you’re done, we’ll all be screwed and you won’t get paid so don’t disappoint.",
       "tr": "Есть работа по утилизации, для которой нам не помешали бы добровольцы.\\n\\nТебе нужно найти [SHIP], который находится где-то в [LOCATION]. Служба безопасности уже разыскивает его, и если они найдут обломки, то наверняка опознают номер, а у нас будут большие проблемы.\\n\\nИтак, убедись, что этого не случится. Отбуксируй корабль из зоны поиска или сдери с обломков всю обшивку, чтобы никто не смог опознать, кому он принадлежал. Неважно, что ты выберешь, но держи рот на замке.\\n\\nМы заплатим тебе, а всё полученное утильсырьё оставь себе. Но если служба безопасности найдёт корабль прежде, чем ты закончишь, проблемы будут у всех и оплаты не будет, так что не разочаруй нас."
@@ -3076,6 +3080,18 @@
     "Adagio_Industrial_Salvage_Universal_Intro_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About us <\\nAs the leading procurer and distributor of salvage rights, Adagio Holdings are now looking to expand into the acquisition and distribution of salvageable materials to both small and large-scale businesses.\\n\\n> About the job <\\nAs a part of this initiative, we need keen-eyed contractors capable of identifying salvageable materials, efficiently stripping them, and delivering the Recycle Material Composite (RMC) and salvaged components to us.\\n\\nThis introductory contract will require you to head to <EM4>[LOCATION]</EM4> and strip an abandoned ship approved for salvage.\\n\\nOnce you've gathered the RMC, you'll deliver it to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
       "tr": "Adagio Holdings\\nРавные возможности для каждого — наш приоритет\\n\\n> О нас <\\nБудучи ведущим поставщиком и дистрибьютором прав на утилизацию, компания Adagio Holdings сейчас планирует расширить деятельность в сфере приобретения и распределения утилизируемых материалов как для малого, так и для крупного бизнеса.\\n\\n> О работе <\\nВ рамках этой инициативы нам нужны внимательные исполнители, способные выявлять утилизируемые материалы, эффективно демонтировать их и поставлять нам Композит из переработанного материала (RMC) и извлечённые компоненты.\\n\\nЭтот вводный контракт потребует от вас отправиться в <EM4>[LOCATION]</EM4> и разобрать заброшенный корабль, одобренный для утилизации.\\n\\nПосле того как вы соберёте RMC, вам необходимо доставить его к грузовому лифту, расположенному в <EM4>[DESTINATION]</EM4>.\\n\\n> Требования <\\n — Утилизационный корабль любого класса/размера\\n\\nДля получения рекомендаций по утилизации обратитесь к <EM4>Руководству по сбору материалов для утилизации</EM4> в вашем журнале в mobiGlas.\\n\\n> Отказ от ответственности <\\nИсполнители несут ответственность за сбор материалов с транспортных средств, которые считаются подлежащими утилизации в соответствии с действующим законодательством UEE. Adagio Holdings ни в коем случае не несёт ответственности за преступления или правонарушения, совершённые исполнителями, и не будет выплачивать компенсацию или возмещение ущерба лицам, пострадавшим в результате этих действий."
+    },
+    "SalvageContractor_Description": {
+      "en": "We’ve got our eye on a [SHIP] near [LOCATION] that’s ripe for salvaging. We’re too busy to snag it ourselves, so why not spread the wealth, right?\\n\\nIf you send us some credits, we’ll send you the ship’s exact coordinates. Don’t take too long to think it over, though. You’ve probably got about [TIMER] minutes until security gets there to check out the wreck. Could be more, could be less.\\n\\nYou could either tow it somewhere else first, or you could try to scrap what you can onsite before security shows. Don’t care which as long as you get it taken care of. And once you've salvaged everything you want, just go ahead and abandon this contract to clear your map. Helps keep everything nice and tidy.",
+      "tr": "We’ve got our eye on a [SHIP] near [LOCATION] that’s ripe for salvaging. We’re too busy to snag it ourselves, so why not spread the wealth, right?\\n\\nIf you send us some credits, we’ll send you the ship’s exact coordinates. Don’t take too long to think it over, though. You’ve probably got about [TIMER] minutes until security gets there to check out the wreck. Could be more, could be less.\\n\\nYou could either tow it somewhere else first, or you could try to scrap what you can onsite before security shows. Don’t care which as long as you get it taken care of. And once you've salvaged everything you want, just go ahead and abandon this contract to clear your map. Helps keep everything nice and tidy."
+    },
+    "Adagio_BasicSalvage_Desc_01": {
+      "en": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
+      "tr": "Внимание:\\n\\nДоступно право на утилизацию в контролируемом пространстве. После подтверждения перевода кредитов вам будет предоставлена исключительная возможность получить проверенные координаты корабля. Координаты останутся доступными, пока активен принятый контракт. Как только вы соберёте достаточно материалов, вы можете досрочно прекратить контракт без штрафных санкций, чтобы удалить координаты с вашей звёздной карты.\\n\\nУЧАСТОК #[CLAIM]:\\n• КОРАБЛЬ: [SHIP]\\n• ПРИЧИНА ИНЦИДЕНТА: [SHIPSTORY]\\n• МЕСТО: [LOCATION]\\n\\nПравовой отдел Adagio"
+    },
+    "TarPits_TimedSalvage_Desc_01": {
+      "en": "We’ve got our eye on a [SHIP] near [LOCATION] that’s ripe for salvaging. We’re too busy to snag it ourselves, so why not spread the wealth, right?\\n\\nIf you send us some credits, we’ll send you the ship’s exact coordinates. Don’t take too long to think it over, though. You’ve probably got about [TIMER] minutes until security gets there to check out the wreck. Could be more, could be less.\\n\\nYou could either tow it somewhere else first, or you could try to scrap what you can onsite before security shows. Don’t care which as long as you get it taken care of. And once you've salvaged everything you want, just go ahead and abandon this contract to clear your map. Helps keep everything nice and tidy.",
+      "tr": "Мы заметили готовый для утилизации [SHIP] возле [LOCATION]. Мы слишком заняты, чтобы разобраться самим, так почему бы не поделиться таким богатством, верно?\\n\\nЕсли ты отправишь нам немного кредитов, получишь точные координаты корабля. Не тяни с решением. У тебя будет около [TIMER] минут до прибытия охраны на осмотр места крушения. Может, чуть больше, может — меньше.\\n\\nМожешь куда-нибудь отбуксировать корабль, или попробовать разобрать его на месте прежде, чем появится охрана. Не важно, как именно, главное — выполнить работу. Как только закончишь с утилизацией всего, что понравилось, просто уходи и откажись от контракта для удаления отметки со звёздной карты. Помоги держать всё в чистоте и порядке."
     },
     "RAIN_collectresources_multiple_GEN_desc_01": {
       "en": "To all available contractors,\\n\\nRayari scientists are hard at work trying to solve the issues with failing regen tech. Currently, their efforts are hindered by a lack of materials which they believe could be essential for their experiments.  \\n\\nIn particular, our scientists at <EM4>[DESTINATION]</EM4> have had to put their work on hold after running out of those resources. With a restock from our normal provider not possible for months owing to short supply, we’ll pay a premium to anyone who can assist with restocking the materials.\\n\\nFor more information on the animals in question, refer to \"Explorer's Guide to Harvestables\" in your Journal.\\n\\nTogether we can make the universe better for all.\\n\\nNarina Lerrem\\nSenior Manager\\nClinical Research Outsourcing",
@@ -3508,18 +3524,6 @@
     "vaughn_searchbody_space_E_Desc_001": {
       "en": "A rather creative former contractor of ours with a knack for staging accidents was so swept up in their work that they forgot to confirm the death of <EM4>[TARGET]</EM4> for us.\\n\\nThe target’s body should be located at <EM4>[LOCATION]</EM4>. I need you to give the hopefully deceased an inspection to ensure the job was completed to our standard. \\n\\nDo be careful when you arrive at the location. It wouldn’t surprise me if there was a few vultures lurking around.\\n\\nSincerely,\\n\\nVaughn",
       "tr": "Один наш весьма изобретательный бывший исполнитель, имевший талант устраивать \"несчастные случаи\", так увлёкся работой, что забыл подтвердить для нас смерть <EM4>[TARGET]</EM4>.\\n\\nТело цели должно находиться в <EM4>[LOCATION]</EM4>. Тебе нужно осмотреть тело и убедиться, что работа выполнена в соответствии с нашими стандартами.\\n\\Прояви осторожность, когда прибудешь на место. Меня не удивит, если там окажется парочка стервятников, кружащих поблизости.\\n\\nС уважением,\\n\\nВон"
-    },
-    "SalvageContractor_Description": {
-      "en": "We’ve got our eye on a [SHIP] near [LOCATION] that’s ripe for salvaging. We’re too busy to snag it ourselves, so why not spread the wealth, right?\\n\\nIf you send us some credits, we’ll send you the ship’s exact coordinates. Don’t take too long to think it over, though. You’ve probably got about [TIMER] minutes until security gets there to check out the wreck. Could be more, could be less.\\n\\nYou could either tow it somewhere else first, or you could try to scrap what you can onsite before security shows. Don’t care which as long as you get it taken care of. And once you've salvaged everything you want, just go ahead and abandon this contract to clear your map. Helps keep everything nice and tidy.",
-      "tr": "We’ve got our eye on a [SHIP] near [LOCATION] that’s ripe for salvaging. We’re too busy to snag it ourselves, so why not spread the wealth, right?\\n\\nIf you send us some credits, we’ll send you the ship’s exact coordinates. Don’t take too long to think it over, though. You’ve probably got about [TIMER] minutes until security gets there to check out the wreck. Could be more, could be less.\\n\\nYou could either tow it somewhere else first, or you could try to scrap what you can onsite before security shows. Don’t care which as long as you get it taken care of. And once you've salvaged everything you want, just go ahead and abandon this contract to clear your map. Helps keep everything nice and tidy."
-    },
-    "Adagio_BasicSalvage_Desc_01": {
-      "en": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
-      "tr": "Внимание:\\n\\nДоступно право на утилизацию в контролируемом пространстве. После подтверждения перевода кредитов вам будет предоставлена исключительная возможность получить проверенные координаты корабля. Координаты останутся доступными, пока активен принятый контракт. Как только вы соберёте достаточно материалов, вы можете досрочно прекратить контракт без штрафных санкций, чтобы удалить координаты с вашей звёздной карты.\\n\\nУЧАСТОК #[CLAIM]:\\n• КОРАБЛЬ: [SHIP]\\n• ПРИЧИНА ИНЦИДЕНТА: [SHIPSTORY]\\n• МЕСТО: [LOCATION]\\n\\nПравовой отдел Adagio"
-    },
-    "TarPits_TimedSalvage_Desc_01": {
-      "en": "We’ve got our eye on a [SHIP] near [LOCATION] that’s ripe for salvaging. We’re too busy to snag it ourselves, so why not spread the wealth, right?\\n\\nIf you send us some credits, we’ll send you the ship’s exact coordinates. Don’t take too long to think it over, though. You’ve probably got about [TIMER] minutes until security gets there to check out the wreck. Could be more, could be less.\\n\\nYou could either tow it somewhere else first, or you could try to scrap what you can onsite before security shows. Don’t care which as long as you get it taken care of. And once you've salvaged everything you want, just go ahead and abandon this contract to clear your map. Helps keep everything nice and tidy.",
-      "tr": "Мы заметили готовый для утилизации [SHIP] возле [LOCATION]. Мы слишком заняты, чтобы разобраться самим, так почему бы не поделиться таким богатством, верно?\\n\\nЕсли ты отправишь нам немного кредитов, получишь точные координаты корабля. Не тяни с решением. У тебя будет около [TIMER] минут до прибытия охраны на осмотр места крушения. Может, чуть больше, может — меньше.\\n\\nМожешь куда-нибудь отбуксировать корабль, или попробовать разобрать его на месте прежде, чем появится охрана. Не важно, как именно, главное — выполнить работу. Как только закончишь с утилизацией всего, что понравилось, просто уходи и откажись от контракта для удаления отметки со звёздной карты. Помоги держать всё в чистоте и порядке."
     },
     "SalvageContractor_Difficulty_Hard": {
       "en": "Be aware that due to the size of the Claim, a <EM4>Large Salvage Ship is recommended</EM4>.",
@@ -4284,10 +4288,6 @@
     "headhunters_maintenance_local_H_desc_001": {
       "en": "Down at <EM4>[LOCATION]</EM4>, the place got utterly smashed in a storm and needs some serious patchwork.\\n\\nIf anyone out there has a <EM4>bunch of fuses</EM4> (I hear <EM4>six</EM4> should be plenty), a <EM4>salvaging tool</EM4>, and <EM4>enough RMC cans to deal with eight or so messed up pipes</EM4>, we'll hook you up with some creds to do the fix.\\n\\nHopefully you know what you're doing, but just in case, the <EM4>“Guide to Maintenance”</EM4> in your mobiGlas Journal might be worth a look.\\n\\nStows out.",
       "tr": "В <EM4>[LOCATION]</EM4>место полностью разнесло штормом, и требуется серьёзный ремонт.\\n\\nЕсли у кого-то есть <EM4>куча предохранителей</EM4> (слышал, что<EM4>шести</EM4> должно хватить), <EM4>инструмент для ремонта</EM4>, и <EM4>достаточное количество канистр Композита из переработанного материала (RMC), чтобы справиться с восьмью или около того испорченными трубами</EM4>, мы заплатим тебе за починку.\\n\\nНадеюсь, ты знаешь, что делаешь, но на всякий случай стоит заглянуть в <EM4>\"Руководство по техническому обслуживанию\"</EM4> в журнале твоего mobiGlas.\\n\\nСтоус, конец связи."
-    },
-    "headhunters_maintenance_local_E_desc_001": {
-      "en": "Hey if you’re reading this, we need a hand. An outpost of ours down at <EM4>[LOCATION]</EM4> got hit by a nasty storm and suffered some damage. None of our usual techs are available (or alive) to swing by so we wanna hire someone to go fix some fuses (no idea how many but <EM4>no more than three</EM4> I think). If you can bring a <EM4>salvaging tool</EM4> with <EM4>enough RMC canisters to sort out around three pipes</EM4>, we should be good.\\n\\nHopefully you know what you're doing, but just in case, the <EM4>“Guide to Maintenance”</EM4> in your mobiGlas Journal might be worth a look.\\n\\nStows out.",
-      "tr": "Эй, если ты это читаешь — нужна помощь. Наша база в районе <EM4>[LOCATION]</EM4> попала под серьёзный шторм и получила повреждения. Сейчас не может приехать никто из наших доступных (и живых) обычных техников, так что мы готовы нанять кого угодно для замены предохранителей (без понятия, сколько именно — думаю, что <EM4>не больше трёх</EM4>). Захвати с собой <EM4>инструмент для ремонта</EM4> и <EM4>достаточным количеством Композита из переработанного материала (RMC) канистр для починки</EM4>.\\n\\nНадеюсь, ты знаешь, что делаешь, но на всякий случай напомню, что можно заглянуть в <EM4>\"Руководство по техническому обслуживанию\"</EM4> в журнале твоего mobiGlas.\\n\\nСтоус, конец связи."
     },
     "Eckhart_ShipAmbush_M_desc": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Ship Ambush\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nNeed someone to take out a <EM4>[TARGET]</EM4> and deal with the escort ships protecting it. They’ve already interfered with several of our ongoing operations and have become a real problem across several of Eckhart Security cases. Not sure what their endgame is, but it won’t matter once you deal with them.\\n\\nWe’ve let slip that we will be working a job over at <EM4>[LOCATION]</EM4> which should serve as bait to draw them out. The spot is ideal for an ambush because of the <EM4>emission cloud</EM4> that’s a perfect place to power down and hide until you’re ready to strike. If you’re available, the <EM4>[TARGET]</EM4> and its escorts should be passing through soon.   \\n\\nPayment will be issued upon successful completion of contract. The main contractor will also receive a bonus payment of <EM4>5 MG Scrip</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -9353,6 +9353,90 @@
       "en": "XenoThreat",
       "tr": "XenoThreat"
     },
+    "mobiGlas_ui_MissionType_Delivery": {
+      "en": "Delivery",
+      "tr": "ДОСТАВКА"
+    },
+    "mobiglas_ui_Mercenary": {
+      "en": "Mercenary",
+      "tr": "НАЙМ"
+    },
+    "mobiglas_ui_Maintenance": {
+      "en": "Maintenance",
+      "tr": "ОБСЛУЖИВАНИЕ"
+    },
+    "mobiglas_ui_Salvage": {
+      "en": "Salvage",
+      "tr": "УТИЛИЗАЦИЯ"
+    },
+    "mobiglas_ui_BountyHunter": {
+      "en": "Bounty Hunter",
+      "tr": "ОХОТА ЗА ГОЛОВАМИ"
+    },
+    "mobiglas_ui_Investigation": {
+      "en": "Investigation",
+      "tr": "РАССЛЕДОВАНИЯ"
+    },
+    "mobiGlas_ui_MissionType_Collection": {
+      "en": "Collection",
+      "tr": "СБОР РЕСУРСОВ"
+    },
+    "mobiglas_ui_Priority": {
+      "en": "Priority",
+      "tr": "ПРИОРИТЕТ"
+    },
+    "ContractManager_TempTab_Small_Items": {
+      "en": "Wikelo - Other Items",
+      "tr": "ВИКЕЛО — ДРУГИЕ ПРЕДМЕТЫ"
+    },
+    "ContractManager_TempTab_Vehicles": {
+      "en": "Wikelo - Vehicles",
+      "tr": "ВИКЕЛО — ТЕХНИКА"
+    },
+    "mobiGlas_ui_MissionType_Hauling": {
+      "en": "Hauling",
+      "tr": "ГРУЗОПЕРЕВОЗКА"
+    },
+    "mobiGlas_ui_MissionType_Hauling_Solar": {
+      "en": "Hauling - Stellar",
+      "tr": "ГРУЗОПЕРЕВОЗКА — ВНУТРИСИСТЕМНАЯ"
+    },
+    "mobiGlas_ui_MissionType_Hauling_Interstellar": {
+      "en": "Hauling - Interstellar",
+      "tr": "ГРУЗОПЕРЕВОЗКА — МЕЖЗВЁЗДНАЯ"
+    },
+    "mobiGlas_ui_MissionType_Courier": {
+      "en": "Courier",
+      "tr": "КУРЬЕРСКАЯ ДОСТАВКА"
+    },
+    "mobiglas_ui_PVPMissions": {
+      "en": "PvP Missions",
+      "tr": "PVP МИССИИ"
+    },
+    "chat_command_local": {
+      "en": "local",
+      "tr": "МЕСТНЫЙ"
+    },
+    "mobiGlas_ui_MissionType_Hauling_Planetary": {
+      "en": "Hauling - Planetary",
+      "tr": "ГРУЗОПЕРЕВОЗКА — ПЛАНЕТАРНАЯ"
+    },
+    "mobiglas_ui_FPSMining": {
+      "en": "Hand Mining",
+      "tr": "РУЧНАЯ ДОБЫЧА"
+    },
+    "mobiglas_ui_ShipMining": {
+      "en": "Ship Mining",
+      "tr": "ДОБЫЧА НА КОРАБЛЕ"
+    },
+    "mobiglas_ui_GroundMining": {
+      "en": "Ground Vehicle Mining",
+      "tr": "ДОБЫЧА НА НАЗЕМНОЙ ТЕХНИКЕ"
+    },
+    "mobiGlas_ui_MissionType_Hauling_Local": {
+      "en": "Hauling - Local",
+      "tr": "ГРУЗОПЕРЕВОЗКА — МЕСТНАЯ"
+    },
     "hurston_danger_004": {
       "en": "Very Low-Risk Target (Single Seater Craft, Minimal Support)",
       "tr": "ОЧЕНЬ НИЗКАЯ ОПАСНОСТЬ ЦЕЛИ (ОДНОМЕСТНЫЙ КОРАБЛЬ, НЕБОЛЬШОЕ СОПРОВОЖДЕНИЕ)"
@@ -9681,6 +9765,74 @@
       "en": "Cityflight",
       "tr": "Cityflight"
     },
+    "Tutorial01_Orison_JournalToken": {
+      "en": "Currently, you are in Orison, above Crusader, the second planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \\n\\n~mission(Location|Name) is the main platform of the floating city that perches high in the clouds above the surface of Crusader. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.",
+      "tr": "В данный момент вы находитесь в Orison, над Crusader, второй планетой в системе Stanton, на большом расстоянии от Солнечной системы (Sol), где зародилось человечество. Четыре планеты в системе принадлежат мегакорпорациям, каждая из которых выкупила планету у UEE и теперь управляет собственным космическим регионом. Это Hurston Dynamics, Crusader Industries, ArcCorp и microTech. \\n\\n[LOCATION] — это главная платформа парящего города, который возвышается высоко в облаках над поверхностью Crusader. Отсюда руководство проведёт вас к [DESTINATION] — космической станции на орбите планеты, которая может стать для вас воротами в дальнейшее исследование системы Stanton."
+    },
+    "mission_location_stanton_615": {
+      "en": "Seraphim Station",
+      "tr": "Seraphim Station"
+    },
+    "ui_interactor_ST2_GreenCircle": {
+      "en": "Green Circle Lobby",
+      "tr": "Green Circle: ХОЛЛ"
+    },
+    "Tutorial_Shop_Orison": {
+      "en": "Kel-To",
+      "tr": "Kel-To"
+    },
+    "Orison_Destination_AugustDunlowSpaceport": {
+      "en": "August Dunlow Spaceport",
+      "tr": "КОСМОПОРТ AUGUST DUNLOW"
+    },
+    "Tutorial_Orison_SkywayTransit": {
+      "en": "Orison Skyway",
+      "tr": "Orison Skyway"
+    },
+    "Tutorial01_Lorville_JournalToken": {
+      "en": "Currently, you are in Lorville, on Hurston, the first planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \\n\\n~mission(Location|Name) is the main commercial zone of the thriving city that is the heart of Hurston Dynamics corporate empire. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.",
+      "tr": "В настоящее время вы находитесь в Lorville, на Hurston, первой планете в системе Stanton, на большом расстоянии от Солнечной системы (Sol), где зародилось человечество. Четыре планеты в системе принадлежат мегакорпорациям, каждая из которых выкупила планету у UEE и теперь управляет собственным космическим регионом. Это Hurston Dynamics, Crusader Industries, ArcCorp и microTech. \\n\\n[LOCATION] — это главная коммерческая зона процветающего города, который является сердцем корпоративной империи Hurston Dynamics. Отсюда руководство проведёт вас к [DESTINATION] — космической станции на орбите планеты, которая может стать для вас воротами в дальнейшее исследование системы Stanton."
+    },
+    "mission_location_stanton_335": {
+      "en": "Everus Harbor",
+      "tr": "Everus Harbor"
+    },
+    "Tutorial_Shop_Lorville": {
+      "en": "Tammany and Sons",
+      "tr": "Tammany and Sons"
+    },
+    "Lorville_Destination_Teasa_Spaceport": {
+      "en": "Teasa Spaceport",
+      "tr": "КОСМОПОРТ TEASA"
+    },
+    "Lorville_Destination_Metro_Center": {
+      "en": "Metro Center",
+      "tr": "Метро центр"
+    },
+    "Tutorial01_NewBab_JournalToken": {
+      "en": "Currently, you are in New Babbage, on microTech, the fourth planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \\n\\n~mission(Location|Name) is a luxurious domed city that serves as the corporate headquarters to microTech, the leading computer and software developer in the Empire best known for making the mobiGlas. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.",
+      "tr": "В настоящее время вы находитесь в New Babbage, на microTech, четвёртой планете в системе Stanton, на большом расстоянии от Солнечной системы (Sol), где зародилось человечество. Четыре планеты в системе принадлежат мегакорпорациям, каждая из которых выкупила планету у UEE и теперь управляет собственным космическим регионом. Это Hurston Dynamics, Crusader Industries, ArcCorp и microTech. \\n\\n[LOCATION] — это роскошный город с куполами, который служит штаб-квартирой компании microTech, ведущего разработчика компьютеров и программного обеспечения в Империи, наиболее известного благодаря производству mobiGlas. Отсюда руководство проведёт вас к [DESTINATION] — космической станции на орбите планеты, которая может стать для вас воротами в дальнейшее исследование системы Stanton."
+    },
+    "mission_location_stanton_333": {
+      "en": "Port Tressler",
+      "tr": "Port Tressler"
+    },
+    "ui_interactor_generic_lobby": {
+      "en": "Lobby",
+      "tr": "ХОЛЛ"
+    },
+    "Tutorial_Shop_NewBab": {
+      "en": "Kel-To",
+      "tr": "Kel-To"
+    },
+    "mission_location_stanton_396": {
+      "en": "NB Int. Spaceport",
+      "tr": "microTech, Космопорт NB"
+    },
+    "Stanton4_NewBab_MetroLoop": {
+      "en": "MT MetroLoop",
+      "tr": "КОЛЬЦЕВОЕ МЕТРО MT"
+    },
     "hurston_danger_003": {
       "en": "High",
       "tr": "СЕРЬЁЗНАЯ УГРОЗА"
@@ -9744,6 +9896,4294 @@
     "items_commodities_aluminum": {
       "en": "Aluminum",
       "tr": "Aluminum"
+    },
+    "item_Namegmni_sniper_ballistic_01_arctic01": {
+      "en": "A03 \"Canuto\" Sniper Rifle",
+      "tr": "A03 \"Canuto\" Sniper Rifle"
+    },
+    "item_Namegmni_sniper_ballistic_01_urban01": {
+      "en": "A03 \"Lodestone\" Sniper Rifle",
+      "tr": "A03 \"Lodestone\" Sniper Rifle"
+    },
+    "item_Namegmni_sniper_ballistic_01_green_grey01": {
+      "en": "A03 \"Luckbringer\" Sniper Rifle",
+      "tr": "A03 \"Luckbringer\" Sniper Rifle"
+    },
+    "item_Namegmni_sniper_ballistic_01_firerats01": {
+      "en": "A03 \"Scorched\" Sniper Rifle",
+      "tr": "A03 \"Scorched\" Sniper Rifle"
+    },
+    "item_Namegmni_sniper_ballistic_01": {
+      "en": "A03 Sniper Rifle",
+      "tr": "A03 Sniper Rifle"
+    },
+    "item_Nameklwe_pistol_energy_01_tan01": {
+      "en": "Arclight \"Desert Shadow\" Pistol",
+      "tr": "Arclight \"Desert Shadow\" Pistol"
+    },
+    "item_Nameklwe_pistol_energy_01_gold01": {
+      "en": "Arclight \"Executive Edition\" Pistol",
+      "tr": "Arclight \"Executive Edition\" Pistol"
+    },
+    "item_Nameklwe_pistol_energy_01_engraved01": {
+      "en": "Arclight \"Herrero\" Pistol",
+      "tr": "Arclight \"Herrero\" Pistol"
+    },
+    "item_Nameklwe_pistol_energy_01_black01": {
+      "en": "Arclight \"Midnight\" Pistol",
+      "tr": "Arclight \"Midnight\" Pistol"
+    },
+    "item_Nameklwe_pistol_energy_01_black02": {
+      "en": "Arclight \"Nightstalker\" Pistol",
+      "tr": "Arclight \"Nightstalker\" Pistol"
+    },
+    "item_Nameklwe_pistol_energy_01_white01": {
+      "en": "Arclight \"Stormfall\" Pistol",
+      "tr": "Arclight \"Stormfall\" Pistol"
+    },
+    "item_Nameklwe_pistol_energy_01_green01": {
+      "en": "Arclight \"Warhawk\" Pistol",
+      "tr": "Arclight \"Warhawk\" Pistol"
+    },
+    "item_Nameklwe_pistol_energy_01": {
+      "en": "Arclight Pistol",
+      "tr": "Arclight Pistol"
+    },
+    "item_Nameklwe_sniper_energy_01_white02": {
+      "en": "Arrowhead \"Boneyard\" Sniper Rifle",
+      "tr": "Arrowhead \"Boneyard\" Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01_tan01": {
+      "en": "Arrowhead \"Desert Shadow\" Sniper Rifle",
+      "tr": "Arrowhead \"Desert Shadow\" Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01_gold01": {
+      "en": "Arrowhead \"Executive\" Sniper Rifle",
+      "tr": "Arrowhead \"Executive\" Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01_black01": {
+      "en": "Arrowhead \"Midnight\" Sniper Rifle",
+      "tr": "Arrowhead \"Midnight\" Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01_black02": {
+      "en": "Arrowhead \"Nightstalker\" Sniper Rifle",
+      "tr": "Arrowhead \"Nightstalker\" Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01_white01": {
+      "en": "Arrowhead \"Stormfall\" Sniper Rifle",
+      "tr": "Arrowhead \"Stormfall\" Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01_green01": {
+      "en": "Arrowhead \"Warhawk\" Sniper Rifle",
+      "tr": "Arrowhead \"Warhawk\" Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01": {
+      "en": "Arrowhead Sniper Rifle",
+      "tr": "Arrowhead Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01_imp01": {
+      "en": "Arrowhead \"Pathfinder\" Sniper Rifle",
+      "tr": "Arrowhead \"Pathfinder\" Sniper Rifle"
+    },
+    "item_Nameklwe_sniper_energy_01_cen01": {
+      "en": "Arrowhead \"Voyager\" Sniper Rifle",
+      "tr": "Arrowhead \"Voyager\" Sniper Rifle"
+    },
+    "item_Namelbco_sniper_energy_imp01": {
+      "en": "Atzkav \"Deadeye\" Sniper Rifle",
+      "tr": "Atzkav \"Deadeye\" Sniper Rifle"
+    },
+    "item_Namelbco_sniper_energy_01_sunset01": {
+      "en": "Atzkav \"Igniter\" Sniper Rifle",
+      "tr": "Atzkav \"Igniter\" Sniper Rifle"
+    },
+    "item_Namelbco_sniper_energy_01_chromic01": {
+      "en": "Atzkav \"Mirage\" Sniper Rifle",
+      "tr": "Atzkav \"Mirage\" Sniper Rifle"
+    },
+    "item_Namelbco_sniper_energy_01_acid01": {
+      "en": "Atzkav \"Venom\" Sniper Rifle",
+      "tr": "Atzkav \"Venom\" Sniper Rifle"
+    },
+    "item_Namelbco_sniper_energy_01": {
+      "en": "Atzkav Sniper Rifle",
+      "tr": "Atzkav Sniper Rifle"
+    },
+    "item_Namebehr_shotgun_ballistic_01_blue_white01": {
+      "en": "BR-2 \"Permafrost\" Shotgun",
+      "tr": "BR-2 \"Permafrost\" Shotgun"
+    },
+    "item_Namebehr_shotgun_ballistic_01": {
+      "en": "BR-2 Shotgun",
+      "tr": "BR-2 Shotgun"
+    },
+    "item_NameGMNI_smg_ballistic_01_grey_red01": {
+      "en": "C54 \"Justified\" SMG",
+      "tr": "C54 \"Justified\" SMG"
+    },
+    "item_Namegmni_smg_ballistic_01_green_grey01": {
+      "en": "C54 \"Luckbringer\" SMG",
+      "tr": "C54 \"Luckbringer\" SMG"
+    },
+    "item_Namegmni_smg_ballistic_01_firerats01": {
+      "en": "C54 \"Scorched\" SMG",
+      "tr": "C54 \"Scorched\" SMG"
+    },
+    "item_NameGMNI_smg_ballistic_01": {
+      "en": "C54 SMG",
+      "tr": "C54 SMG"
+    },
+    "item_Nameksar_pistol_ballistic_01_yellow_black01": {
+      "en": "Coda \"Big Boss\" Pistol",
+      "tr": "Coda \"Big Boss\" Pistol"
+    },
+    "item_Nameksar_pistol_ballistic_01_headhunters01": {
+      "en": "Coda \"Nighthawk\" Pistol",
+      "tr": "Coda \"Nighthawk\" Pistol"
+    },
+    "item_Nameksar_pistol_ballistic_01_purple_pink01": {
+      "en": "Coda \"Ultraviolet\" Pistol",
+      "tr": "Coda \"Ultraviolet\" Pistol"
+    },
+    "item_NameKSAR_pistol_ballistic_01": {
+      "en": "Coda Pistol",
+      "tr": "Coda Pistol"
+    },
+    "item_NameKSAR_pistol_ballistic_01_spc": {
+      "en": "Coda Pistol (Modified)",
+      "tr": "Coda Pistol (Modified)"
+    },
+    "item_Nameksar_smg_energy_01_black_green01": {
+      "en": "Custodian \"Big Boss\" SMG",
+      "tr": "Custodian \"Big Boss\" SMG"
+    },
+    "item_Nameksar_smg_energy_01_white02": {
+      "en": "Custodian \"Boneyard\" SMG",
+      "tr": "Custodian \"Boneyard\" SMG"
+    },
+    "item_Nameksar_smg_energy_01_red01": {
+      "en": "Custodian \"Brimstone\" SMG",
+      "tr": "Custodian \"Brimstone\" SMG"
+    },
+    "item_Nameksar_smg_energy_01_tan01": {
+      "en": "Custodian \"Desert Shadow\" SMG",
+      "tr": "Custodian \"Desert Shadow\" SMG"
+    },
+    "item_Nameksar_smg_energy_01_gold01": {
+      "en": "Custodian \"Executive Edition\" SMG",
+      "tr": "Custodian \"Executive Edition\" SMG"
+    },
+    "item_Nameksar_smg_energy_01_black01": {
+      "en": "Custodian \"Midnight\" SMG",
+      "tr": "Custodian \"Midnight\" SMG"
+    },
+    "item_Nameksar_smg_energy_01_black02": {
+      "en": "Custodian \"Nightstalker\" SMG",
+      "tr": "Custodian \"Nightstalker\" SMG"
+    },
+    "item_Nameksar_smg_energy_01_firerats01": {
+      "en": "Custodian \"Scorched\" SMG",
+      "tr": "Custodian \"Scorched\" SMG"
+    },
+    "item_Nameksar_smg_energy_01_green01": {
+      "en": "Custodian \"Warhawk\" SMG",
+      "tr": "Custodian \"Warhawk\" SMG"
+    },
+    "item_Nameksar_smg_energy_01": {
+      "en": "Custodian SMG",
+      "tr": "Custodian SMG"
+    },
+    "item_Namenone_shotgun_ballistic_01": {
+      "en": "Deadrig Shotgun",
+      "tr": "Deadrig Shotgun"
+    },
+    "item_Nameklwe_lmg_energy_01": {
+      "en": "Demeco LMG",
+      "tr": "Demeco LMG"
+    },
+    "item_Nameksar_shotgun_energy_01_red01": {
+      "en": "Devastator \"Brimstone\" Shotgun",
+      "tr": "Devastator \"Brimstone\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01_tan01": {
+      "en": "Devastator \"Desert Shadow\" Shotgun",
+      "tr": "Devastator \"Desert Shadow\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01_gold01": {
+      "en": "Devastator \"Executive Edition\" Shotgun",
+      "tr": "Devastator \"Executive Edition\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01_black01": {
+      "en": "Devastator \"Midnight\" Shotgun",
+      "tr": "Devastator \"Midnight\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01_black02": {
+      "en": "Devastator \"Nightstalker\" Shotgun",
+      "tr": "Devastator \"Nightstalker\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01_imp01": {
+      "en": "Devastator \"Pathfinder\" Shotgun",
+      "tr": "Devastator \"Pathfinder\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01_black_purple01": {
+      "en": "Devastator \"Rager\" Shotgun",
+      "tr": "Devastator \"Rager\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01_cen01": {
+      "en": "Devastator \"Voyager\" Shotgun",
+      "tr": "Devastator \"Voyager\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01_green01": {
+      "en": "Devastator \"Warhawk\" Shotgun",
+      "tr": "Devastator \"Warhawk\" Shotgun"
+    },
+    "item_Nameksar_shotgun_energy_01": {
+      "en": "Devastator Shotgun",
+      "tr": "Devastator Shotgun"
+    },
+    "item_Namegmni_lmg_ballistic_01_collector01": {
+      "en": "F55 \"Mark I\" LMG",
+      "tr": "F55 \"Mark I\" LMG"
+    },
+    "item_Namegmni_lmg_ballistic_01_firerats01": {
+      "en": "F55 \"Scorched\" LMG",
+      "tr": "F55 \"Scorched\" LMG"
+    },
+    "item_Namegmni_lmg_ballistic_01_blue_gold_01": {
+      "en": "F55 \"Valor\" LMG",
+      "tr": "F55 \"Valor\" LMG"
+    },
+    "item_Namegmni_lmg_ballistic_01": {
+      "en": "F55 LMG",
+      "tr": "F55 LMG"
+    },
+    "item_Namebehr_lmg_ballistic_01_tint01": {
+      "en": "FS-9 \"Blacklist\" LMG",
+      "tr": "FS-9 \"Blacklist\" LMG"
+    },
+    "item_Namebehr_lmg_ballistic_01_yellow_grey01": {
+      "en": "FS-9 \"Finish Line\" LMG",
+      "tr": "FS-9 \"Finish Line\" LMG"
+    },
+    "item_Namebehr_lmg_ballistic_01_xenothreat01": {
+      "en": "FS-9 \"Stoneface\" LMG",
+      "tr": "FS-9 \"Stoneface\" LMG"
+    },
+    "item_Namebehr_lmg_ballistic_01": {
+      "en": "FS-9 LMG",
+      "tr": "FS-9 LMG"
+    },
+    "item_Namevolt_lmg_energy_01_tint02": {
+      "en": "Fresnel \"Icebox\" Energy LMG",
+      "tr": "Fresnel \"Icebox\" Energy LMG"
+    },
+    "item_Namevolt_lmg_energy_01_tint01": {
+      "en": "Fresnel \"Molten\" Energy LMG",
+      "tr": "Fresnel \"Molten\" Energy LMG"
+    },
+    "item_Namevolt_lmg_energy_01_tint03": {
+      "en": "Fresnel \"Rockfall\" Energy LMG",
+      "tr": "Fresnel \"Rockfall\" Energy LMG"
+    },
+    "item_Namevolt_lmg_energy_01": {
+      "en": "Fresnel Energy LMG",
+      "tr": "Fresnel Energy LMG"
+    },
+    "item_Nameklwe_rifle_energy_01_white02": {
+      "en": "Gallant \"Boneyard\" Rifle",
+      "tr": "Gallant \"Boneyard\" Rifle"
+    },
+    "item_Nameklwe_rifle_energy_01_tan01": {
+      "en": "Gallant \"Desert Shadow\" Rifle",
+      "tr": "Gallant \"Desert Shadow\" Rifle"
+    },
+    "item_Nameklwe_rifle_energy_01_gold01": {
+      "en": "Gallant \"Executive Edition\" Rifle",
+      "tr": "Gallant \"Executive Edition\" Rifle"
+    },
+    "item_Nameklwe_rifle_energy_01_black01": {
+      "en": "Gallant \"Midnight\" Rifle",
+      "tr": "Gallant \"Midnight\" Rifle"
+    },
+    "item_Nameklwe_rifle_energy_01_black02": {
+      "en": "Gallant \"Nightstalker\" Rifle",
+      "tr": "Gallant \"Nightstalker\" Rifle"
+    },
+    "item_Nameklwe_rifle_energy_01_white01": {
+      "en": "Gallant \"Stormfall\" Rifle",
+      "tr": "Gallant \"Stormfall\" Rifle"
+    },
+    "item_Nameklwe_rifle_energy_01_green01": {
+      "en": "Gallant \"Warhawk\" Rifle",
+      "tr": "Gallant \"Warhawk\" Rifle"
+    },
+    "item_Nameklwe_rifle_energy_01": {
+      "en": "Gallant Rifle",
+      "tr": "Gallant Rifle"
+    },
+    "item_Nameksar_rifle_energy_01_red_green01": {
+      "en": "Karna \"Alpine Sunset\" Rifle",
+      "tr": "Karna \"Alpine Sunset\" Rifle"
+    },
+    "item_Nameksar_rifle_energy_01_red01": {
+      "en": "Karna \"Brimstone\" Rifle",
+      "tr": "Karna \"Brimstone\" Rifle"
+    },
+    "item_Nameksar_rifle_energy_01_pink_red01": {
+      "en": "Karna \"Fate\" Rifle",
+      "tr": "Karna \"Fate\" Rifle"
+    },
+    "item_Nameksar_rifle_energy_01_cian_black01": {
+      "en": "Karna \"Rager\" Rifle",
+      "tr": "Karna \"Rager\" Rifle"
+    },
+    "item_Nameksar_rifle_energy_01": {
+      "en": "Karna Rifle",
+      "tr": "Karna Rifle"
+    },
+    "item_Namenone_rifle_multi_01": {
+      "en": "Killshot Rifle",
+      "tr": "Killshot Rifle"
+    },
+    "item_Namegmni_pistol_ballistic_01_white02": {
+      "en": "LH86 \"Boneyard\" Pistol",
+      "tr": "LH86 \"Boneyard\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01_tan01": {
+      "en": "LH86 \"Desert Shadow\" Pistol",
+      "tr": "LH86 \"Desert Shadow\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01_green_grey01": {
+      "en": "LH86 \"Luckbringer\" Pistol",
+      "tr": "LH86 \"Luckbringer\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01_black02": {
+      "en": "LH86 \"Nightstalker\" Pistol",
+      "tr": "LH86 \"Nightstalker\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01_imp01": {
+      "en": "LH86 \"Pathfinder\" Pistol",
+      "tr": "LH86 \"Pathfinder\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01_blue_white01": {
+      "en": "LH86 \"Permafrost\" Pistol",
+      "tr": "LH86 \"Permafrost\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01_firerats01": {
+      "en": "LH86 \"Scorched\" Pistol",
+      "tr": "LH86 \"Scorched\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01_white01": {
+      "en": "LH86 \"Stormfall\" Pistol",
+      "tr": "LH86 \"Stormfall\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01_green01": {
+      "en": "LH86 \"Warhawk\" Pistol",
+      "tr": "LH86 \"Warhawk\" Pistol"
+    },
+    "item_Namegmni_pistol_ballistic_01": {
+      "en": "LH86 Pistol",
+      "tr": "LH86 Pistol"
+    },
+    "item_Nameklwe_smg_energy_01_blue_gold_01": {
+      "en": "Lumin V \"Valor\" SMG",
+      "tr": "Lumin V \"Valor\" SMG"
+    },
+    "item_Nameklwe_smg_energy_01": {
+      "en": "Lumin V SMG",
+      "tr": "Lumin V SMG"
+    },
+    "item_Namebehr_rifle_ballistic_01_tint01": {
+      "en": "P4-AR \"Blacklist\" Rifle",
+      "tr": "P4-AR \"Blacklist\" Rifle"
+    },
+    "item_Namebehr_rifle_ballistic_01_tan01": {
+      "en": "P4-AR \"Desert Shadow\" Rifle",
+      "tr": "P4-AR \"Desert Shadow\" Rifle"
+    },
+    "item_Namebehr_rifle_ballistic_01_black02": {
+      "en": "P4-AR \"Nightstalker\" Rifle",
+      "tr": "P4-AR \"Nightstalker\" Rifle"
+    },
+    "item_Namebehr_rifle_ballistic_01_green01": {
+      "en": "P4-AR \"Warhawk\" Rifle",
+      "tr": "P4-AR \"Warhawk\" Rifle"
+    },
+    "item_Namebehr_rifle_ballistic_01": {
+      "en": "P4-AR Rifle",
+      "tr": "P4-AR Rifle"
+    },
+    "item_Namebehr_sniper_ballistic_01_black01": {
+      "en": "P6-LR \"Archangel\" Sniper Rifle",
+      "tr": "P6-LR \"Archangel\" Sniper Rifle"
+    },
+    "item_Namebehr_sniper_ballistic_01_tint01": {
+      "en": "P6-LR \"Blacklist\" Sniper Rifle",
+      "tr": "P6-LR \"Blacklist\" Sniper Rifle"
+    },
+    "item_Namebehr_sniper_ballistic_01_arctic01": {
+      "en": "P6-LR \"Rime\" Sniper Rifle",
+      "tr": "P6-LR \"Rime\" Sniper Rifle"
+    },
+    "item_Namebehr_sniper_ballistic_01": {
+      "en": "P6-LR Sniper Rifle",
+      "tr": "P6-LR Sniper Rifle"
+    },
+    "item_Namebehr_rifle_ballistic_02_civilian": {
+      "en": "P8-AR Rifle",
+      "tr": "P8-AR Rifle"
+    },
+    "item_Namebehr_smg_ballistic_01_white02": {
+      "en": "P8-SC \"Boneyard\" SMG",
+      "tr": "P8-SC \"Boneyard\" SMG"
+    },
+    "item_Namebehr_smg_ballistic_01_tan01": {
+      "en": "P8-SC \"Desert Shadow\" SMG",
+      "tr": "P8-SC \"Desert Shadow\" SMG"
+    },
+    "item_Namebehr_smg_ballistic_01_white01": {
+      "en": "P8-SC \"Stormfall\" SMG",
+      "tr": "P8-SC \"Stormfall\" SMG"
+    },
+    "item_Namebehr_smg_ballistic_01": {
+      "en": "P8-SC SMG",
+      "tr": "P8-SC SMG"
+    },
+    "item_Namebehr_smg_ballistic_01_gold01": {
+      "en": "P8-SC \"Executive Edition\" SMG",
+      "tr": "P8-SC \"Executive Edition\" SMG"
+    },
+    "item_Namebehr_smg_ballistic_01_black01": {
+      "en": "P8-SC \"Midnight\" SMG",
+      "tr": "P8-SC \"Midnight\" SMG"
+    },
+    "item_Namebehr_smg_ballistic_01_black02": {
+      "en": "P8-SC \"Nightstalker\" SMG",
+      "tr": "P8-SC \"Nightstalker\" SMG"
+    },
+    "item_Namebehr_smg_ballistic_01_green01": {
+      "en": "P8-SC \"Warhawk\" SMG",
+      "tr": "P8-SC \"Warhawk\" SMG"
+    },
+    "item_Namevolt_rifle_energy_01_tint02": {
+      "en": "Parallax \"Sanguine\" Energy Assault Rifle",
+      "tr": "Parallax \"Sanguine\" Energy Assault Rifle"
+    },
+    "item_Namevolt_rifle_energy_01_camo01": {
+      "en": "Parallax \"Shock Trooper\" Energy Assault Rifle",
+      "tr": "Parallax \"Shock Trooper\" Energy Assault Rifle"
+    },
+    "item_Namevolt_rifle_energy_01_tint01": {
+      "en": "Parallax \"Sunstone\" Energy Assault Rifle",
+      "tr": "Parallax \"Sunstone\" Energy Assault Rifle"
+    },
+    "item_Namevolt_rifle_energy_01": {
+      "en": "Parallax Energy Assault Rifle",
+      "tr": "Parallax Energy Assault Rifle"
+    },
+    "item_Namevolt_shotgun_energy_01_tint01": {
+      "en": "Prism \"Bonedust\" Laser Shotgun",
+      "tr": "Prism \"Bonedust\" Laser Shotgun"
+    },
+    "item_Namevolt_shotgun_energy_01_tint02": {
+      "en": "Prism \"Deep Sea\" Laser Shotgun",
+      "tr": "Prism \"Deep Sea\" Laser Shotgun"
+    },
+    "item_Namevolt_shotgun_energy_01_tint03": {
+      "en": "Prism \"Firesteel\" Laser Shotgun",
+      "tr": "Prism \"Firesteel\" Laser Shotgun"
+    },
+    "item_Namevolt_shotgun_energy_01": {
+      "en": "Prism Laser Shotgun",
+      "tr": "Prism Laser Shotgun"
+    },
+    "item_Namevolt_pistol_energy_01_tint01": {
+      "en": "Pulse \"Blacklist\" Pistol",
+      "tr": "Pulse \"Blacklist\" Pistol"
+    },
+    "item_Namevolt_pistol_energy_01_tint02": {
+      "en": "Pulse \"Rouge\" Pistol",
+      "tr": "Pulse \"Rouge\" Pistol"
+    },
+    "item_Namevolt_pistol_energy_01": {
+      "en": "Pulse Laser Pistol",
+      "tr": "Pulse Laser Pistol"
+    },
+    "item_Namenone_lmg_ballistic_01": {
+      "en": "Pulverizer LMG",
+      "tr": "Pulverizer LMG"
+    },
+    "item_Namevolt_smg_energy_01_tint02": {
+      "en": "Quartz \"Black Op\" Energy SMG",
+      "tr": "Quartz \"Black Op\" Energy SMG"
+    },
+    "item_Namevolt_smg_energy_01_tint01": {
+      "en": "Quartz \"Deadfall\" Energy SMG",
+      "tr": "Quartz \"Deadfall\" Energy SMG"
+    },
+    "item_Namevolt_smg_energy_01_tint03": {
+      "en": "Quartz \"Lumen\" Energy SMG",
+      "tr": "Quartz \"Lumen\" Energy SMG"
+    },
+    "item_Namevolt_smg_energy_01": {
+      "en": "Quartz Energy SMG",
+      "tr": "Quartz Energy SMG"
+    },
+    "item_Namegmni_shotgun_ballistic_01_pink_red01": {
+      "en": "R97 \"Kismet\" Shotgun",
+      "tr": "R97 \"Kismet\" Shotgun"
+    },
+    "item_Namegmni_shotgun_ballistic_01_red_black01": {
+      "en": "R97 \"Righteous\" Shotgun",
+      "tr": "R97 \"Righteous\" Shotgun"
+    },
+    "item_Namegmni_shotgun_ballistic_01_firerats01": {
+      "en": "R97 \"Scorched\" Shotgun",
+      "tr": "R97 \"Scorched\" Shotgun"
+    },
+    "item_Namegmni_shotgun_ballistic_01": {
+      "en": "R97 Shotgun",
+      "tr": "R97 Shotgun"
+    },
+    "item_Nameksar_shotgun_ballistic_01_green01": {
+      "en": "Ravager-212 \"Outcast\" Twin Shotgun",
+      "tr": "Ravager-212 \"Outcast\" Twin Shotgun"
+    },
+    "item_Nameksar_shotgun_ballistic_01": {
+      "en": "Ravager-212 Twin Shotgun",
+      "tr": "Ravager-212 Twin Shotgun"
+    },
+    "item_Namenone_smg_energy_01": {
+      "en": "Ripper \"Sunblock\" SMG",
+      "tr": "Ripper \"Sunblock\" SMG"
+    },
+    "item_Namebehr_pistol_ballistic_01_firerats01": {
+      "en": "S-38 \"Scorched\" Pistol",
+      "tr": "S-38 \"Scorched\" Pistol"
+    },
+    "item_Namebehr_pistol_ballistic_01": {
+      "en": "S-38 Pistol",
+      "tr": "S-38 Pistol"
+    },
+    "item_Namegmni_rifle_ballistic_01_firerats01": {
+      "en": "S71 \"Bullseye\" Rifle",
+      "tr": "S71 \"Bullseye\" Rifle"
+    },
+    "item_NameGMNI_rifle_ballistic_01_grey_red01": {
+      "en": "S71 \"Justified\" Rifle",
+      "tr": "S71 \"Justified\" Rifle"
+    },
+    "item_NameGMNI_rifle_ballistic_01": {
+      "en": "S71 Rifle",
+      "tr": "S71 Rifle"
+    },
+    "item_Namehdgw_pistol_ballistic_01_engraved02": {
+      "en": "Salvo Esteban Frag Pistol",
+      "tr": "Salvo Esteban Frag Pistol"
+    },
+    "item_Namehdgw_pistol_ballistic_01": {
+      "en": "Salvo Frag Pistol",
+      "tr": "Salvo Frag Pistol"
+    },
+    "item_Nameksar_sniper_ballistic_01_blue_white01": {
+      "en": "Scalpel \"Permafrost\" Sniper Rifle",
+      "tr": "Scalpel \"Permafrost\" Sniper Rifle"
+    },
+    "item_Nameksar_sniper_ballistic_01": {
+      "en": "Scalpel Sniper Rifle",
+      "tr": "Scalpel Sniper Rifle"
+    },
+    "item_Namenone_pistol_ballistic_01": {
+      "en": "Tripledown Pistol",
+      "tr": "Tripledown Pistol"
+    },
+    "item_Namelbco_pistol_energy_01_sunset01": {
+      "en": "Yubarev \"Igniter\" Pistol",
+      "tr": "Yubarev \"Igniter\" Pistol"
+    },
+    "item_Namelbco_pistol_energy_01_chromic01": {
+      "en": "Yubarev \"Mirage\" Pistol",
+      "tr": "Yubarev \"Mirage\" Pistol"
+    },
+    "item_Namelbco_pistol_energy_01_acid01": {
+      "en": "Yubarev \"Venom\" Pistol",
+      "tr": "Yubarev \"Venom\" Pistol"
+    },
+    "item_Namelbco_pistol_energy_01": {
+      "en": "Yubarev Pistol",
+      "tr": "Yubarev Pistol"
+    },
+    "item_Namevolt_sniper_energy_01_tint01": {
+      "en": "Zenith \"Darkwave\" Laser Sniper Rifle",
+      "tr": "Zenith \"Darkwave\" Laser Sniper Rifle"
+    },
+    "item_Namevolt_sniper_energy_01_tint02": {
+      "en": "Zenith \"Landslide\" Laser Sniper Rifle",
+      "tr": "Zenith \"Landslide\" Laser Sniper Rifle"
+    },
+    "item_Namevolt_sniper_energy_01_collector01": {
+      "en": "Zenith \"Snow Camo\" Laser Sniper Rifle",
+      "tr": "Zenith \"Snow Camo\" Laser Sniper Rifle"
+    },
+    "item_Namevolt_sniper_energy_01_tint03": {
+      "en": "Zenith \"Thunderstrike\" Laser Sniper Rifle",
+      "tr": "Zenith \"Thunderstrike\" Laser Sniper Rifle"
+    },
+    "item_Namevolt_sniper_energy_01": {
+      "en": "Zenith Laser Sniper Rifle",
+      "tr": "Zenith Laser Sniper Rifle"
+    },
+    "item_Name_cds_undersuit_helmet_01": {
+      "en": "A23 Helmet Woodland",
+      "tr": "A23 Helmet Woodland"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_9tails01": {
+      "en": "ADP Arms (Modified)",
+      "tr": "ADP Arms (Modified)"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_17": {
+      "en": "ADP Arms Aqua",
+      "tr": "ADP Arms Aqua"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_12": {
+      "en": "ADP Arms Black",
+      "tr": "ADP Arms Black"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_07": {
+      "en": "ADP Arms Blue",
+      "tr": "ADP Arms Blue"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_crus01_01": {
+      "en": "ADP Arms Crusader Edition",
+      "tr": "ADP Arms Crusader Edition"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_16": {
+      "en": "ADP Arms Dark Green",
+      "tr": "ADP Arms Dark Green"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_13": {
+      "en": "ADP Arms Dark Red",
+      "tr": "ADP Arms Dark Red"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_05": {
+      "en": "ADP Arms Green",
+      "tr": "ADP Arms Green"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_11": {
+      "en": "ADP Arms Grey",
+      "tr": "ADP Arms Grey"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_hd_sec": {
+      "en": "ADP Arms Hurston Edition",
+      "tr": "ADP Arms Hurston Edition"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_19": {
+      "en": "ADP Arms Imperial",
+      "tr": "ADP Arms Imperial"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_20": {
+      "en": "ADP Arms Olive",
+      "tr": "ADP Arms Olive"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_03": {
+      "en": "ADP Arms Orange",
+      "tr": "ADP Arms Orange"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_08": {
+      "en": "ADP Arms Purple",
+      "tr": "ADP Arms Purple"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_02": {
+      "en": "ADP Arms Red",
+      "tr": "ADP Arms Red"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_06": {
+      "en": "ADP Arms Seagreen",
+      "tr": "ADP Arms Seagreen"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_14": {
+      "en": "ADP Arms Sienna",
+      "tr": "ADP Arms Sienna"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_15": {
+      "en": "ADP Arms Tan",
+      "tr": "ADP Arms Tan"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_18": {
+      "en": "ADP Arms Twilight",
+      "tr": "ADP Arms Twilight"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_09": {
+      "en": "ADP Arms Violet",
+      "tr": "ADP Arms Violet"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_10": {
+      "en": "ADP Arms White",
+      "tr": "ADP Arms White"
+    },
+    "item_Name_cds_legacy_heavy_armor_01_arms": {
+      "en": "ADP Arms Woodland",
+      "tr": "ADP Arms Woodland"
+    },
+    "item_Name_cds_legacy_armor_heavy_arms_01_01_04": {
+      "en": "ADP Arms Yellow",
+      "tr": "ADP Arms Yellow"
+    },
+    "item_Name_cds_legacy_heavy_armor_01_core": {
+      "en": "ADP Core",
+      "tr": "ADP Core"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_9tails01": {
+      "en": "ADP Core (Modified)",
+      "tr": "ADP Core (Modified)"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_17": {
+      "en": "ADP Core Aqua",
+      "tr": "ADP Core Aqua"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_12": {
+      "en": "ADP Core Black",
+      "tr": "ADP Core Black"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_07": {
+      "en": "ADP Core Blue",
+      "tr": "ADP Core Blue"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_crus01_01": {
+      "en": "ADP Core Crusader Edition",
+      "tr": "ADP Core Crusader Edition"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_16": {
+      "en": "ADP Core Dark Green",
+      "tr": "ADP Core Dark Green"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_13": {
+      "en": "ADP Core Dark Red",
+      "tr": "ADP Core Dark Red"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_05": {
+      "en": "ADP Core Green",
+      "tr": "ADP Core Green"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_11": {
+      "en": "ADP Core Grey",
+      "tr": "ADP Core Grey"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_hd_sec": {
+      "en": "ADP Core Hurston Edition",
+      "tr": "ADP Core Hurston Edition"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_19": {
+      "en": "ADP Core Imperial",
+      "tr": "ADP Core Imperial"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_20": {
+      "en": "ADP Core Olive",
+      "tr": "ADP Core Olive"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_03": {
+      "en": "ADP Core Orange",
+      "tr": "ADP Core Orange"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_08": {
+      "en": "ADP Core Purple",
+      "tr": "ADP Core Purple"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_02": {
+      "en": "ADP Core Red",
+      "tr": "ADP Core Red"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_06": {
+      "en": "ADP Core Seagreen",
+      "tr": "ADP Core Seagreen"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_14": {
+      "en": "ADP Core Sienna",
+      "tr": "ADP Core Sienna"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_15": {
+      "en": "ADP Core Tan",
+      "tr": "ADP Core Tan"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_18": {
+      "en": "ADP Core Twilight",
+      "tr": "ADP Core Twilight"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_09": {
+      "en": "ADP Core Violet",
+      "tr": "ADP Core Violet"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_10": {
+      "en": "ADP Core White",
+      "tr": "ADP Core White"
+    },
+    "item_Name_cds_legacy_armor_heavy_core_01_01_04": {
+      "en": "ADP Core Yellow",
+      "tr": "ADP Core Yellow"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_17": {
+      "en": "ADP Legs Aqua",
+      "tr": "ADP Legs Aqua"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_12": {
+      "en": "ADP Legs Black",
+      "tr": "ADP Legs Black"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_07": {
+      "en": "ADP Legs Blue",
+      "tr": "ADP Legs Blue"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_crus01_01": {
+      "en": "ADP Legs Crusader Edition",
+      "tr": "ADP Legs Crusader Edition"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_16": {
+      "en": "ADP Legs Dark Green",
+      "tr": "ADP Legs Dark Green"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_13": {
+      "en": "ADP Legs Dark Red",
+      "tr": "ADP Legs Dark Red"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_05": {
+      "en": "ADP Legs Green",
+      "tr": "ADP Legs Green"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_11": {
+      "en": "ADP Legs Grey",
+      "tr": "ADP Legs Grey"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_hd_sec": {
+      "en": "ADP Legs Hurston Edition",
+      "tr": "ADP Legs Hurston Edition"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_19": {
+      "en": "ADP Legs Imperial",
+      "tr": "ADP Legs Imperial"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_20": {
+      "en": "ADP Legs Olive",
+      "tr": "ADP Legs Olive"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_03": {
+      "en": "ADP Legs Orange",
+      "tr": "ADP Legs Orange"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_08": {
+      "en": "ADP Legs Purple",
+      "tr": "ADP Legs Purple"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_02": {
+      "en": "ADP Legs Red",
+      "tr": "ADP Legs Red"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_06": {
+      "en": "ADP Legs Seagreen",
+      "tr": "ADP Legs Seagreen"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_14": {
+      "en": "ADP Legs Sienna",
+      "tr": "ADP Legs Sienna"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_15": {
+      "en": "ADP Legs Tan",
+      "tr": "ADP Legs Tan"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_18": {
+      "en": "ADP Legs Twilight",
+      "tr": "ADP Legs Twilight"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_09": {
+      "en": "ADP Legs Violet",
+      "tr": "ADP Legs Violet"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_10": {
+      "en": "ADP Legs White",
+      "tr": "ADP Legs White"
+    },
+    "item_Name_cds_legacy_heavy_armor_01_legs": {
+      "en": "ADP Legs Woodland",
+      "tr": "ADP Legs Woodland"
+    },
+    "item_Name_cds_legacy_armor_heavy_legs_01_01_04": {
+      "en": "ADP Legs Yellow",
+      "tr": "ADP Legs Yellow"
+    },
+    "item_Name_cds_heavy_armor_01_arms": {
+      "en": "ADP-mk4 Arms Woodland",
+      "tr": "ADP-mk4 Arms Woodland"
+    },
+    "item_Name_cds_heavy_armor_01_core": {
+      "en": "ADP-mk4 Core Woodland",
+      "tr": "ADP-mk4 Core Woodland"
+    },
+    "item_Name_cds_heavy_armor_helmet_01": {
+      "en": "ADP-mk4 Helmet Woodland",
+      "tr": "ADP-mk4 Helmet Woodland"
+    },
+    "item_Name_cds_heavy_armor_01_legs": {
+      "en": "ADP-mk4 Legs Woodland",
+      "tr": "ADP-mk4 Legs Woodland"
+    },
+    "item_Name_qrt_specialist_heavy_arms_01_01_01": {
+      "en": "Antium Arms",
+      "tr": "Antium Arms"
+    },
+    "item_Name_qrt_specialist_heavy_arms_01_01_12": {
+      "en": "Antium Arms Jet",
+      "tr": "Antium Arms Jet"
+    },
+    "item_Name_qrt_specialist_heavy_arms_01_01_13": {
+      "en": "Antium Arms Maroon",
+      "tr": "Antium Arms Maroon"
+    },
+    "item_Name_qrt_specialist_heavy_arms_01_03_01": {
+      "en": "Antium Arms Midnight Sun",
+      "tr": "Antium Arms Midnight Sun"
+    },
+    "item_Name_qrt_specialist_heavy_arms_01_02_16": {
+      "en": "Antium Arms Moss Camo",
+      "tr": "Antium Arms Moss Camo"
+    },
+    "item_Name_qrt_specialist_heavy_arms_01_01_15": {
+      "en": "Antium Arms Sand",
+      "tr": "Antium Arms Sand"
+    },
+    "item_Name_qrt_specialist_heavy_arms_01_01_10": {
+      "en": "Antium Arms Storm",
+      "tr": "Antium Arms Storm"
+    },
+    "item_Name_qrt_specialist_heavy_core_01_01_01": {
+      "en": "Antium Core",
+      "tr": "Antium Core"
+    },
+    "item_Name_qrt_specialist_heavy_core_01_01_12": {
+      "en": "Antium Core Jet",
+      "tr": "Antium Core Jet"
+    },
+    "item_Name_qrt_specialist_heavy_core_01_01_13": {
+      "en": "Antium Core Maroon",
+      "tr": "Antium Core Maroon"
+    },
+    "item_Name_qrt_specialist_heavy_core_01_03_01": {
+      "en": "Antium Core Midnight Sun",
+      "tr": "Antium Core Midnight Sun"
+    },
+    "item_Name_qrt_specialist_heavy_core_01_02_16": {
+      "en": "Antium Core Moss Camo",
+      "tr": "Antium Core Moss Camo"
+    },
+    "item_Name_qrt_specialist_heavy_core_01_01_15": {
+      "en": "Antium Core Sand",
+      "tr": "Antium Core Sand"
+    },
+    "item_Name_qrt_specialist_heavy_core_01_01_10": {
+      "en": "Antium Core Storm",
+      "tr": "Antium Core Storm"
+    },
+    "item_Name_qrt_specialist_heavy_helmet_01_01_01": {
+      "en": "Antium Helmet",
+      "tr": "Antium Helmet"
+    },
+    "item_Name_qrt_specialist_heavy_helmet_01_01_12": {
+      "en": "Antium Helmet Jet",
+      "tr": "Antium Helmet Jet"
+    },
+    "item_Name_qrt_specialist_heavy_helmet_01_01_13": {
+      "en": "Antium Helmet Maroon",
+      "tr": "Antium Helmet Maroon"
+    },
+    "item_Name_qrt_specialist_heavy_helmet_01_03_01": {
+      "en": "Antium Helmet Midnight Sun",
+      "tr": "Antium Helmet Midnight Sun"
+    },
+    "item_Name_qrt_specialist_heavy_helmet_01_02_16": {
+      "en": "Antium Helmet Moss Camo",
+      "tr": "Antium Helmet Moss Camo"
+    },
+    "item_Name_qrt_specialist_heavy_helmet_01_01_15": {
+      "en": "Antium Helmet Sand",
+      "tr": "Antium Helmet Sand"
+    },
+    "item_Name_qrt_specialist_heavy_helmet_01_01_10": {
+      "en": "Antium Helmet Storm",
+      "tr": "Antium Helmet Storm"
+    },
+    "item_Name_qrt_specialist_heavy_legs_01_01_01": {
+      "en": "Antium Legs",
+      "tr": "Antium Legs"
+    },
+    "item_Name_qrt_specialist_heavy_legs_01_01_12": {
+      "en": "Antium Legs Jet",
+      "tr": "Antium Legs Jet"
+    },
+    "item_Name_qrt_specialist_heavy_legs_01_01_13": {
+      "en": "Antium Legs Maroon",
+      "tr": "Antium Legs Maroon"
+    },
+    "item_Name_qrt_specialist_heavy_legs_01_03_01": {
+      "en": "Antium Legs Midnight Sun",
+      "tr": "Antium Legs Midnight Sun"
+    },
+    "item_Name_qrt_specialist_heavy_legs_01_02_16": {
+      "en": "Antium Legs Moss Camo",
+      "tr": "Antium Legs Moss Camo"
+    },
+    "item_Name_qrt_specialist_heavy_legs_01_01_15": {
+      "en": "Antium Legs Sand",
+      "tr": "Antium Legs Sand"
+    },
+    "item_Name_qrt_specialist_heavy_legs_01_01_10": {
+      "en": "Antium Legs Storm",
+      "tr": "Antium Legs Storm"
+    },
+    "item_Name_rrs_combat_light_backpack_01_01_01": {
+      "en": "Arden-CL Backpack",
+      "tr": "Arden-CL Backpack"
+    },
+    "item_Name_rrs_specialist_light_arms_01_01_01": {
+      "en": "Arden-SL Arms",
+      "tr": "Arden-SL Arms"
+    },
+    "item_Name_rrs_specialist_light_core_01_01_01": {
+      "en": "Arden-SL Core",
+      "tr": "Arden-SL Core"
+    },
+    "item_Name_rrs_specialist_light_helmet_01_01_01": {
+      "en": "Arden-SL Helmet",
+      "tr": "Arden-SL Helmet"
+    },
+    "item_Name_rrs_specialist_light_legs_01_01_01": {
+      "en": "Arden-SL Legs",
+      "tr": "Arden-SL Legs"
+    },
+    "item_Name_adv_agent_helmet_01": {
+      "en": "Argus Helmet",
+      "tr": "Argus Helmet"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_06": {
+      "en": "Argus Helmet Aqua/Black",
+      "tr": "Argus Helmet Aqua/Black"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_17": {
+      "en": "Argus Helmet Black/Aqua/Silver",
+      "tr": "Argus Helmet Black/Aqua/Silver"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_14": {
+      "en": "Argus Helmet Black/Gold/Silver",
+      "tr": "Argus Helmet Black/Gold/Silver"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_12": {
+      "en": "Argus Helmet Black/Grey",
+      "tr": "Argus Helmet Black/Grey"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_13": {
+      "en": "Argus Helmet Black/Grey/Red",
+      "tr": "Argus Helmet Black/Grey/Red"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_09": {
+      "en": "Argus Helmet Black/Pink/Purple",
+      "tr": "Argus Helmet Black/Pink/Purple"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_11": {
+      "en": "Argus Helmet Black/Silver",
+      "tr": "Argus Helmet Black/Silver"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_18": {
+      "en": "Argus Helmet Black/Silver/Blue",
+      "tr": "Argus Helmet Black/Silver/Blue"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_16": {
+      "en": "Argus Helmet Black/Silver/Green",
+      "tr": "Argus Helmet Black/Silver/Green"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_19": {
+      "en": "Argus Helmet Black/Silver/Yellow",
+      "tr": "Argus Helmet Black/Silver/Yellow"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_08": {
+      "en": "Argus Helmet Black/White/Violet",
+      "tr": "Argus Helmet Black/White/Violet"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_07": {
+      "en": "Argus Helmet Gold/Grey/Black",
+      "tr": "Argus Helmet Gold/Grey/Black"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_05": {
+      "en": "Argus Helmet Grey/Green",
+      "tr": "Argus Helmet Grey/Green"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_02": {
+      "en": "Argus Helmet Red/Silver",
+      "tr": "Argus Helmet Red/Silver"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_21": {
+      "en": "Argus Helmet Scorched",
+      "tr": "Argus Helmet Scorched"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_20": {
+      "en": "Argus Helmet Silver/Gold/Grey",
+      "tr": "Argus Helmet Silver/Gold/Grey"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_10": {
+      "en": "Argus Helmet White/Silver/Grey",
+      "tr": "Argus Helmet White/Silver/Grey"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_03": {
+      "en": "Argus Helmet Yellow/Black",
+      "tr": "Argus Helmet Yellow/Black"
+    },
+    "item_Name_vgl_armor_light_helmet_01_01_04": {
+      "en": "Argus Helmet Yellow/Grey",
+      "tr": "Argus Helmet Yellow/Grey"
+    },
+    "item_Name_GRIN_utility_medium_arms_01_01_01": {
+      "en": "Aril Arms",
+      "tr": "Aril Arms"
+    },
+    "item_Name_GRIN_utility_medium_backpack_01_01_01": {
+      "en": "Aril Backpack",
+      "tr": "Aril Backpack"
+    },
+    "item_Name_GRIN_utility_medium_core_01_01_01": {
+      "en": "Aril Core",
+      "tr": "Aril Core"
+    },
+    "item_Name_GRIN_utility_medium_helmet_01_01_01": {
+      "en": "Aril Helmet",
+      "tr": "Aril Helmet"
+    },
+    "item_Name_GRIN_utility_medium_legs_01_01_01": {
+      "en": "Aril Legs",
+      "tr": "Aril Legs"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_01_01": {
+      "en": "Artimex Arms",
+      "tr": "Artimex Arms"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_01_9tails01": {
+      "en": "Artimex Arms (Modified)",
+      "tr": "Artimex Arms (Modified)"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_01_10": {
+      "en": "Artimex Arms Canuto",
+      "tr": "Artimex Arms Canuto"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_01_04": {
+      "en": "Artimex Arms Chairman's Club",
+      "tr": "Artimex Arms Chairman's Club"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_03": {
+      "en": "Artimex Arms Elysium",
+      "tr": "Artimex Arms Elysium"
+    },
+    "item_Name_qrt_specialist_medium_arms_02_01_01": {
+      "en": "Artimex Arms Hurston Dynamics Executive Security",
+      "tr": "Artimex Arms Hurston Dynamics Executive Security"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_01_15": {
+      "en": "Artimex Arms Lodestone",
+      "tr": "Artimex Arms Lodestone"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_01_iae2022": {
+      "en": "Artimex Arms Red Alert",
+      "tr": "Artimex Arms Red Alert"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_01_iae2024": {
+      "en": "Artimex Arms Starchaser",
+      "tr": "Artimex Arms Starchaser"
+    },
+    "item_Name_qrt_specialist_medium_arms_01_01_16": {
+      "en": "Artimex Arms Wildwood",
+      "tr": "Artimex Arms Wildwood"
+    },
+    "item_Name_qrt_specialist_medium_core_01_01_01": {
+      "en": "Artimex Core",
+      "tr": "Artimex Core"
+    },
+    "item_Name_qrt_specialist_medium_core_01_01_9tails01": {
+      "en": "Artimex Core (Modified)",
+      "tr": "Artimex Core (Modified)"
+    },
+    "item_Name_qrt_specialist_medium_core_01_01_10": {
+      "en": "Artimex Core Canuto",
+      "tr": "Artimex Core Canuto"
+    },
+    "item_Name_qrt_specialist_medium_core_01_01_04": {
+      "en": "Artimex Core Chairman's Club",
+      "tr": "Artimex Core Chairman's Club"
+    },
+    "item_Name_qrt_specialist_medium_core_01_03": {
+      "en": "Artimex Core Elysium",
+      "tr": "Artimex Core Elysium"
+    },
+    "item_Name_qrt_specialist_medium_core_02_01_01": {
+      "en": "Artimex Core Hurston Dynamics Executive Security",
+      "tr": "Artimex Core Hurston Dynamics Executive Security"
+    },
+    "item_Name_qrt_specialist_medium_core_01_01_15": {
+      "en": "Artimex Core Lodestone",
+      "tr": "Artimex Core Lodestone"
+    },
+    "item_Name_qrt_specialist_medium_core_01_01_iae2022": {
+      "en": "Artimex Core Red Alert",
+      "tr": "Artimex Core Red Alert"
+    },
+    "item_Name_qrt_specialist_medium_core_01_01_iae2024": {
+      "en": "Artimex Core Starchaser",
+      "tr": "Artimex Core Starchaser"
+    },
+    "item_Name_qrt_specialist_medium_core_01_01_16": {
+      "en": "Artimex Core Wildwood",
+      "tr": "Artimex Core Wildwood"
+    },
+    "item_Name_qrt_specialist_medium_helmet_01_01_01": {
+      "en": "Artimex Helmet",
+      "tr": "Artimex Helmet"
+    },
+    "item_Name_qrt_specialist_medium_helmet_01_01_10": {
+      "en": "Artimex Helmet Canuto",
+      "tr": "Artimex Helmet Canuto"
+    },
+    "item_Name_qrt_specialist_medium_helmet_01_01_04": {
+      "en": "Artimex Helmet Chairman's Club",
+      "tr": "Artimex Helmet Chairman's Club"
+    },
+    "item_Name_qrt_specialist_medium_helmet_01_03": {
+      "en": "Artimex Helmet Elysium",
+      "tr": "Artimex Helmet Elysium"
+    },
+    "item_Name_qrt_specialist_medium_helmet_02_01_01": {
+      "en": "Artimex Helmet Hurston Dynamics Executive Security",
+      "tr": "Artimex Helmet Hurston Dynamics Executive Security"
+    },
+    "item_Name_qrt_specialist_medium_helmet_01_01_15": {
+      "en": "Artimex Helmet Lodestone",
+      "tr": "Artimex Helmet Lodestone"
+    },
+    "item_Name_qrt_specialist_medium_helmet_01_01_iae2022": {
+      "en": "Artimex Helmet Red Alert",
+      "tr": "Artimex Helmet Red Alert"
+    },
+    "item_Name_qrt_specialist_medium_helmet_01_01_iae2024": {
+      "en": "Artimex Helmet Starchaser",
+      "tr": "Artimex Helmet Starchaser"
+    },
+    "item_Name_qrt_specialist_medium_helmet_01_01_16": {
+      "en": "Artimex Helmet Wildwood",
+      "tr": "Artimex Helmet Wildwood"
+    },
+    "item_Name_qrt_specialist_medium_legs_01_01_01": {
+      "en": "Artimex Legs",
+      "tr": "Artimex Legs"
+    },
+    "item_Name_qrt_specialist_medium_legs_01_01_10": {
+      "en": "Artimex Legs Canuto",
+      "tr": "Artimex Legs Canuto"
+    },
+    "item_Name_qrt_specialist_medium_legs_01_01_04": {
+      "en": "Artimex Legs Chairman's Club",
+      "tr": "Artimex Legs Chairman's Club"
+    },
+    "item_Name_qrt_specialist_medium_legs_01_03": {
+      "en": "Artimex Legs Elysium",
+      "tr": "Artimex Legs Elysium"
+    },
+    "item_Name_qrt_specialist_medium_legs_02_01_01": {
+      "en": "Artimex Legs Hurston Dynamics Executive Security",
+      "tr": "Artimex Legs Hurston Dynamics Executive Security"
+    },
+    "item_Name_qrt_specialist_medium_legs_01_01_15": {
+      "en": "Artimex Legs Lodestone",
+      "tr": "Artimex Legs Lodestone"
+    },
+    "item_Name_qrt_specialist_medium_legs_01_01_iae2022": {
+      "en": "Artimex Legs Red Alert",
+      "tr": "Artimex Legs Red Alert"
+    },
+    "item_Name_qrt_specialist_medium_legs_01_01_iae2024": {
+      "en": "Artimex Legs Starchaser",
+      "tr": "Artimex Legs Starchaser"
+    },
+    "item_Name_qrt_specialist_medium_legs_01_01_16": {
+      "en": "Artimex Legs Wildwood",
+      "tr": "Artimex Legs Wildwood"
+    },
+    "item_Name_ccc_medium_armor_arms_01_01_01": {
+      "en": "Aves Arms",
+      "tr": "Aves Arms"
+    },
+    "item_Name_ccc_medium_armor_core_01_01_01": {
+      "en": "Aves Core",
+      "tr": "Aves Core"
+    },
+    "item_Name_ccc_medium_armor_helmet_01": {
+      "en": "Aves Helmet",
+      "tr": "Aves Helmet"
+    },
+    "item_Name_ccc_medium_armor_legs_01_01_01": {
+      "en": "Aves Legs",
+      "tr": "Aves Legs"
+    },
+    "item_Name_ccc_medium_armor_arms_01_01_shrike": {
+      "en": "Aves Shrike Arms",
+      "tr": "Aves Shrike Arms"
+    },
+    "item_Name_ccc_medium_armor_core_01_01_shrike": {
+      "en": "Aves Shrike Core",
+      "tr": "Aves Shrike Core"
+    },
+    "item_Name_ccc_medium_armor_helmet_01_01_shrike": {
+      "en": "Aves Shrike Helmet",
+      "tr": "Aves Shrike Helmet"
+    },
+    "item_Name_ccc_medium_armor_legs_01_01_shrike": {
+      "en": "Aves Shrike Legs",
+      "tr": "Aves Shrike Legs"
+    },
+    "item_Name_ccc_medium_armor_arms_01_01_talon": {
+      "en": "Aves Talon Arms",
+      "tr": "Aves Talon Arms"
+    },
+    "item_Name_ccc_medium_armor_core_01_01_talon": {
+      "en": "Aves Talon Core",
+      "tr": "Aves Talon Core"
+    },
+    "item_Name_ccc_medium_armor_helmet_01_01_talon": {
+      "en": "Aves Talon Helmet",
+      "tr": "Aves Talon Helmet"
+    },
+    "item_Name_ccc_medium_armor_legs_01_01_talon": {
+      "en": "Aves Talon Legs",
+      "tr": "Aves Talon Legs"
+    },
+    "item_Name_thp_light_arms_01_01_01": {
+      "en": "Aztalan Arms",
+      "tr": "Aztalan Arms"
+    },
+    "item_Name_thp_light_core_01_01_01": {
+      "en": "Aztalan Core",
+      "tr": "Aztalan Core"
+    },
+    "item_Name_thp_light_arms_01_01_12": {
+      "en": "Aztalan Galena Arms",
+      "tr": "Aztalan Galena Arms"
+    },
+    "item_Name_thp_light_core_01_01_12": {
+      "en": "Aztalan Galena Core",
+      "tr": "Aztalan Galena Core"
+    },
+    "item_Name_thp_light_helmet_01_01_12": {
+      "en": "Aztalan Galena Helmet",
+      "tr": "Aztalan Galena Helmet"
+    },
+    "item_Name_thp_light_legs_01_01_12": {
+      "en": "Aztalan Galena Legs",
+      "tr": "Aztalan Galena Legs"
+    },
+    "item_Name_thp_light_helmet_01_01_01": {
+      "en": "Aztalan Helmet",
+      "tr": "Aztalan Helmet"
+    },
+    "item_Name_thp_light_legs_01_01_01": {
+      "en": "Aztalan Legs",
+      "tr": "Aztalan Legs"
+    },
+    "item_Name_thp_light_arms_01_01_03": {
+      "en": "Aztalan Tamarack Arms",
+      "tr": "Aztalan Tamarack Arms"
+    },
+    "item_Name_thp_light_core_01_01_03": {
+      "en": "Aztalan Tamarack Core",
+      "tr": "Aztalan Tamarack Core"
+    },
+    "item_Name_thp_light_helmet_01_01_03": {
+      "en": "Aztalan Tamarack Helmet",
+      "tr": "Aztalan Tamarack Helmet"
+    },
+    "item_Name_thp_light_legs_01_01_03": {
+      "en": "Aztalan Tamarack Legs",
+      "tr": "Aztalan Tamarack Legs"
+    },
+    "item_Name_CLDA_combat_light_helmet_01_01_01": {
+      "en": "Badami Helmet",
+      "tr": "Badami Helmet"
+    },
+    "item_Name_cds_legacy_heavy_armor_01_helmet": {
+      "en": "Balor HCH Helmet",
+      "tr": "Balor HCH Helmet"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_17": {
+      "en": "Balor HCH Helmet Aqua",
+      "tr": "Balor HCH Helmet Aqua"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_12": {
+      "en": "Balor HCH Helmet Black",
+      "tr": "Balor HCH Helmet Black"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_07": {
+      "en": "Balor HCH Helmet Blue",
+      "tr": "Balor HCH Helmet Blue"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_crus01_01": {
+      "en": "Balor HCH Helmet Crusader Edition",
+      "tr": "Balor HCH Helmet Crusader Edition"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_16": {
+      "en": "Balor HCH Helmet Dark Green",
+      "tr": "Balor HCH Helmet Dark Green"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_13": {
+      "en": "Balor HCH Helmet Dark Red",
+      "tr": "Balor HCH Helmet Dark Red"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_05": {
+      "en": "Balor HCH Helmet Green",
+      "tr": "Balor HCH Helmet Green"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_11": {
+      "en": "Balor HCH Helmet Grey",
+      "tr": "Balor HCH Helmet Grey"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_hd_sec": {
+      "en": "Balor HCH Helmet Hurston Edition",
+      "tr": "Balor HCH Helmet Hurston Edition"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_19": {
+      "en": "Balor HCH Helmet Imperial",
+      "tr": "Balor HCH Helmet Imperial"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_20": {
+      "en": "Balor HCH Helmet Olive",
+      "tr": "Balor HCH Helmet Olive"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_03": {
+      "en": "Balor HCH Helmet Orange",
+      "tr": "Balor HCH Helmet Orange"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_08": {
+      "en": "Balor HCH Helmet Purple",
+      "tr": "Balor HCH Helmet Purple"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_02": {
+      "en": "Balor HCH Helmet Red",
+      "tr": "Balor HCH Helmet Red"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_06": {
+      "en": "Balor HCH Helmet Seagreen",
+      "tr": "Balor HCH Helmet Seagreen"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_14": {
+      "en": "Balor HCH Helmet Sienna",
+      "tr": "Balor HCH Helmet Sienna"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_15": {
+      "en": "Balor HCH Helmet Tan",
+      "tr": "Balor HCH Helmet Tan"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_18": {
+      "en": "Balor HCH Helmet Twilight",
+      "tr": "Balor HCH Helmet Twilight"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_09": {
+      "en": "Balor HCH Helmet Violet",
+      "tr": "Balor HCH Helmet Violet"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_10": {
+      "en": "Balor HCH Helmet White",
+      "tr": "Balor HCH Helmet White"
+    },
+    "item_Name_cds_legacy_armor_heavy_helmet_01_01_04": {
+      "en": "Balor HCH Helmet Yellow",
+      "tr": "Balor HCH Helmet Yellow"
+    },
+    "item_Name_rsi_deckcrew_undersuit_01": {
+      "en": "Beacon Undersuit",
+      "tr": "Beacon Undersuit"
+    },
+    "item_Name_cds_legacy_light_armor_01_helmet": {
+      "en": "CBH-3 Helmet Base",
+      "tr": "CBH-3 Helmet Base"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_12": {
+      "en": "CBH-3 Helmet Black",
+      "tr": "CBH-3 Helmet Black"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_07": {
+      "en": "CBH-3 Helmet Blue",
+      "tr": "CBH-3 Helmet Blue"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_16": {
+      "en": "CBH-3 Helmet Dark Green",
+      "tr": "CBH-3 Helmet Dark Green"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_13": {
+      "en": "CBH-3 Helmet Dark Red",
+      "tr": "CBH-3 Helmet Dark Red"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_05": {
+      "en": "CBH-3 Helmet Green",
+      "tr": "CBH-3 Helmet Green"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_11": {
+      "en": "CBH-3 Helmet Grey",
+      "tr": "CBH-3 Helmet Grey"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_19": {
+      "en": "CBH-3 Helmet Imperial",
+      "tr": "CBH-3 Helmet Imperial"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_20": {
+      "en": "CBH-3 Helmet Olive",
+      "tr": "CBH-3 Helmet Olive"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_03": {
+      "en": "CBH-3 Helmet Orange",
+      "tr": "CBH-3 Helmet Orange"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_08": {
+      "en": "CBH-3 Helmet Purple",
+      "tr": "CBH-3 Helmet Purple"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_02": {
+      "en": "CBH-3 Helmet Red",
+      "tr": "CBH-3 Helmet Red"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_06": {
+      "en": "CBH-3 Helmet Seagreen",
+      "tr": "CBH-3 Helmet Seagreen"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_14": {
+      "en": "CBH-3 Helmet Sienna",
+      "tr": "CBH-3 Helmet Sienna"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_15": {
+      "en": "CBH-3 Helmet Tan",
+      "tr": "CBH-3 Helmet Tan"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_18": {
+      "en": "CBH-3 Helmet Twilight",
+      "tr": "CBH-3 Helmet Twilight"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_09": {
+      "en": "CBH-3 Helmet Violet",
+      "tr": "CBH-3 Helmet Violet"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_10": {
+      "en": "CBH-3 Helmet White",
+      "tr": "CBH-3 Helmet White"
+    },
+    "item_Name_cds_legacy_armor_light_helmet_01_01_04": {
+      "en": "CBH-3 Helmet Yellow",
+      "tr": "CBH-3 Helmet Yellow"
+    },
+    "item_Name_cds_combat_heavy_backpack_01_01_01": {
+      "en": "CSP-68H Backpack",
+      "tr": "CSP-68H Backpack"
+    },
+    "item_Name_cds_combat_light_backpack_01_01_01": {
+      "en": "CSP-68L Backpack",
+      "tr": "CSP-68L Backpack"
+    },
+    "item_Name_cds_combat_medium_backpack_01_01_01": {
+      "en": "CSP-68M Backpack",
+      "tr": "CSP-68M Backpack"
+    },
+    "item_Name_slaver_armor_light_arms_01_01_15": {
+      "en": "Calico Arms Desert",
+      "tr": "Calico Arms Desert"
+    },
+    "item_Name_slaver_armor_light_arms_01_01_01": {
+      "en": "Calico Arms Tactical",
+      "tr": "Calico Arms Tactical"
+    },
+    "item_Name_slaver_armor_light_core_01_01_15": {
+      "en": "Calico Core Desert",
+      "tr": "Calico Core Desert"
+    },
+    "item_Name_slaver_armor_light_core_01_01_01": {
+      "en": "Calico Core Tactical",
+      "tr": "Calico Core Tactical"
+    },
+    "item_Name_slaver_armor_light_helmet_01_01_15": {
+      "en": "Calico Helmet Desert",
+      "tr": "Calico Helmet Desert"
+    },
+    "item_Name_slaver_armor_light_helmet_01_01_01": {
+      "en": "Calico Helmet Tactical",
+      "tr": "Calico Helmet Tactical"
+    },
+    "item_Name_slaver_armor_light_legs_01_01_15": {
+      "en": "Calico Legs Desert",
+      "tr": "Calico Legs Desert"
+    },
+    "item_Name_slaver_armor_light_legs_01_01_01": {
+      "en": "Calico Legs Tactical",
+      "tr": "Calico Legs Tactical"
+    },
+    "item_Name_qrt_mantis_undersuit_helmet_01_01_01": {
+      "en": "Calva Helmet",
+      "tr": "Calva Helmet"
+    },
+    "item_Name_gys_jacket_01_01_01": {
+      "en": "Carnifex Armor Core",
+      "tr": "Carnifex Armor Core"
+    },
+    "item_Name_gys_pants_01_01_01": {
+      "en": "Carnifex Armor Legs",
+      "tr": "Carnifex Armor Legs"
+    },
+    "item_Name_vgl_utility_light_arms_01_01_01": {
+      "en": "Chiron Arms",
+      "tr": "Chiron Arms"
+    },
+    "item_Name_vgl_utility_light_core_01_01_01": {
+      "en": "Chiron Core",
+      "tr": "Chiron Core"
+    },
+    "item_Name_vgl_utility_light_helmet_01_01_01": {
+      "en": "Chiron Helmet",
+      "tr": "Chiron Helmet"
+    },
+    "item_Name_vgl_utility_light_legs_01_01_01": {
+      "en": "Chiron Legs",
+      "tr": "Chiron Legs"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_arms_01_01_9tails01": {
+      "en": "Citadel Arms (Modified)",
+      "tr": "Citadel Arms (Modified)"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_arms_01_01_01": {
+      "en": "Citadel Arms Base",
+      "tr": "Citadel Arms Base"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_arms_01_01_13": {
+      "en": "Citadel Arms Dark Red",
+      "tr": "Citadel Arms Dark Red"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_core_01_01_9tails01": {
+      "en": "Citadel Core (Modified)",
+      "tr": "Citadel Core (Modified)"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_core_01_01_01": {
+      "en": "Citadel Core Base",
+      "tr": "Citadel Core Base"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_core_01_01_13": {
+      "en": "Citadel Core Dark Red",
+      "tr": "Citadel Core Dark Red"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_legs_01_01_01": {
+      "en": "Citadel Legs Base",
+      "tr": "Citadel Legs Base"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_legs_01_01_13": {
+      "en": "Citadel Legs Dark Red",
+      "tr": "Citadel Legs Dark Red"
+    },
+    "item_Name_omc_utility_heavy_arms_01_02_01": {
+      "en": "Corbel Arms Crush",
+      "tr": "Corbel Arms Crush"
+    },
+    "item_Name_omc_utility_heavy_arms_01_01_04": {
+      "en": "Corbel Arms Halcyon",
+      "tr": "Corbel Arms Halcyon"
+    },
+    "item_Name_omc_utility_heavy_arms_01_01_16": {
+      "en": "Corbel Arms Mire",
+      "tr": "Corbel Arms Mire"
+    },
+    "item_Name_omc_utility_heavy_arms_01_01_17": {
+      "en": "Corbel Arms Patina",
+      "tr": "Corbel Arms Patina"
+    },
+    "item_Name_omc_utility_heavy_arms_01_01_01": {
+      "en": "Corbel Arms Smolder",
+      "tr": "Corbel Arms Smolder"
+    },
+    "item_Name_omc_utility_heavy_core_01_02_01": {
+      "en": "Corbel Core Crush",
+      "tr": "Corbel Core Crush"
+    },
+    "item_Name_omc_utility_heavy_core_01_01_04": {
+      "en": "Corbel Core Halcyon",
+      "tr": "Corbel Core Halcyon"
+    },
+    "item_Name_omc_utility_heavy_core_01_01_16": {
+      "en": "Corbel Core Mire",
+      "tr": "Corbel Core Mire"
+    },
+    "item_Name_omc_utility_heavy_core_01_01_17": {
+      "en": "Corbel Core Patina",
+      "tr": "Corbel Core Patina"
+    },
+    "item_Name_omc_utility_heavy_core_01_01_01": {
+      "en": "Corbel Core Smolder",
+      "tr": "Corbel Core Smolder"
+    },
+    "item_Name_omc_utility_heavy_helmet_01_02_01": {
+      "en": "Corbel Helmet Crush",
+      "tr": "Corbel Helmet Crush"
+    },
+    "item_Name_omc_utility_heavy_helmet_01_01_04": {
+      "en": "Corbel Helmet Halcyon",
+      "tr": "Corbel Helmet Halcyon"
+    },
+    "item_Name_omc_utility_heavy_helmet_01_01_16": {
+      "en": "Corbel Helmet Mire",
+      "tr": "Corbel Helmet Mire"
+    },
+    "item_Name_omc_utility_heavy_helmet_01_01_17": {
+      "en": "Corbel Helmet Patina",
+      "tr": "Corbel Helmet Patina"
+    },
+    "item_Name_omc_utility_heavy_helmet_01_01_01": {
+      "en": "Corbel Helmet Smolder",
+      "tr": "Corbel Helmet Smolder"
+    },
+    "item_Name_omc_utility_heavy_legs_01_02_01": {
+      "en": "Corbel Legs Crush",
+      "tr": "Corbel Legs Crush"
+    },
+    "item_Name_omc_utility_heavy_legs_01_01_04": {
+      "en": "Corbel Legs Halcyon",
+      "tr": "Corbel Legs Halcyon"
+    },
+    "item_Name_omc_utility_heavy_legs_01_01_16": {
+      "en": "Corbel Legs Mire",
+      "tr": "Corbel Legs Mire"
+    },
+    "item_Name_omc_utility_heavy_legs_01_01_17": {
+      "en": "Corbel Legs Patina",
+      "tr": "Corbel Legs Patina"
+    },
+    "item_Name_omc_utility_heavy_legs_01_01_01": {
+      "en": "Corbel Legs Smolder",
+      "tr": "Corbel Legs Smolder"
+    },
+    "item_Name_gys_undersuit_01_01_01": {
+      "en": "Deep-Space Undersuit",
+      "tr": "Deep-Space Undersuit"
+    },
+    "item_Name_slaver_armor_heavy_arms_01_01_9tails01": {
+      "en": "Defiance Arms (Modified)",
+      "tr": "Defiance Arms (Modified)"
+    },
+    "item_Name_slaver_armor_heavy_arms_01_01_11": {
+      "en": "Defiance Arms Charcoal",
+      "tr": "Defiance Arms Charcoal"
+    },
+    "item_Name_slaver_armor_heavy_arms_01_01_15": {
+      "en": "Defiance Arms Desert",
+      "tr": "Defiance Arms Desert"
+    },
+    "item_Name_slaver_armor_heavy_arms_01_01_13": {
+      "en": "Defiance Arms Firestarter",
+      "tr": "Defiance Arms Firestarter"
+    },
+    "item_Name_slaver_armor_heavy_arms_01_01_10": {
+      "en": "Defiance Arms Hailstorm",
+      "tr": "Defiance Arms Hailstorm"
+    },
+    "item_Name_slaver_armor_heavy_arms_01_01_03": {
+      "en": "Defiance Arms Sunchaser",
+      "tr": "Defiance Arms Sunchaser"
+    },
+    "item_Name_slaver_armor_heavy_arms_01_01_01": {
+      "en": "Defiance Arms Tactical",
+      "tr": "Defiance Arms Tactical"
+    },
+    "item_Name_slaver_armor_heavy_core_01_01_9tails01": {
+      "en": "Defiance Core (Modified)",
+      "tr": "Defiance Core (Modified)"
+    },
+    "item_Name_slaver_armor_heavy_core_01_01_11": {
+      "en": "Defiance Core Charcoal",
+      "tr": "Defiance Core Charcoal"
+    },
+    "item_Name_slaver_armor_heavy_core_01_01_15": {
+      "en": "Defiance Core Desert",
+      "tr": "Defiance Core Desert"
+    },
+    "item_Name_slaver_armor_heavy_core_01_01_13": {
+      "en": "Defiance Core Firestarter",
+      "tr": "Defiance Core Firestarter"
+    },
+    "item_Name_slaver_armor_heavy_core_01_01_10": {
+      "en": "Defiance Core Hailstorm",
+      "tr": "Defiance Core Hailstorm"
+    },
+    "item_Name_slaver_armor_heavy_core_01_01_14": {
+      "en": "Defiance Core Scorched",
+      "tr": "Defiance Core Scorched"
+    },
+    "item_Name_slaver_armor_heavy_core_01_01_03": {
+      "en": "Defiance Core Sunchaser",
+      "tr": "Defiance Core Sunchaser"
+    },
+    "item_Name_slaver_armor_heavy_core_01_01_01": {
+      "en": "Defiance Core Tactical",
+      "tr": "Defiance Core Tactical"
+    },
+    "item_Name_slaver_armor_heavy_helmet_01_01_9tails01": {
+      "en": "Defiance Helmet (Modified)",
+      "tr": "Defiance Helmet (Modified)"
+    },
+    "item_Name_slaver_armor_heavy_helmet_01_01_11": {
+      "en": "Defiance Helmet Charcoal",
+      "tr": "Defiance Helmet Charcoal"
+    },
+    "item_Name_slaver_armor_heavy_helmet_01_01_15": {
+      "en": "Defiance Helmet Desert",
+      "tr": "Defiance Helmet Desert"
+    },
+    "item_Name_slaver_armor_heavy_helmet_01_01_13": {
+      "en": "Defiance Helmet Firestarter",
+      "tr": "Defiance Helmet Firestarter"
+    },
+    "item_Name_slaver_armor_heavy_helmet_01_01_10": {
+      "en": "Defiance Helmet Hailstorm",
+      "tr": "Defiance Helmet Hailstorm"
+    },
+    "item_Name_slaver_armor_heavy_helmet_01_01_03": {
+      "en": "Defiance Helmet Sunchaser",
+      "tr": "Defiance Helmet Sunchaser"
+    },
+    "item_Name_slaver_armor_heavy_helmet_01_01_01": {
+      "en": "Defiance Helmet Tactical",
+      "tr": "Defiance Helmet Tactical"
+    },
+    "item_Name_slaver_armor_heavy_legs_01_01_9tails01": {
+      "en": "Defiance Legs (Modified)",
+      "tr": "Defiance Legs (Modified)"
+    },
+    "item_Name_slaver_armor_heavy_legs_01_01_11": {
+      "en": "Defiance Legs Charcoal",
+      "tr": "Defiance Legs Charcoal"
+    },
+    "item_Name_slaver_armor_heavy_legs_01_01_15": {
+      "en": "Defiance Legs Desert",
+      "tr": "Defiance Legs Desert"
+    },
+    "item_Name_slaver_armor_heavy_legs_01_01_13": {
+      "en": "Defiance Legs Firestarter",
+      "tr": "Defiance Legs Firestarter"
+    },
+    "item_Name_slaver_armor_heavy_legs_01_01_10": {
+      "en": "Defiance Legs Hailstorm",
+      "tr": "Defiance Legs Hailstorm"
+    },
+    "item_Name_slaver_armor_heavy_legs_01_01_03": {
+      "en": "Defiance Legs Sunchaser",
+      "tr": "Defiance Legs Sunchaser"
+    },
+    "item_Name_slaver_armor_heavy_legs_01_01_01": {
+      "en": "Defiance Legs Tactical",
+      "tr": "Defiance Legs Tactical"
+    },
+    "item_Name_srvl_armor_heavy_arms_02_01_01": {
+      "en": "Dust Devil Armor Arms",
+      "tr": "Dust Devil Armor Arms"
+    },
+    "item_Name_srvl_armor_heavy_core_02_01_01": {
+      "en": "Dust Devil Armor Core",
+      "tr": "Dust Devil Armor Core"
+    },
+    "item_Name_srvl_armor_heavy_legs_02_01_01": {
+      "en": "Dust Devil Armor Legs",
+      "tr": "Dust Devil Armor Legs"
+    },
+    "item_Name_slaver_armor_medium_arms_01_01_15": {
+      "en": "DustUp Arms Desert",
+      "tr": "DustUp Arms Desert"
+    },
+    "item_Name_slaver_armor_medium_arms_01_01_13": {
+      "en": "DustUp Arms Firestarter",
+      "tr": "DustUp Arms Firestarter"
+    },
+    "item_Name_slaver_armor_medium_arms_01_01_01": {
+      "en": "DustUp Arms Tactical",
+      "tr": "DustUp Arms Tactical"
+    },
+    "item_Name_slaver_armor_medium_core_01_01_15": {
+      "en": "DustUp Core Desert",
+      "tr": "DustUp Core Desert"
+    },
+    "item_Name_slaver_armor_medium_core_01_01_13": {
+      "en": "DustUp Core Firestarter",
+      "tr": "DustUp Core Firestarter"
+    },
+    "item_Name_slaver_armor_medium_core_01_01_01": {
+      "en": "DustUp Core Tactical",
+      "tr": "DustUp Core Tactical"
+    },
+    "item_Name_slaver_armor_medium_helmet_01_01_15": {
+      "en": "DustUp Helmet Desert",
+      "tr": "DustUp Helmet Desert"
+    },
+    "item_Name_slaver_armor_medium_helmet_01_01_13": {
+      "en": "DustUp Helmet Firestarter",
+      "tr": "DustUp Helmet Firestarter"
+    },
+    "item_Name_slaver_armor_medium_helmet_01_01_01": {
+      "en": "DustUp Helmet Tactical",
+      "tr": "DustUp Helmet Tactical"
+    },
+    "item_Name_slaver_armor_medium_legs_01_01_15": {
+      "en": "DustUp Legs Desert",
+      "tr": "DustUp Legs Desert"
+    },
+    "item_Name_slaver_armor_medium_legs_01_01_01": {
+      "en": "DustUp Legs Tactical",
+      "tr": "DustUp Legs Tactical"
+    },
+    "item_Name_cds_light_armor_01_arms": {
+      "en": "Field Recon Suit Arms",
+      "tr": "Field Recon Suit Arms"
+    },
+    "item_Name_cds_light_armor_01_core": {
+      "en": "Field Recon Suit Core",
+      "tr": "Field Recon Suit Core"
+    },
+    "item_Name_cds_light_helmet_01": {
+      "en": "Field Recon Suit Helmet",
+      "tr": "Field Recon Suit Helmet"
+    },
+    "item_Name_cds_light_armor_01_legs": {
+      "en": "Field Recon Suit Legs",
+      "tr": "Field Recon Suit Legs"
+    },
+    "item_Name_vgl_undersuit_01_01_01": {
+      "en": "ForceFlex Undersuit Black/Gold",
+      "tr": "ForceFlex Undersuit Black/Gold"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_helmet_01_01_01": {
+      "en": "Fortifier Helmet Base",
+      "tr": "Fortifier Helmet Base"
+    },
+    "item_Name_outlaw_legacy_armor_heavy_helmet_01_01_13": {
+      "en": "Fortifier Helmet Dark Red",
+      "tr": "Fortifier Helmet Dark Red"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_17": {
+      "en": "G-2 Helmet Aqua",
+      "tr": "G-2 Helmet Aqua"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_12": {
+      "en": "G-2 Helmet Black",
+      "tr": "G-2 Helmet Black"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_07": {
+      "en": "G-2 Helmet Blue",
+      "tr": "G-2 Helmet Blue"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_covalex": {
+      "en": "G-2 Helmet Covalex Edition",
+      "tr": "G-2 Helmet Covalex Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_crus01_01": {
+      "en": "G-2 Helmet Crusader Edition",
+      "tr": "G-2 Helmet Crusader Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_cryastro": {
+      "en": "G-2 Helmet Cry-Astro Edition",
+      "tr": "G-2 Helmet Cry-Astro Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_16": {
+      "en": "G-2 Helmet Dark Green",
+      "tr": "G-2 Helmet Dark Green"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_13": {
+      "en": "G-2 Helmet Dark Red",
+      "tr": "G-2 Helmet Dark Red"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_20": {
+      "en": "G-2 Helmet Desert",
+      "tr": "G-2 Helmet Desert"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_05": {
+      "en": "G-2 Helmet Green",
+      "tr": "G-2 Helmet Green"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_11": {
+      "en": "G-2 Helmet Grey",
+      "tr": "G-2 Helmet Grey"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_greycat": {
+      "en": "G-2 Helmet Greycat Edition",
+      "tr": "G-2 Helmet Greycat Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_19": {
+      "en": "G-2 Helmet Imperial",
+      "tr": "G-2 Helmet Imperial"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_03": {
+      "en": "G-2 Helmet Orange",
+      "tr": "G-2 Helmet Orange"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_08": {
+      "en": "G-2 Helmet Purple",
+      "tr": "G-2 Helmet Purple"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_02": {
+      "en": "G-2 Helmet Red",
+      "tr": "G-2 Helmet Red"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_06": {
+      "en": "G-2 Helmet Seagreen",
+      "tr": "G-2 Helmet Seagreen"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_14": {
+      "en": "G-2 Helmet Sienna",
+      "tr": "G-2 Helmet Sienna"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_15": {
+      "en": "G-2 Helmet Tan",
+      "tr": "G-2 Helmet Tan"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_18": {
+      "en": "G-2 Helmet Twilight",
+      "tr": "G-2 Helmet Twilight"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_09": {
+      "en": "G-2 Helmet Violet",
+      "tr": "G-2 Helmet Violet"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_10": {
+      "en": "G-2 Helmet White",
+      "tr": "G-2 Helmet White"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_01": {
+      "en": "G-2 Helmet Woodland",
+      "tr": "G-2 Helmet Woodland"
+    },
+    "item_Name_cds_legacy_armor_medium_helmet_01_01_04": {
+      "en": "G-2 Helmet Yellow",
+      "tr": "G-2 Helmet Yellow"
+    },
+    "item_Name_kap_combat_light_arms_01_01_01": {
+      "en": "Geist Armor Arms",
+      "tr": "Geist Armor Arms"
+    },
+    "item_Name_kap_combat_light_arms_02_01_01": {
+      "en": "Geist Armor Arms ASD Edition",
+      "tr": "Geist Armor Arms ASD Edition"
+    },
+    "item_Name_kap_combat_light_arms_01_01_15": {
+      "en": "Geist Armor Arms Desert",
+      "tr": "Geist Armor Arms Desert"
+    },
+    "item_Name_kap_combat_light_arms_01_01_16": {
+      "en": "Geist Armor Arms Forest",
+      "tr": "Geist Armor Arms Forest"
+    },
+    "item_Name_kap_combat_light_arms_01_01_02": {
+      "en": "Geist Armor Arms Rogue",
+      "tr": "Geist Armor Arms Rogue"
+    },
+    "item_Name_kap_combat_light_arms_02_02_01": {
+      "en": "Geist Armor Arms Snow Camo",
+      "tr": "Geist Armor Arms Snow Camo"
+    },
+    "item_Name_kap_combat_light_arms_01_01_10": {
+      "en": "Geist Armor Arms Whiteout",
+      "tr": "Geist Armor Arms Whiteout"
+    },
+    "item_Name_kap_combat_light_core_01_01_01": {
+      "en": "Geist Armor Core",
+      "tr": "Geist Armor Core"
+    },
+    "item_Name_kap_combat_light_core_02_01_01": {
+      "en": "Geist Armor Core ASD Edition",
+      "tr": "Geist Armor Core ASD Edition"
+    },
+    "item_Name_kap_combat_light_core_01_01_15": {
+      "en": "Geist Armor Core Desert",
+      "tr": "Geist Armor Core Desert"
+    },
+    "item_Name_kap_combat_light_core_01_01_16": {
+      "en": "Geist Armor Core Forest",
+      "tr": "Geist Armor Core Forest"
+    },
+    "item_Name_kap_combat_light_core_01_01_02": {
+      "en": "Geist Armor Core Rogue",
+      "tr": "Geist Armor Core Rogue"
+    },
+    "item_Name_kap_combat_light_core_02_02_01": {
+      "en": "Geist Armor Core Snow Camo",
+      "tr": "Geist Armor Core Snow Camo"
+    },
+    "item_Name_kap_combat_light_core_01_01_10": {
+      "en": "Geist Armor Core Whiteout",
+      "tr": "Geist Armor Core Whiteout"
+    },
+    "item_Name_kap_combat_light_helmet_01_01_01": {
+      "en": "Geist Armor Helmet",
+      "tr": "Geist Armor Helmet"
+    },
+    "item_Name_kap_combat_light_helmet_02_01_01": {
+      "en": "Geist Armor Helmet ASD Edition",
+      "tr": "Geist Armor Helmet ASD Edition"
+    },
+    "item_Name_kap_combat_light_helmet_01_01_15": {
+      "en": "Geist Armor Helmet Desert",
+      "tr": "Geist Armor Helmet Desert"
+    },
+    "item_Name_kap_combat_light_helmet_01_01_16": {
+      "en": "Geist Armor Helmet Forest",
+      "tr": "Geist Armor Helmet Forest"
+    },
+    "item_Name_kap_combat_light_helmet_01_01_02": {
+      "en": "Geist Armor Helmet Rogue",
+      "tr": "Geist Armor Helmet Rogue"
+    },
+    "item_Name_kap_combat_light_helmet_02_02_01": {
+      "en": "Geist Armor Helmet Snow Camo",
+      "tr": "Geist Armor Helmet Snow Camo"
+    },
+    "item_Name_kap_combat_light_helmet_01_01_10": {
+      "en": "Geist Armor Helmet Whiteout",
+      "tr": "Geist Armor Helmet Whiteout"
+    },
+    "item_Name_kap_combat_light_legs_01_01_01": {
+      "en": "Geist Armor Legs",
+      "tr": "Geist Armor Legs"
+    },
+    "item_Name_kap_combat_light_legs_02_01_01": {
+      "en": "Geist Armor Legs ASD Edition",
+      "tr": "Geist Armor Legs ASD Edition"
+    },
+    "item_Name_kap_combat_light_legs_01_01_15": {
+      "en": "Geist Armor Legs Desert",
+      "tr": "Geist Armor Legs Desert"
+    },
+    "item_Name_kap_combat_light_legs_01_01_16": {
+      "en": "Geist Armor Legs Forest",
+      "tr": "Geist Armor Legs Forest"
+    },
+    "item_Name_kap_combat_light_legs_01_01_02": {
+      "en": "Geist Armor Legs Rogue",
+      "tr": "Geist Armor Legs Rogue"
+    },
+    "item_Name_kap_combat_light_legs_02_02_01": {
+      "en": "Geist Armor Legs Snow Camo",
+      "tr": "Geist Armor Legs Snow Camo"
+    },
+    "item_Name_kap_combat_light_legs_01_01_10": {
+      "en": "Geist Armor Legs Whiteout",
+      "tr": "Geist Armor Legs Whiteout"
+    },
+    "item_Name_rsi_deckcrew_light_helmet_01": {
+      "en": "Horizon Helmet",
+      "tr": "Horizon Helmet"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_17": {
+      "en": "Inquisitor Arms Aqua",
+      "tr": "Inquisitor Arms Aqua"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_01": {
+      "en": "Inquisitor Arms Base",
+      "tr": "Inquisitor Arms Base"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_12": {
+      "en": "Inquisitor Arms Black",
+      "tr": "Inquisitor Arms Black"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_07": {
+      "en": "Inquisitor Arms Blue",
+      "tr": "Inquisitor Arms Blue"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_16": {
+      "en": "Inquisitor Arms Dark Green",
+      "tr": "Inquisitor Arms Dark Green"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_13": {
+      "en": "Inquisitor Arms Dark Red",
+      "tr": "Inquisitor Arms Dark Red"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_05": {
+      "en": "Inquisitor Arms Green",
+      "tr": "Inquisitor Arms Green"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_11": {
+      "en": "Inquisitor Arms Grey",
+      "tr": "Inquisitor Arms Grey"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_19": {
+      "en": "Inquisitor Arms Imperial",
+      "tr": "Inquisitor Arms Imperial"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_20": {
+      "en": "Inquisitor Arms Olive",
+      "tr": "Inquisitor Arms Olive"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_03": {
+      "en": "Inquisitor Arms Orange",
+      "tr": "Inquisitor Arms Orange"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_08": {
+      "en": "Inquisitor Arms Purple",
+      "tr": "Inquisitor Arms Purple"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_02": {
+      "en": "Inquisitor Arms Red",
+      "tr": "Inquisitor Arms Red"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_06": {
+      "en": "Inquisitor Arms Seagreen",
+      "tr": "Inquisitor Arms Seagreen"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_14": {
+      "en": "Inquisitor Arms Sienna",
+      "tr": "Inquisitor Arms Sienna"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_15": {
+      "en": "Inquisitor Arms Tan",
+      "tr": "Inquisitor Arms Tan"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_18": {
+      "en": "Inquisitor Arms Twilight",
+      "tr": "Inquisitor Arms Twilight"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_09": {
+      "en": "Inquisitor Arms Violet",
+      "tr": "Inquisitor Arms Violet"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_10": {
+      "en": "Inquisitor Arms White",
+      "tr": "Inquisitor Arms White"
+    },
+    "item_Name_outlaw_legacy_armor_medium_arms_01_01_04": {
+      "en": "Inquisitor Arms Yellow",
+      "tr": "Inquisitor Arms Yellow"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_01": {
+      "en": "Inquisitor Core",
+      "tr": "Inquisitor Core"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_17": {
+      "en": "Inquisitor Core Aqua",
+      "tr": "Inquisitor Core Aqua"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_12": {
+      "en": "Inquisitor Core Black",
+      "tr": "Inquisitor Core Black"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_07": {
+      "en": "Inquisitor Core Blue",
+      "tr": "Inquisitor Core Blue"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_16": {
+      "en": "Inquisitor Core Dark Green",
+      "tr": "Inquisitor Core Dark Green"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_13": {
+      "en": "Inquisitor Core Dark Red",
+      "tr": "Inquisitor Core Dark Red"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_05": {
+      "en": "Inquisitor Core Green",
+      "tr": "Inquisitor Core Green"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_11": {
+      "en": "Inquisitor Core Grey",
+      "tr": "Inquisitor Core Grey"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_19": {
+      "en": "Inquisitor Core Imperial",
+      "tr": "Inquisitor Core Imperial"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_20": {
+      "en": "Inquisitor Core Olive",
+      "tr": "Inquisitor Core Olive"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_03": {
+      "en": "Inquisitor Core Orange",
+      "tr": "Inquisitor Core Orange"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_08": {
+      "en": "Inquisitor Core Purple",
+      "tr": "Inquisitor Core Purple"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_02": {
+      "en": "Inquisitor Core Red",
+      "tr": "Inquisitor Core Red"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_06": {
+      "en": "Inquisitor Core Seagreen",
+      "tr": "Inquisitor Core Seagreen"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_14": {
+      "en": "Inquisitor Core Sienna",
+      "tr": "Inquisitor Core Sienna"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_15": {
+      "en": "Inquisitor Core Tan",
+      "tr": "Inquisitor Core Tan"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_18": {
+      "en": "Inquisitor Core Twilight",
+      "tr": "Inquisitor Core Twilight"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_09": {
+      "en": "Inquisitor Core Violet",
+      "tr": "Inquisitor Core Violet"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_10": {
+      "en": "Inquisitor Core White",
+      "tr": "Inquisitor Core White"
+    },
+    "item_Name_outlaw_legacy_armor_medium_core_01_01_04": {
+      "en": "Inquisitor Core Yellow",
+      "tr": "Inquisitor Core Yellow"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_17": {
+      "en": "Inquisitor Legs Aqua",
+      "tr": "Inquisitor Legs Aqua"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_01": {
+      "en": "Inquisitor Legs Base",
+      "tr": "Inquisitor Legs Base"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_12": {
+      "en": "Inquisitor Legs Black",
+      "tr": "Inquisitor Legs Black"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_07": {
+      "en": "Inquisitor Legs Blue",
+      "tr": "Inquisitor Legs Blue"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_16": {
+      "en": "Inquisitor Legs Dark Green",
+      "tr": "Inquisitor Legs Dark Green"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_13": {
+      "en": "Inquisitor Legs Dark Red",
+      "tr": "Inquisitor Legs Dark Red"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_05": {
+      "en": "Inquisitor Legs Green",
+      "tr": "Inquisitor Legs Green"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_11": {
+      "en": "Inquisitor Legs Grey",
+      "tr": "Inquisitor Legs Grey"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_19": {
+      "en": "Inquisitor Legs Imperial",
+      "tr": "Inquisitor Legs Imperial"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_20": {
+      "en": "Inquisitor Legs Olive",
+      "tr": "Inquisitor Legs Olive"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_03": {
+      "en": "Inquisitor Legs Orange",
+      "tr": "Inquisitor Legs Orange"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_08": {
+      "en": "Inquisitor Legs Purple",
+      "tr": "Inquisitor Legs Purple"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_02": {
+      "en": "Inquisitor Legs Red",
+      "tr": "Inquisitor Legs Red"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_21": {
+      "en": "Inquisitor Legs Scorched",
+      "tr": "Inquisitor Legs Scorched"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_06": {
+      "en": "Inquisitor Legs Seagreen",
+      "tr": "Inquisitor Legs Seagreen"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_14": {
+      "en": "Inquisitor Legs Sienna",
+      "tr": "Inquisitor Legs Sienna"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_15": {
+      "en": "Inquisitor Legs Tan",
+      "tr": "Inquisitor Legs Tan"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_18": {
+      "en": "Inquisitor Legs Twilight",
+      "tr": "Inquisitor Legs Twilight"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_09": {
+      "en": "Inquisitor Legs Violet",
+      "tr": "Inquisitor Legs Violet"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_10": {
+      "en": "Inquisitor Legs White",
+      "tr": "Inquisitor Legs White"
+    },
+    "item_Name_outlaw_legacy_armor_medium_legs_01_01_04": {
+      "en": "Inquisitor Legs Yellow",
+      "tr": "Inquisitor Legs Yellow"
+    },
+    "item_Name_hdtc_undersuit_01_01_01": {
+      "en": "Lamont Undersuit",
+      "tr": "Lamont Undersuit"
+    },
+    "item_Name_clda_undersuit_01_01_01": {
+      "en": "Levin Undersuit (Refurbished)",
+      "tr": "Levin Undersuit (Refurbished)"
+    },
+    "item_Name_outlaw_legacy_light_armor_arms": {
+      "en": "Lynx Arms",
+      "tr": "Lynx Arms"
+    },
+    "item_Name_outlaw_legacy_armor_light_arms_01_01_11": {
+      "en": "Lynx Arms Cold Steel",
+      "tr": "Lynx Arms Cold Steel"
+    },
+    "item_Name_outlaw_legacy_light_armor_core": {
+      "en": "Lynx Core",
+      "tr": "Lynx Core"
+    },
+    "item_Name_outlaw_legacy_armor_light_core_01_01_11": {
+      "en": "Lynx Core Cold Steel",
+      "tr": "Lynx Core Cold Steel"
+    },
+    "item_Name_outlaw_legacy_armor_light_legs_01_01_11": {
+      "en": "Lynx Legs Cold Steel",
+      "tr": "Lynx Legs Cold Steel"
+    },
+    "item_Name_outlaw_legacy_light_armor_legs": {
+      "en": "Lynx Legs",
+      "tr": "Lynx Legs"
+    },
+    "item_Name_rsi_light_utility_backpack_01_01_01": {
+      "en": "MacFlex \"Rucksack\" Backpack",
+      "tr": "MacFlex \"Rucksack\" Backpack"
+    },
+    "item_Name_rsi_deckcrew_light_armor_01_arms": {
+      "en": "MacFlex Arms",
+      "tr": "MacFlex Arms"
+    },
+    "item_Name_rsi_deckcrew_light_armor_01_core": {
+      "en": "MacFlex Core",
+      "tr": "MacFlex Core"
+    },
+    "item_Name_rsi_deckcrew_light_armor_01_legs": {
+      "en": "MacFlex Legs",
+      "tr": "MacFlex Legs"
+    },
+    "item_Name_ksar_armor_heavy_helmet_01_01_01": {
+      "en": "Manticore Helmet",
+      "tr": "Manticore Helmet"
+    },
+    "item_Name_clda_undersuit_02_01_01": {
+      "en": "Markanda Undersuit (Refurbished)",
+      "tr": "Markanda Undersuit (Refurbished)"
+    },
+    "item_Name_ksar_light_armor_arms_01": {
+      "en": "Microid Battle Suit Arms",
+      "tr": "Microid Battle Suit Arms"
+    },
+    "item_Name_ksar_light_armor_core_01": {
+      "en": "Microid Battle Suit Core",
+      "tr": "Microid Battle Suit Core"
+    },
+    "item_Name_ksar_light_armor_helmet_01": {
+      "en": "Microid Battle Suit Helmet",
+      "tr": "Microid Battle Suit Helmet"
+    },
+    "item_Name_ksar_light_armor_legs_01": {
+      "en": "Microid Battle Suit Legs",
+      "tr": "Microid Battle Suit Legs"
+    },
+    "item_Name_mrai_flightsuit_01_01_01": {
+      "en": "Mirai Racing Flight Suit",
+      "tr": "Mirai Racing Flight Suit"
+    },
+    "item_Name_mrai_flightsuit_helmet_01_01_01": {
+      "en": "Mirai Racing Helmet",
+      "tr": "Mirai Racing Helmet"
+    },
+    "item_Name_kap_combat_heavy_arms_02_01_01": {
+      "en": "Monde Arms",
+      "tr": "Monde Arms"
+    },
+    "item_Name_kap_combat_heavy_arms_02_06_01": {
+      "en": "Monde Arms Crimson Camo",
+      "tr": "Monde Arms Crimson Camo"
+    },
+    "item_Name_kap_combat_heavy_arms_02_05_01": {
+      "en": "Monde Arms Daimyo",
+      "tr": "Monde Arms Daimyo"
+    },
+    "item_Name_kap_combat_heavy_arms_02_07_01": {
+      "en": "Monde Arms Delta Camo",
+      "tr": "Monde Arms Delta Camo"
+    },
+    "item_Name_kap_combat_heavy_arms_02_04_01": {
+      "en": "Monde Arms Hemlock Camo",
+      "tr": "Monde Arms Hemlock Camo"
+    },
+    "item_Name_kap_combat_heavy_arms_02_08_01": {
+      "en": "Monde Arms Hiro",
+      "tr": "Monde Arms Hiro"
+    },
+    "item_Name_kap_combat_heavy_core_02_01_01": {
+      "en": "Monde Core",
+      "tr": "Monde Core"
+    },
+    "item_Name_kap_combat_heavy_core_02_06_01": {
+      "en": "Monde Core Crimson Camo",
+      "tr": "Monde Core Crimson Camo"
+    },
+    "item_Name_kap_combat_heavy_core_02_05_01": {
+      "en": "Monde Core Daimyo",
+      "tr": "Monde Core Daimyo"
+    },
+    "item_Name_kap_combat_heavy_core_02_07_01": {
+      "en": "Monde Core Delta Camo",
+      "tr": "Monde Core Delta Camo"
+    },
+    "item_Name_kap_combat_heavy_core_02_04_01": {
+      "en": "Monde Core Hemlock Camo",
+      "tr": "Monde Core Hemlock Camo"
+    },
+    "item_Name_kap_combat_heavy_core_02_08_01": {
+      "en": "Monde Core Hiro",
+      "tr": "Monde Core Hiro"
+    },
+    "item_Name_kap_combat_heavy_helmet_02_01_01": {
+      "en": "Monde Helmet",
+      "tr": "Monde Helmet"
+    },
+    "item_Name_kap_combat_heavy_helmet_02_06_01": {
+      "en": "Monde Helmet Crimson Camo",
+      "tr": "Monde Helmet Crimson Camo"
+    },
+    "item_Name_kap_combat_heavy_helmet_02_05_01": {
+      "en": "Monde Helmet Daimyo",
+      "tr": "Monde Helmet Daimyo"
+    },
+    "item_Name_kap_combat_heavy_helmet_02_07_01": {
+      "en": "Monde Helmet Delta Camo",
+      "tr": "Monde Helmet Delta Camo"
+    },
+    "item_Name_kap_combat_heavy_helmet_02_08_01": {
+      "en": "Monde Helmet Hiro",
+      "tr": "Monde Helmet Hiro"
+    },
+    "item_Name_kap_combat_heavy_legs_02_01_01": {
+      "en": "Monde Legs",
+      "tr": "Monde Legs"
+    },
+    "item_Name_kap_combat_heavy_legs_02_06_01": {
+      "en": "Monde Legs Crimson Camo",
+      "tr": "Monde Legs Crimson Camo"
+    },
+    "item_Name_kap_combat_heavy_legs_02_05_01": {
+      "en": "Monde Legs Daimyo",
+      "tr": "Monde Legs Daimyo"
+    },
+    "item_Name_kap_combat_heavy_legs_02_07_01": {
+      "en": "Monde Legs Delta Camo",
+      "tr": "Monde Legs Delta Camo"
+    },
+    "item_Name_kap_combat_heavy_legs_02_04_01": {
+      "en": "Monde Legs Hemlock Camo",
+      "tr": "Monde Legs Hemlock Camo"
+    },
+    "item_Name_kap_combat_heavy_legs_02_08_01": {
+      "en": "Monde Legs Hiro",
+      "tr": "Monde Legs Hiro"
+    },
+    "item_Name_outlaw_legacy_medium_armor_helmet_01_02_01": {
+      "en": "Morningstar Helmet Icefall",
+      "tr": "Morningstar Helmet Icefall"
+    },
+    "item_Name_rrs_combat_heavy_backpack_01_01_01": {
+      "en": "Morozov-CH Backpack",
+      "tr": "Morozov-CH Backpack"
+    },
+    "item_Name_rrs_specialist_heavy_arms_01_01_01": {
+      "en": "Morozov-SH Arms",
+      "tr": "Morozov-SH Arms"
+    },
+    "item_Name_rrs_specialist_heavy_arms_01_01_9tails01": {
+      "en": "Morozov-SH Arms (Modified)",
+      "tr": "Morozov-SH Arms (Modified)"
+    },
+    "item_Name_rrs_specialist_heavy_arms_01_01_12": {
+      "en": "Morozov-SH Arms Aftershock",
+      "tr": "Morozov-SH Arms Aftershock"
+    },
+    "item_Name_rrs_specialist_heavy_arms_01_02_01": {
+      "en": "Morozov-SH Arms Snowdrift",
+      "tr": "Morozov-SH Arms Snowdrift"
+    },
+    "item_Name_rrs_specialist_heavy_arms_01_01_03": {
+      "en": "Morozov-SH Arms Terracotta",
+      "tr": "Morozov-SH Arms Terracotta"
+    },
+    "item_Name_rrs_specialist_heavy_arms_01_01_10": {
+      "en": "Morozov-SH Arms Thule",
+      "tr": "Morozov-SH Arms Thule"
+    },
+    "item_Name_rrs_specialist_heavy_core_01_01_01": {
+      "en": "Morozov-SH Core",
+      "tr": "Morozov-SH Core"
+    },
+    "item_Name_rrs_specialist_heavy_core_01_01_9tails01": {
+      "en": "Morozov-SH Core (Modified)",
+      "tr": "Morozov-SH Core (Modified)"
+    },
+    "item_Name_rrs_specialist_heavy_core_01_01_12": {
+      "en": "Morozov-SH Core Aftershock",
+      "tr": "Morozov-SH Core Aftershock"
+    },
+    "item_Name_rrs_specialist_heavy_core_01_02_01": {
+      "en": "Morozov-SH Core Snowdrift",
+      "tr": "Morozov-SH Core Snowdrift"
+    },
+    "item_Name_rrs_specialist_heavy_core_01_01_03": {
+      "en": "Morozov-SH Core Terracotta",
+      "tr": "Morozov-SH Core Terracotta"
+    },
+    "item_Name_rrs_specialist_heavy_core_01_01_10": {
+      "en": "Morozov-SH Core Thule",
+      "tr": "Morozov-SH Core Thule"
+    },
+    "item_Name_rrs_specialist_heavy_helmet_01_01_01": {
+      "en": "Morozov-SH Helmet",
+      "tr": "Morozov-SH Helmet"
+    },
+    "item_Name_rrs_specialist_heavy_helmet_01_01_12": {
+      "en": "Morozov-SH Helmet Aftershock",
+      "tr": "Morozov-SH Helmet Aftershock"
+    },
+    "item_Name_rrs_specialist_heavy_helmet_01_03_01": {
+      "en": "Morozov-SH Helmet Iceflow",
+      "tr": "Morozov-SH Helmet Iceflow"
+    },
+    "item_Name_rrs_specialist_heavy_helmet_01_05": {
+      "en": "Morozov-SH Helmet Scorched-X",
+      "tr": "Morozov-SH Helmet Scorched-X"
+    },
+    "item_Name_rrs_specialist_heavy_helmet_01_02_01": {
+      "en": "Morozov-SH Helmet Snowdrift",
+      "tr": "Morozov-SH Helmet Snowdrift"
+    },
+    "item_Name_rrs_specialist_heavy_helmet_01_01_03": {
+      "en": "Morozov-SH Helmet Terracotta",
+      "tr": "Morozov-SH Helmet Terracotta"
+    },
+    "item_Name_rrs_specialist_heavy_helmet_01_01_10": {
+      "en": "Morozov-SH Helmet Thule",
+      "tr": "Morozov-SH Helmet Thule"
+    },
+    "item_Name_rrs_specialist_heavy_legs_01_01_01": {
+      "en": "Morozov-SH Legs",
+      "tr": "Morozov-SH Legs"
+    },
+    "item_Name_rrs_specialist_heavy_legs_01_01_9tails01": {
+      "en": "Morozov-SH Legs (Modified)",
+      "tr": "Morozov-SH Legs (Modified)"
+    },
+    "item_Name_rrs_specialist_heavy_legs_01_01_12": {
+      "en": "Morozov-SH Legs Aftershock",
+      "tr": "Morozov-SH Legs Aftershock"
+    },
+    "item_Name_rrs_specialist_heavy_legs_01_02": {
+      "en": "Morozov-SH Legs Scorched",
+      "tr": "Morozov-SH Legs Scorched"
+    },
+    "item_Name_rrs_specialist_heavy_legs_01_02_01": {
+      "en": "Morozov-SH Legs Snowdrift",
+      "tr": "Morozov-SH Legs Snowdrift"
+    },
+    "item_Name_rrs_specialist_heavy_legs_01_01_03": {
+      "en": "Morozov-SH Legs Terracotta",
+      "tr": "Morozov-SH Legs Terracotta"
+    },
+    "item_Name_rrs_specialist_heavy_legs_01_01_10": {
+      "en": "Morozov-SH Legs Thule",
+      "tr": "Morozov-SH Legs Thule"
+    },
+    "item_Name_clda_env_heavy_backpack_01_02_01": {
+      "en": "Novikov Backpack Smolder",
+      "tr": "Novikov Backpack Smolder"
+    },
+    "item_Name_clda_env_heavy_suit_01": {
+      "en": "Novikov Exploration Suit",
+      "tr": "Novikov Exploration Suit"
+    },
+    "item_Name_clda_env_heavy_helmet_01": {
+      "en": "Novikov Helmet",
+      "tr": "Novikov Helmet"
+    },
+    "item_Name_cds_legacy_medium_armor_01_arms": {
+      "en": "ORC-mkV Arms",
+      "tr": "ORC-mkV Arms"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_17": {
+      "en": "ORC-mkV Arms Aqua",
+      "tr": "ORC-mkV Arms Aqua"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_12": {
+      "en": "ORC-mkV Arms Black",
+      "tr": "ORC-mkV Arms Black"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_07": {
+      "en": "ORC-mkV Arms Blue",
+      "tr": "ORC-mkV Arms Blue"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_covalex": {
+      "en": "ORC-mkV Arms Covalex Edition",
+      "tr": "ORC-mkV Arms Covalex Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_crus01_01": {
+      "en": "ORC-mkV Arms Crusader Edition",
+      "tr": "ORC-mkV Arms Crusader Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_cryastro": {
+      "en": "ORC-mkV Arms Cry-Astro Edition",
+      "tr": "ORC-mkV Arms Cry-Astro Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_16": {
+      "en": "ORC-mkV Arms Dark Green",
+      "tr": "ORC-mkV Arms Dark Green"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_13": {
+      "en": "ORC-mkV Arms Dark Red",
+      "tr": "ORC-mkV Arms Dark Red"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_20": {
+      "en": "ORC-mkV Arms Desert",
+      "tr": "ORC-mkV Arms Desert"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_05": {
+      "en": "ORC-mkV Arms Green",
+      "tr": "ORC-mkV Arms Green"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_11": {
+      "en": "ORC-mkV Arms Grey",
+      "tr": "ORC-mkV Arms Grey"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_greycat": {
+      "en": "ORC-mkV Arms Greycat Edition",
+      "tr": "ORC-mkV Arms Greycat Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_19": {
+      "en": "ORC-mkV Arms Imperial",
+      "tr": "ORC-mkV Arms Imperial"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_03": {
+      "en": "ORC-mkV Arms Orange",
+      "tr": "ORC-mkV Arms Orange"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_08": {
+      "en": "ORC-mkV Arms Purple",
+      "tr": "ORC-mkV Arms Purple"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_02": {
+      "en": "ORC-mkV Arms Red",
+      "tr": "ORC-mkV Arms Red"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_22": {
+      "en": "ORC-mkV Arms Scorched",
+      "tr": "ORC-mkV Arms Scorched"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_06": {
+      "en": "ORC-mkV Arms Seagreen",
+      "tr": "ORC-mkV Arms Seagreen"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_14": {
+      "en": "ORC-mkV Arms Sienna",
+      "tr": "ORC-mkV Arms Sienna"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_15": {
+      "en": "ORC-mkV Arms Tan",
+      "tr": "ORC-mkV Arms Tan"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_18": {
+      "en": "ORC-mkV Arms Twilight",
+      "tr": "ORC-mkV Arms Twilight"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_09": {
+      "en": "ORC-mkV Arms Violet",
+      "tr": "ORC-mkV Arms Violet"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_10": {
+      "en": "ORC-mkV Arms White",
+      "tr": "ORC-mkV Arms White"
+    },
+    "item_Name_cds_legacy_armor_medium_arms_01_01_04": {
+      "en": "ORC-mkV Arms Yellow",
+      "tr": "ORC-mkV Arms Yellow"
+    },
+    "item_Name_cds_legacy_medium_armor_01_core": {
+      "en": "ORC-mkV Core",
+      "tr": "ORC-mkV Core"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_9tails01": {
+      "en": "ORC-mkV Core (Modified)",
+      "tr": "ORC-mkV Core (Modified)"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_17": {
+      "en": "ORC-mkV Core Aqua",
+      "tr": "ORC-mkV Core Aqua"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_12": {
+      "en": "ORC-mkV Core Black",
+      "tr": "ORC-mkV Core Black"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_07": {
+      "en": "ORC-mkV Core Blue",
+      "tr": "ORC-mkV Core Blue"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_covalex": {
+      "en": "ORC-mkV Core Covalex Edition",
+      "tr": "ORC-mkV Core Covalex Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_crus01_01": {
+      "en": "ORC-mkV Core Crusader Edition",
+      "tr": "ORC-mkV Core Crusader Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_cryastro": {
+      "en": "ORC-mkV Core Cry-Astro Edition",
+      "tr": "ORC-mkV Core Cry-Astro Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_16": {
+      "en": "ORC-mkV Core Dark Green",
+      "tr": "ORC-mkV Core Dark Green"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_13": {
+      "en": "ORC-mkV Core Dark Red",
+      "tr": "ORC-mkV Core Dark Red"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_20": {
+      "en": "ORC-mkV Core Desert",
+      "tr": "ORC-mkV Core Desert"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_05": {
+      "en": "ORC-mkV Core Green",
+      "tr": "ORC-mkV Core Green"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_11": {
+      "en": "ORC-mkV Core Grey",
+      "tr": "ORC-mkV Core Grey"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_greycat": {
+      "en": "ORC-mkV Core Greycat Edition",
+      "tr": "ORC-mkV Core Greycat Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_19": {
+      "en": "ORC-mkV Core Imperial",
+      "tr": "ORC-mkV Core Imperial"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_03": {
+      "en": "ORC-mkV Core Orange",
+      "tr": "ORC-mkV Core Orange"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_08": {
+      "en": "ORC-mkV Core Purple",
+      "tr": "ORC-mkV Core Purple"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_02": {
+      "en": "ORC-mkV Core Red",
+      "tr": "ORC-mkV Core Red"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_22": {
+      "en": "ORC-mkV Core Scorched",
+      "tr": "ORC-mkV Core Scorched"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_06": {
+      "en": "ORC-mkV Core Seagreen",
+      "tr": "ORC-mkV Core Seagreen"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_14": {
+      "en": "ORC-mkV Core Sienna",
+      "tr": "ORC-mkV Core Sienna"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_15": {
+      "en": "ORC-mkV Core Tan",
+      "tr": "ORC-mkV Core Tan"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_18": {
+      "en": "ORC-mkV Core Twilight",
+      "tr": "ORC-mkV Core Twilight"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_09": {
+      "en": "ORC-mkV Core Violet",
+      "tr": "ORC-mkV Core Violet"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_10": {
+      "en": "ORC-mkV Core White",
+      "tr": "ORC-mkV Core White"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_04": {
+      "en": "ORC-mkV Core Yellow",
+      "tr": "ORC-mkV Core Yellow"
+    },
+    "item_Name_cds_legacy_armor_medium_core_01_01_microtech": {
+      "en": "ORC-mkV Core microTech Edition",
+      "tr": "ORC-mkV Core microTech Edition"
+    },
+    "item_Name_cds_legacy_medium_armor_01_legs": {
+      "en": "ORC-mkV Legs",
+      "tr": "ORC-mkV Legs"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_9tails01": {
+      "en": "ORC-mkV Legs (Modified)",
+      "tr": "ORC-mkV Legs (Modified)"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_17": {
+      "en": "ORC-mkV Legs Aqua",
+      "tr": "ORC-mkV Legs Aqua"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_12": {
+      "en": "ORC-mkV Legs Black",
+      "tr": "ORC-mkV Legs Black"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_07": {
+      "en": "ORC-mkV Legs Blue",
+      "tr": "ORC-mkV Legs Blue"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_covalex": {
+      "en": "ORC-mkV Legs Covalex Edition",
+      "tr": "ORC-mkV Legs Covalex Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_crus01_01": {
+      "en": "ORC-mkV Legs Crusader Edition",
+      "tr": "ORC-mkV Legs Crusader Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_cryastro": {
+      "en": "ORC-mkV Legs Cry-Astro Edition",
+      "tr": "ORC-mkV Legs Cry-Astro Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_16": {
+      "en": "ORC-mkV Legs Dark Green",
+      "tr": "ORC-mkV Legs Dark Green"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_13": {
+      "en": "ORC-mkV Legs Dark Red",
+      "tr": "ORC-mkV Legs Dark Red"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_20": {
+      "en": "ORC-mkV Legs Desert",
+      "tr": "ORC-mkV Legs Desert"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_05": {
+      "en": "ORC-mkV Legs Green",
+      "tr": "ORC-mkV Legs Green"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_11": {
+      "en": "ORC-mkV Legs Grey",
+      "tr": "ORC-mkV Legs Grey"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_greycat": {
+      "en": "ORC-mkV Legs Greycat Edition",
+      "tr": "ORC-mkV Legs Greycat Edition"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_19": {
+      "en": "ORC-mkV Legs Imperial",
+      "tr": "ORC-mkV Legs Imperial"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_03": {
+      "en": "ORC-mkV Legs Orange",
+      "tr": "ORC-mkV Legs Orange"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_08": {
+      "en": "ORC-mkV Legs Purple",
+      "tr": "ORC-mkV Legs Purple"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_02": {
+      "en": "ORC-mkV Legs Red",
+      "tr": "ORC-mkV Legs Red"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_22": {
+      "en": "ORC-mkV Legs Scorched",
+      "tr": "ORC-mkV Legs Scorched"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_06": {
+      "en": "ORC-mkV Legs Seagreen",
+      "tr": "ORC-mkV Legs Seagreen"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_14": {
+      "en": "ORC-mkV Legs Sienna",
+      "tr": "ORC-mkV Legs Sienna"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_15": {
+      "en": "ORC-mkV Legs Tan",
+      "tr": "ORC-mkV Legs Tan"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_18": {
+      "en": "ORC-mkV Legs Twilight",
+      "tr": "ORC-mkV Legs Twilight"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_09": {
+      "en": "ORC-mkV Legs Violet",
+      "tr": "ORC-mkV Legs Violet"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_10": {
+      "en": "ORC-mkV Legs White",
+      "tr": "ORC-mkV Legs White"
+    },
+    "item_Name_cds_legacy_armor_medium_legs_01_01_04": {
+      "en": "ORC-mkV Legs Yellow",
+      "tr": "ORC-mkV Legs Yellow"
+    },
+    "item_Name_cds_armor_medium_arms_01_01_9tails01": {
+      "en": "ORC-mkX Arms (Modified)",
+      "tr": "ORC-mkX Arms (Modified)"
+    },
+    "item_Name_cds_armor_medium_arms_01_01_10": {
+      "en": "ORC-mkX Arms Arctic",
+      "tr": "ORC-mkX Arms Arctic"
+    },
+    "item_Name_cds_armor_medium_arms_01_01_20": {
+      "en": "ORC-mkX Arms Autumn",
+      "tr": "ORC-mkX Arms Autumn"
+    },
+    "item_Name_cds_armor_medium_arms_01_01_15": {
+      "en": "ORC-mkX Arms Desert",
+      "tr": "ORC-mkX Arms Desert"
+    },
+    "item_Name_cds_armor_medium_arms_01_01_18": {
+      "en": "ORC-mkX Arms Twilight",
+      "tr": "ORC-mkX Arms Twilight"
+    },
+    "item_Name_cds_medium_armor_01_arms": {
+      "en": "ORC-mkX Arms Woodland",
+      "tr": "ORC-mkX Arms Woodland"
+    },
+    "item_Name_cds_armor_medium_core_01_01_10": {
+      "en": "ORC-mkX Core Arctic",
+      "tr": "ORC-mkX Core Arctic"
+    },
+    "item_Name_cds_armor_medium_core_01_01_20": {
+      "en": "ORC-mkX Core Autumn",
+      "tr": "ORC-mkX Core Autumn"
+    },
+    "item_Name_cds_armor_medium_core_01_01_15": {
+      "en": "ORC-mkX Core Desert",
+      "tr": "ORC-mkX Core Desert"
+    },
+    "item_Name_cds_armor_medium_core_01_01_18": {
+      "en": "ORC-mkX Core Twilight",
+      "tr": "ORC-mkX Core Twilight"
+    },
+    "item_Name_cds_medium_armor_01_core": {
+      "en": "ORC-mkX Core Woodland",
+      "tr": "ORC-mkX Core Woodland"
+    },
+    "item_Name_cds_armor_medium_helmet_01_01_10": {
+      "en": "ORC-mkX Helmet Arctic",
+      "tr": "ORC-mkX Helmet Arctic"
+    },
+    "item_Name_cds_armor_medium_helmet_01_01_20": {
+      "en": "ORC-mkX Helmet Autumn",
+      "tr": "ORC-mkX Helmet Autumn"
+    },
+    "item_Name_cds_armor_medium_helmet_01_01_15": {
+      "en": "ORC-mkX Helmet Desert",
+      "tr": "ORC-mkX Helmet Desert"
+    },
+    "item_Name_cds_armor_medium_helmet_01_01_18": {
+      "en": "ORC-mkX Helmet Twilight",
+      "tr": "ORC-mkX Helmet Twilight"
+    },
+    "item_Name_cds_medium_armor_helmet_01": {
+      "en": "ORC-mkX Helmet Woodland",
+      "tr": "ORC-mkX Helmet Woodland"
+    },
+    "item_Name_cds_armor_medium_legs_01_01_10": {
+      "en": "ORC-mkX Legs Arctic",
+      "tr": "ORC-mkX Legs Arctic"
+    },
+    "item_Name_cds_armor_medium_legs_01_01_20": {
+      "en": "ORC-mkX Legs Autumn",
+      "tr": "ORC-mkX Legs Autumn"
+    },
+    "item_Name_cds_armor_medium_legs_01_01_15": {
+      "en": "ORC-mkX Legs Desert",
+      "tr": "ORC-mkX Legs Desert"
+    },
+    "item_Name_cds_armor_medium_legs_01_01_18": {
+      "en": "ORC-mkX Legs Twilight",
+      "tr": "ORC-mkX Legs Twilight"
+    },
+    "item_Name_cds_medium_armor_01_legs": {
+      "en": "ORC-mkX Legs Woodland",
+      "tr": "ORC-mkX Legs Woodland"
+    },
+    "item_Name_rsi_odyssey_undersuit_helmet_01": {
+      "en": "Odyssey II Helmet Alpha",
+      "tr": "Odyssey II Helmet Alpha"
+    },
+    "item_Name_rsi_odyssey_undersuit_01": {
+      "en": "Odyssey II Undersuit Alpha",
+      "tr": "Odyssey II Undersuit Alpha"
+    },
+    "item_Name_outlaw_legacy_armor_light_helmet_01_01_11": {
+      "en": "Oracle Helmet Cold Steel",
+      "tr": "Oracle Helmet Cold Steel"
+    },
+    "item_Name_outlaw_legacy_light_armor_helmet": {
+      "en": "Oracle Helmet",
+      "tr": "Oracle Helmet"
+    },
+    "item_Name_srvl_heavy_arms_01": {
+      "en": "Overlord Arms Supernova",
+      "tr": "Overlord Arms Supernova"
+    },
+    "item_Name_srvl_heavy_core_01": {
+      "en": "Overlord Core Supernova",
+      "tr": "Overlord Core Supernova"
+    },
+    "item_Name_srvl_heavy_helmet_01": {
+      "en": "Overlord Helmet Supernova",
+      "tr": "Overlord Helmet Supernova"
+    },
+    "item_Name_srvl_heavy_legs_01": {
+      "en": "Overlord Legs Supernova",
+      "tr": "Overlord Legs Supernova"
+    },
+    "item_Name_cds_legacy_light_armor_01_arms": {
+      "en": "PAB-1 Arms",
+      "tr": "PAB-1 Arms"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_17": {
+      "en": "PAB-1 Arms Aqua",
+      "tr": "PAB-1 Arms Aqua"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_12": {
+      "en": "PAB-1 Arms Black",
+      "tr": "PAB-1 Arms Black"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_07": {
+      "en": "PAB-1 Arms Blue",
+      "tr": "PAB-1 Arms Blue"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_16": {
+      "en": "PAB-1 Arms Dark Green",
+      "tr": "PAB-1 Arms Dark Green"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_13": {
+      "en": "PAB-1 Arms Dark Red",
+      "tr": "PAB-1 Arms Dark Red"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_20": {
+      "en": "PAB-1 Arms Desert",
+      "tr": "PAB-1 Arms Desert"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_05": {
+      "en": "PAB-1 Arms Green",
+      "tr": "PAB-1 Arms Green"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_11": {
+      "en": "PAB-1 Arms Grey",
+      "tr": "PAB-1 Arms Grey"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_19": {
+      "en": "PAB-1 Arms Imperial",
+      "tr": "PAB-1 Arms Imperial"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_03": {
+      "en": "PAB-1 Arms Orange",
+      "tr": "PAB-1 Arms Orange"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_08": {
+      "en": "PAB-1 Arms Purple",
+      "tr": "PAB-1 Arms Purple"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_02": {
+      "en": "PAB-1 Arms Red",
+      "tr": "PAB-1 Arms Red"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_06": {
+      "en": "PAB-1 Arms Seagreen",
+      "tr": "PAB-1 Arms Seagreen"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_14": {
+      "en": "PAB-1 Arms Sienna",
+      "tr": "PAB-1 Arms Sienna"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_15": {
+      "en": "PAB-1 Arms Tan",
+      "tr": "PAB-1 Arms Tan"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_18": {
+      "en": "PAB-1 Arms Twilight",
+      "tr": "PAB-1 Arms Twilight"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_09": {
+      "en": "PAB-1 Arms Violet",
+      "tr": "PAB-1 Arms Violet"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_10": {
+      "en": "PAB-1 Arms White",
+      "tr": "PAB-1 Arms White"
+    },
+    "item_Name_cds_legacy_armor_light_arms_01_01_04": {
+      "en": "PAB-1 Arms Yellow",
+      "tr": "PAB-1 Arms Yellow"
+    },
+    "item_Name_cds_legacy_light_armor_01_core": {
+      "en": "PAB-1 Core",
+      "tr": "PAB-1 Core"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_17": {
+      "en": "PAB-1 Core Aqua",
+      "tr": "PAB-1 Core Aqua"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_12": {
+      "en": "PAB-1 Core Black",
+      "tr": "PAB-1 Core Black"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_07": {
+      "en": "PAB-1 Core Blue",
+      "tr": "PAB-1 Core Blue"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_16": {
+      "en": "PAB-1 Core Dark Green",
+      "tr": "PAB-1 Core Dark Green"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_13": {
+      "en": "PAB-1 Core Dark Red",
+      "tr": "PAB-1 Core Dark Red"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_20": {
+      "en": "PAB-1 Core Desert",
+      "tr": "PAB-1 Core Desert"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_05": {
+      "en": "PAB-1 Core Green",
+      "tr": "PAB-1 Core Green"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_11": {
+      "en": "PAB-1 Core Grey",
+      "tr": "PAB-1 Core Grey"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_19": {
+      "en": "PAB-1 Core Imperial",
+      "tr": "PAB-1 Core Imperial"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_03": {
+      "en": "PAB-1 Core Orange",
+      "tr": "PAB-1 Core Orange"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_08": {
+      "en": "PAB-1 Core Purple",
+      "tr": "PAB-1 Core Purple"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_02": {
+      "en": "PAB-1 Core Red",
+      "tr": "PAB-1 Core Red"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_06": {
+      "en": "PAB-1 Core Seagreen",
+      "tr": "PAB-1 Core Seagreen"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_14": {
+      "en": "PAB-1 Core Sienna",
+      "tr": "PAB-1 Core Sienna"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_15": {
+      "en": "PAB-1 Core Tan",
+      "tr": "PAB-1 Core Tan"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_18": {
+      "en": "PAB-1 Core Twilight",
+      "tr": "PAB-1 Core Twilight"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_09": {
+      "en": "PAB-1 Core Violet",
+      "tr": "PAB-1 Core Violet"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_10": {
+      "en": "PAB-1 Core White",
+      "tr": "PAB-1 Core White"
+    },
+    "item_Name_cds_legacy_armor_light_core_01_01_04": {
+      "en": "PAB-1 Core Yellow",
+      "tr": "PAB-1 Core Yellow"
+    },
+    "item_Name_cds_legacy_light_armor_01_legs": {
+      "en": "PAB-1 Legs",
+      "tr": "PAB-1 Legs"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_17": {
+      "en": "PAB-1 Legs Aqua",
+      "tr": "PAB-1 Legs Aqua"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_12": {
+      "en": "PAB-1 Legs Black",
+      "tr": "PAB-1 Legs Black"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_07": {
+      "en": "PAB-1 Legs Blue",
+      "tr": "PAB-1 Legs Blue"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_16": {
+      "en": "PAB-1 Legs Dark Green",
+      "tr": "PAB-1 Legs Dark Green"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_13": {
+      "en": "PAB-1 Legs Dark Red",
+      "tr": "PAB-1 Legs Dark Red"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_20": {
+      "en": "PAB-1 Legs Desert",
+      "tr": "PAB-1 Legs Desert"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_05": {
+      "en": "PAB-1 Legs Green",
+      "tr": "PAB-1 Legs Green"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_11": {
+      "en": "PAB-1 Legs Grey",
+      "tr": "PAB-1 Legs Grey"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_19": {
+      "en": "PAB-1 Legs Imperial",
+      "tr": "PAB-1 Legs Imperial"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_03": {
+      "en": "PAB-1 Legs Orange",
+      "tr": "PAB-1 Legs Orange"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_08": {
+      "en": "PAB-1 Legs Purple",
+      "tr": "PAB-1 Legs Purple"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_02": {
+      "en": "PAB-1 Legs Red",
+      "tr": "PAB-1 Legs Red"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_06": {
+      "en": "PAB-1 Legs Seagreen",
+      "tr": "PAB-1 Legs Seagreen"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_14": {
+      "en": "PAB-1 Legs Sienna",
+      "tr": "PAB-1 Legs Sienna"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_15": {
+      "en": "PAB-1 Legs Tan",
+      "tr": "PAB-1 Legs Tan"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_18": {
+      "en": "PAB-1 Legs Twilight",
+      "tr": "PAB-1 Legs Twilight"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_09": {
+      "en": "PAB-1 Legs Violet",
+      "tr": "PAB-1 Legs Violet"
+    },
+    "item_Name_cds_legacy_armor_light_legs_01_01_04": {
+      "en": "PAB-1 Legs Yellow",
+      "tr": "PAB-1 Legs Yellow"
+    },
+    "item_Name_qrt_utility_heavy_arms_01_01_01": {
+      "en": "Palatino Arms",
+      "tr": "Palatino Arms"
+    },
+    "item_Name_qrt_utility_heavy_arms_01_01_04": {
+      "en": "Palatino Arms Daystar",
+      "tr": "Palatino Arms Daystar"
+    },
+    "item_Name_qrt_utility_heavy_arms_01_01_17": {
+      "en": "Palatino Arms Metropolis",
+      "tr": "Palatino Arms Metropolis"
+    },
+    "item_Name_qrt_utility_heavy_arms_01_01_10": {
+      "en": "Palatino Arms Moonfall",
+      "tr": "Palatino Arms Moonfall"
+    },
+    "item_Name_qrt_utility_heavy_arms_01_01_12": {
+      "en": "Palatino Arms Necropolis",
+      "tr": "Palatino Arms Necropolis"
+    },
+    "item_Name_qrt_utility_heavy_arms_01_01_03": {
+      "en": "Palatino Arms Sunstone",
+      "tr": "Palatino Arms Sunstone"
+    },
+    "item_Name_qrt_utility_heavy_core_01_01_01": {
+      "en": "Palatino Core",
+      "tr": "Palatino Core"
+    },
+    "item_Name_qrt_utility_heavy_core_01_01_04": {
+      "en": "Palatino Core Daystar",
+      "tr": "Palatino Core Daystar"
+    },
+    "item_Name_qrt_utility_heavy_core_01_01_17": {
+      "en": "Palatino Core Metropolis",
+      "tr": "Palatino Core Metropolis"
+    },
+    "item_Name_qrt_utility_heavy_core_01_01_10": {
+      "en": "Palatino Core Moonfall",
+      "tr": "Palatino Core Moonfall"
+    },
+    "item_Name_qrt_utility_heavy_core_01_01_12": {
+      "en": "Palatino Core Necropolis",
+      "tr": "Palatino Core Necropolis"
+    },
+    "item_Name_qrt_utility_heavy_core_01_01_03": {
+      "en": "Palatino Core Sunstone",
+      "tr": "Palatino Core Sunstone"
+    },
+    "item_Name_qrt_utility_heavy_helmet_01_01_01": {
+      "en": "Palatino Helmet",
+      "tr": "Palatino Helmet"
+    },
+    "item_Name_qrt_utility_heavy_helmet_01_01_04": {
+      "en": "Palatino Helmet Daystar",
+      "tr": "Palatino Helmet Daystar"
+    },
+    "item_Name_qrt_utility_heavy_helmet_01_01_17": {
+      "en": "Palatino Helmet Metropolis",
+      "tr": "Palatino Helmet Metropolis"
+    },
+    "item_Name_qrt_utility_heavy_helmet_01_01_10": {
+      "en": "Palatino Helmet Moonfall",
+      "tr": "Palatino Helmet Moonfall"
+    },
+    "item_Name_qrt_utility_heavy_helmet_01_01_03": {
+      "en": "Palatino Helmet Sunstone",
+      "tr": "Palatino Helmet Sunstone"
+    },
+    "item_Name_qrt_utility_heavy_legs_01_01_01": {
+      "en": "Palatino Legs",
+      "tr": "Palatino Legs"
+    },
+    "item_Name_qrt_utility_heavy_legs_01_01_17": {
+      "en": "Palatino Legs Metropolis",
+      "tr": "Palatino Legs Metropolis"
+    },
+    "item_Name_qrt_utility_heavy_legs_01_01_10": {
+      "en": "Palatino Legs Moonfall",
+      "tr": "Palatino Legs Moonfall"
+    },
+    "item_Name_qrt_utility_heavy_legs_01_01_12": {
+      "en": "Palatino Legs Necropolis",
+      "tr": "Palatino Legs Necropolis"
+    },
+    "item_Name_qrt_utility_heavy_legs_01_01_03": {
+      "en": "Palatino Legs Sunstone",
+      "tr": "Palatino Legs Sunstone"
+    },
+    "item_Name_clda_env_heat_armor_backpack_01": {
+      "en": "Pembroke Backpack",
+      "tr": "Pembroke Backpack"
+    },
+    "item_Name_clda_env_heat_heavy_suit_01": {
+      "en": "Pembroke Exploration Suit",
+      "tr": "Pembroke Exploration Suit"
+    },
+    "item_Name_clda_env_heat_heavy_helmet_01": {
+      "en": "Pembroke Helmet",
+      "tr": "Pembroke Helmet"
+    },
+    "item_Name_SRVL_combat_light_arms_01_01_01": {
+      "en": "Piecemeal Armor Arms",
+      "tr": "Piecemeal Armor Arms"
+    },
+    "item_Name_SRVL_combat_light_core_01_01_01": {
+      "en": "Piecemeal Armor Core",
+      "tr": "Piecemeal Armor Core"
+    },
+    "item_Name_SRVL_combat_light_legs_01_01_01": {
+      "en": "Piecemeal Armor Legs",
+      "tr": "Piecemeal Armor Legs"
+    },
+    "item_Name_qrt_mantis_undersuit_01_01_01": {
+      "en": "Sabine Undersuit",
+      "tr": "Sabine Undersuit"
+    },
+    "item_Name_ksar_undersuit_01": {
+      "en": "Scaleweave Undersuit",
+      "tr": "Scaleweave Undersuit"
+    },
+    "item_Name_srvl_undersuit_01": {
+      "en": "Second Life Undersuit",
+      "tr": "Second Life Undersuit"
+    },
+    "item_Name_clda_utility_heavy_helmet_03_01_01": {
+      "en": "Siebe Helmet",
+      "tr": "Siebe Helmet"
+    },
+    "item_Name_doom_combat_medium_backpack_01_01_01": {
+      "en": "Sinkhole Backpack",
+      "tr": "Sinkhole Backpack"
+    },
+    "item_Name_rsi_utility_heavy_backpack_02_01_01": {
+      "en": "Stirling Exploration Backpack",
+      "tr": "Stirling Exploration Backpack"
+    },
+    "item_Name_clda_utility_heavy_helmet_04_01_01": {
+      "en": "Stirling Exploration Helmet",
+      "tr": "Stirling Exploration Helmet"
+    },
+    "item_Name_clda_utility_heavy_suit_03_01_01": {
+      "en": "Stirling Exploration Suit",
+      "tr": "Stirling Exploration Suit"
+    },
+    "item_Name_GRIN_utility_medium_arms_02_01_01": {
+      "en": "Strata Arms",
+      "tr": "Strata Arms"
+    },
+    "item_Name_GRIN_utility_medium_arms_02_01_03": {
+      "en": "Strata Arms Amber",
+      "tr": "Strata Arms Amber"
+    },
+    "item_Name_GRIN_utility_medium_arms_02_01_12": {
+      "en": "Strata Arms Lodestar",
+      "tr": "Strata Arms Lodestar"
+    },
+    "item_Name_GRIN_utility_medium_arms_02_01_07": {
+      "en": "Strata Arms Neptune",
+      "tr": "Strata Arms Neptune"
+    },
+    "item_Name_GRIN_utility_medium_arms_02_01_16": {
+      "en": "Strata Arms Shire",
+      "tr": "Strata Arms Shire"
+    },
+    "item_Name_GRIN_utility_medium_backpack_02_01_01": {
+      "en": "Strata Backpack",
+      "tr": "Strata Backpack"
+    },
+    "item_Name_GRIN_utility_medium_core_02_01_01": {
+      "en": "Strata Core",
+      "tr": "Strata Core"
+    },
+    "item_Name_GRIN_utility_medium_core_02_01_03": {
+      "en": "Strata Core Amber",
+      "tr": "Strata Core Amber"
+    },
+    "item_Name_GRIN_utility_medium_core_02_01_12": {
+      "en": "Strata Core Lodestar",
+      "tr": "Strata Core Lodestar"
+    },
+    "item_Name_GRIN_utility_medium_core_02_01_07": {
+      "en": "Strata Core Neptune",
+      "tr": "Strata Core Neptune"
+    },
+    "item_Name_GRIN_utility_medium_core_02_01_16": {
+      "en": "Strata Core Shire",
+      "tr": "Strata Core Shire"
+    },
+    "item_Name_fta_medium_helmet_01_01_05": {
+      "en": "Strata Helmet",
+      "tr": "Strata Helmet"
+    },
+    "item_Name_fta_medium_helmet_01_01_03": {
+      "en": "Strata Helmet Amber",
+      "tr": "Strata Helmet Amber"
+    },
+    "item_Name_fta_medium_helmet_01_01_15": {
+      "en": "Strata Helmet Calico",
+      "tr": "Strata Helmet Calico"
+    },
+    "item_Name_fta_medium_helmet_01_01_12": {
+      "en": "Strata Helmet Lodestar",
+      "tr": "Strata Helmet Lodestar"
+    },
+    "item_Name_fta_medium_helmet_01_01_07": {
+      "en": "Strata Helmet Neptune",
+      "tr": "Strata Helmet Neptune"
+    },
+    "item_Name_fta_medium_helmet_01_01_13": {
+      "en": "Strata Helmet Onyx",
+      "tr": "Strata Helmet Onyx"
+    },
+    "item_Name_fta_medium_helmet_01_01_18": {
+      "en": "Strata Helmet Piston",
+      "tr": "Strata Helmet Piston"
+    },
+    "item_Name_fta_medium_helmet_01_01_16": {
+      "en": "Strata Helmet Shire",
+      "tr": "Strata Helmet Shire"
+    },
+    "item_Name_fta_medium_helmet_01_01_01": {
+      "en": "Strata Helmet Shooting Star",
+      "tr": "Strata Helmet Shooting Star"
+    },
+    "item_Name_GRIN_utility_medium_legs_02_01_01": {
+      "en": "Strata Legs",
+      "tr": "Strata Legs"
+    },
+    "item_Name_GRIN_utility_medium_legs_02_01_03": {
+      "en": "Strata Legs Amber",
+      "tr": "Strata Legs Amber"
+    },
+    "item_Name_GRIN_utility_medium_legs_02_01_12": {
+      "en": "Strata Legs Lodestar",
+      "tr": "Strata Legs Lodestar"
+    },
+    "item_Name_GRIN_utility_medium_legs_02_01_07": {
+      "en": "Strata Legs Neptune",
+      "tr": "Strata Legs Neptune"
+    },
+    "item_Name_GRIN_utility_medium_legs_02_01_16": {
+      "en": "Strata Legs Shire",
+      "tr": "Strata Legs Shire"
+    },
+    "item_Name_CDS_Undersuit_Armor_01": {
+      "en": "TCS-4 Undersuit",
+      "tr": "TCS-4 Undersuit"
+    },
+    "item_Name_qrt_combat_medium_arms_01_01_01": {
+      "en": "Testudo Arms",
+      "tr": "Testudo Arms"
+    },
+    "item_Name_qrt_combat_medium_arms_02_01_01": {
+      "en": "Testudo Arms Clanguard",
+      "tr": "Testudo Arms Clanguard"
+    },
+    "item_Name_qrt_combat_medium_arms_01_01_02": {
+      "en": "Testudo Arms Combustion",
+      "tr": "Testudo Arms Combustion"
+    },
+    "item_Name_qrt_combat_medium_arms_01_01_15": {
+      "en": "Testudo Arms Earthshake",
+      "tr": "Testudo Arms Earthshake"
+    },
+    "item_Name_qrt_combat_medium_arms_01_01_10": {
+      "en": "Testudo Arms Nightveil",
+      "tr": "Testudo Arms Nightveil"
+    },
+    "item_Name_qrt_combat_medium_arms_01_01_16": {
+      "en": "Testudo Arms Turfwar",
+      "tr": "Testudo Arms Turfwar"
+    },
+    "item_Name_qrt_combat_medium_backpack_01_01_01": {
+      "en": "Testudo Backpack",
+      "tr": "Testudo Backpack"
+    },
+    "item_Name_qrt_combat_medium_core_01_01_01": {
+      "en": "Testudo Core",
+      "tr": "Testudo Core"
+    },
+    "item_Name_qrt_combat_medium_core_02_01_01": {
+      "en": "Testudo Core Clanguard",
+      "tr": "Testudo Core Clanguard"
+    },
+    "item_Name_qrt_combat_medium_core_01_01_02": {
+      "en": "Testudo Core Combustion",
+      "tr": "Testudo Core Combustion"
+    },
+    "item_Name_qrt_combat_medium_core_01_01_15": {
+      "en": "Testudo Core Earthshake",
+      "tr": "Testudo Core Earthshake"
+    },
+    "item_Name_qrt_combat_medium_core_01_01_10": {
+      "en": "Testudo Core Nightveil",
+      "tr": "Testudo Core Nightveil"
+    },
+    "item_Name_qrt_combat_medium_core_01_01_16": {
+      "en": "Testudo Core Turfwar",
+      "tr": "Testudo Core Turfwar"
+    },
+    "item_Name_qrt_combat_medium_helmet_01_01_01": {
+      "en": "Testudo Helmet",
+      "tr": "Testudo Helmet"
+    },
+    "item_Name_qrt_combat_medium_helmet_02_01_01": {
+      "en": "Testudo Helmet Clanguard",
+      "tr": "Testudo Helmet Clanguard"
+    },
+    "item_Name_qrt_combat_medium_helmet_01_01_02": {
+      "en": "Testudo Helmet Combustion",
+      "tr": "Testudo Helmet Combustion"
+    },
+    "item_Name_qrt_combat_medium_helmet_01_01_15": {
+      "en": "Testudo Helmet Earthshake",
+      "tr": "Testudo Helmet Earthshake"
+    },
+    "item_Name_qrt_combat_medium_helmet_01_01_10": {
+      "en": "Testudo Helmet Nightveil",
+      "tr": "Testudo Helmet Nightveil"
+    },
+    "item_Name_qrt_combat_medium_helmet_01_01_16": {
+      "en": "Testudo Helmet Turfwar",
+      "tr": "Testudo Helmet Turfwar"
+    },
+    "item_Name_qrt_combat_medium_legs_01_01_01": {
+      "en": "Testudo Legs",
+      "tr": "Testudo Legs"
+    },
+    "item_Name_qrt_combat_medium_legs_02_01_01": {
+      "en": "Testudo Legs Clanguard",
+      "tr": "Testudo Legs Clanguard"
+    },
+    "item_Name_qrt_combat_medium_legs_01_01_02": {
+      "en": "Testudo Legs Combustion",
+      "tr": "Testudo Legs Combustion"
+    },
+    "item_Name_qrt_combat_medium_legs_01_01_15": {
+      "en": "Testudo Legs Earthshake",
+      "tr": "Testudo Legs Earthshake"
+    },
+    "item_Name_qrt_combat_medium_legs_01_01_10": {
+      "en": "Testudo Legs Nightveil",
+      "tr": "Testudo Legs Nightveil"
+    },
+    "item_Name_qrt_combat_medium_legs_01_01_16": {
+      "en": "Testudo Legs Turfwar",
+      "tr": "Testudo Legs Turfwar"
+    },
+    "item_Name_doom_medium_armor_helmet_02": {
+      "en": "The Butcher Helmet",
+      "tr": "The Butcher Helmet"
+    },
+    "item_Name_vgl_advocacy_lightarmor_arms_01": {
+      "en": "TrueDef-Pro Arms",
+      "tr": "TrueDef-Pro Arms"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_06": {
+      "en": "TrueDef-Pro Arms Aqua/Black",
+      "tr": "TrueDef-Pro Arms Aqua/Black"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_17": {
+      "en": "TrueDef-Pro Arms Black/Aqua/Silver",
+      "tr": "TrueDef-Pro Arms Black/Aqua/Silver"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_14": {
+      "en": "TrueDef-Pro Arms Black/Gold/Silver",
+      "tr": "TrueDef-Pro Arms Black/Gold/Silver"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_12": {
+      "en": "TrueDef-Pro Arms Black/Grey",
+      "tr": "TrueDef-Pro Arms Black/Grey"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_13": {
+      "en": "TrueDef-Pro Arms Black/Grey/Red",
+      "tr": "TrueDef-Pro Arms Black/Grey/Red"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_09": {
+      "en": "TrueDef-Pro Arms Black/Pink/Purple",
+      "tr": "TrueDef-Pro Arms Black/Pink/Purple"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_11": {
+      "en": "TrueDef-Pro Arms Black/Silver",
+      "tr": "TrueDef-Pro Arms Black/Silver"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_18": {
+      "en": "TrueDef-Pro Arms Black/Silver/Blue",
+      "tr": "TrueDef-Pro Arms Black/Silver/Blue"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_16": {
+      "en": "TrueDef-Pro Arms Black/Silver/Green",
+      "tr": "TrueDef-Pro Arms Black/Silver/Green"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_19": {
+      "en": "TrueDef-Pro Arms Black/Silver/Yellow",
+      "tr": "TrueDef-Pro Arms Black/Silver/Yellow"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_08": {
+      "en": "TrueDef-Pro Arms Black/White/Violet",
+      "tr": "TrueDef-Pro Arms Black/White/Violet"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_07": {
+      "en": "TrueDef-Pro Arms Gold/Grey/Black",
+      "tr": "TrueDef-Pro Arms Gold/Grey/Black"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_05": {
+      "en": "TrueDef-Pro Arms Grey/Green",
+      "tr": "TrueDef-Pro Arms Grey/Green"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_02": {
+      "en": "TrueDef-Pro Arms Red/Silver",
+      "tr": "TrueDef-Pro Arms Red/Silver"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_20": {
+      "en": "TrueDef-Pro Arms Silver/Gold/Grey",
+      "tr": "TrueDef-Pro Arms Silver/Gold/Grey"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_10": {
+      "en": "TrueDef-Pro Arms White/Silver/Grey",
+      "tr": "TrueDef-Pro Arms White/Silver/Grey"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_03": {
+      "en": "TrueDef-Pro Arms Yellow/Black",
+      "tr": "TrueDef-Pro Arms Yellow/Black"
+    },
+    "item_Name_vgl_armor_light_arms_01_01_04": {
+      "en": "TrueDef-Pro Arms Yellow/Grey",
+      "tr": "TrueDef-Pro Arms Yellow/Grey"
+    },
+    "item_Name_vgl_armor_light_core_01_01_06": {
+      "en": "TrueDef-Pro Core Aqua/Black",
+      "tr": "TrueDef-Pro Core Aqua/Black"
+    },
+    "item_Name_vgl_armor_light_core_01_01_01": {
+      "en": "TrueDef-Pro Core Base",
+      "tr": "TrueDef-Pro Core Base"
+    },
+    "item_Name_vgl_armor_light_core_01_01_17": {
+      "en": "TrueDef-Pro Core Black/Aqua/Silver",
+      "tr": "TrueDef-Pro Core Black/Aqua/Silver"
+    },
+    "item_Name_vgl_armor_light_core_01_01_14": {
+      "en": "TrueDef-Pro Core Black/Gold/Silver",
+      "tr": "TrueDef-Pro Core Black/Gold/Silver"
+    },
+    "item_Name_vgl_armor_light_core_01_01_12": {
+      "en": "TrueDef-Pro Core Black/Grey",
+      "tr": "TrueDef-Pro Core Black/Grey"
+    },
+    "item_Name_vgl_armor_light_core_01_01_13": {
+      "en": "TrueDef-Pro Core Black/Grey/Red",
+      "tr": "TrueDef-Pro Core Black/Grey/Red"
+    },
+    "item_Name_vgl_armor_light_core_01_01_09": {
+      "en": "TrueDef-Pro Core Black/Pink/Purple",
+      "tr": "TrueDef-Pro Core Black/Pink/Purple"
+    },
+    "item_Name_vgl_armor_light_core_01_01_11": {
+      "en": "TrueDef-Pro Core Black/Silver",
+      "tr": "TrueDef-Pro Core Black/Silver"
+    },
+    "item_Name_vgl_armor_light_core_01_01_18": {
+      "en": "TrueDef-Pro Core Black/Silver/Blue",
+      "tr": "TrueDef-Pro Core Black/Silver/Blue"
+    },
+    "item_Name_vgl_armor_light_core_01_01_16": {
+      "en": "TrueDef-Pro Core Black/Silver/Green",
+      "tr": "TrueDef-Pro Core Black/Silver/Green"
+    },
+    "item_Name_vgl_armor_light_core_01_01_19": {
+      "en": "TrueDef-Pro Core Black/Silver/Yellow",
+      "tr": "TrueDef-Pro Core Black/Silver/Yellow"
+    },
+    "item_Name_vgl_armor_light_core_01_01_08": {
+      "en": "TrueDef-Pro Core Black/White/Violet",
+      "tr": "TrueDef-Pro Core Black/White/Violet"
+    },
+    "item_Name_vgl_armor_light_core_01_01_07": {
+      "en": "TrueDef-Pro Core Gold/Grey/Black",
+      "tr": "TrueDef-Pro Core Gold/Grey/Black"
+    },
+    "item_Name_vgl_armor_light_core_01_01_05": {
+      "en": "TrueDef-Pro Core Grey/Green",
+      "tr": "TrueDef-Pro Core Grey/Green"
+    },
+    "item_Name_vgl_armor_light_core_01_01_02": {
+      "en": "TrueDef-Pro Core Red/Silver",
+      "tr": "TrueDef-Pro Core Red/Silver"
+    },
+    "item_Name_vgl_armor_light_core_01_01_10": {
+      "en": "TrueDef-Pro Core White/Silver/Grey",
+      "tr": "TrueDef-Pro Core White/Silver/Grey"
+    },
+    "item_Name_vgl_armor_light_core_01_01_03": {
+      "en": "TrueDef-Pro Core Yellow/Black",
+      "tr": "TrueDef-Pro Core Yellow/Black"
+    },
+    "item_Name_vgl_armor_light_core_01_01_04": {
+      "en": "TrueDef-Pro Core Yellow/Grey",
+      "tr": "TrueDef-Pro Core Yellow/Grey"
+    },
+    "item_Name_vgl_advocacy_lightarmor_legs_01": {
+      "en": "TrueDef-Pro Legs",
+      "tr": "TrueDef-Pro Legs"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_06": {
+      "en": "TrueDef-Pro Legs Aqua/Black",
+      "tr": "TrueDef-Pro Legs Aqua/Black"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_17": {
+      "en": "TrueDef-Pro Legs Black/Aqua/Silver",
+      "tr": "TrueDef-Pro Legs Black/Aqua/Silver"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_14": {
+      "en": "TrueDef-Pro Legs Black/Gold/Silver",
+      "tr": "TrueDef-Pro Legs Black/Gold/Silver"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_12": {
+      "en": "TrueDef-Pro Legs Black/Grey",
+      "tr": "TrueDef-Pro Legs Black/Grey"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_13": {
+      "en": "TrueDef-Pro Legs Black/Grey/Red",
+      "tr": "TrueDef-Pro Legs Black/Grey/Red"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_09": {
+      "en": "TrueDef-Pro Legs Black/Pink/Purple",
+      "tr": "TrueDef-Pro Legs Black/Pink/Purple"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_11": {
+      "en": "TrueDef-Pro Legs Black/Silver",
+      "tr": "TrueDef-Pro Legs Black/Silver"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_18": {
+      "en": "TrueDef-Pro Legs Black/Silver/Blue",
+      "tr": "TrueDef-Pro Legs Black/Silver/Blue"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_16": {
+      "en": "TrueDef-Pro Legs Black/Silver/Green",
+      "tr": "TrueDef-Pro Legs Black/Silver/Green"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_19": {
+      "en": "TrueDef-Pro Legs Black/Silver/Yellow",
+      "tr": "TrueDef-Pro Legs Black/Silver/Yellow"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_08": {
+      "en": "TrueDef-Pro Legs Black/White/Violet",
+      "tr": "TrueDef-Pro Legs Black/White/Violet"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_07": {
+      "en": "TrueDef-Pro Legs Gold/Grey/Black",
+      "tr": "TrueDef-Pro Legs Gold/Grey/Black"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_05": {
+      "en": "TrueDef-Pro Legs Grey/Green",
+      "tr": "TrueDef-Pro Legs Grey/Green"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_02": {
+      "en": "TrueDef-Pro Legs Red/Silver",
+      "tr": "TrueDef-Pro Legs Red/Silver"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_20": {
+      "en": "TrueDef-Pro Legs Silver/Gold/Grey",
+      "tr": "TrueDef-Pro Legs Silver/Gold/Grey"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_10": {
+      "en": "TrueDef-Pro Legs White/Silver/Grey",
+      "tr": "TrueDef-Pro Legs White/Silver/Grey"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_03": {
+      "en": "TrueDef-Pro Legs Yellow/Black",
+      "tr": "TrueDef-Pro Legs Yellow/Black"
+    },
+    "item_Name_vgl_armor_light_legs_01_01_04": {
+      "en": "TrueDef-Pro Legs Yellow/Grey",
+      "tr": "TrueDef-Pro Legs Yellow/Grey"
+    },
+    "item_Name_rsi_explorer_01_arms": {
+      "en": "Venture Arms",
+      "tr": "Venture Arms"
+    },
+    "item_Name_rsi_explorer_01_core": {
+      "en": "Venture Core",
+      "tr": "Venture Core"
+    },
+    "item_Name_rsi_explorer_01_helmet": {
+      "en": "Venture Helmet White",
+      "tr": "Venture Helmet White"
+    },
+    "item_Name_rsi_explorer_01_legs": {
+      "en": "Venture Legs",
+      "tr": "Venture Legs"
+    },
+    "item_Name_rsi_explorer_undersuit_01_01_01": {
+      "en": "Venture Undersuit Base",
+      "tr": "Venture Undersuit Base"
+    },
+    "item_Name_srvl_undersuit_helmet_01": {
+      "en": "Why Not? Helmet",
+      "tr": "Why Not? Helmet"
+    },
+    "item_Name_syfb_flightsuit_helmet_01_01_01": {
+      "en": "Xanthule Helmet",
+      "tr": "Xanthule Helmet"
+    },
+    "item_Name_syfb_flightsuit_suit_01_01_01": {
+      "en": "Xanthule Suit",
+      "tr": "Xanthule Suit"
+    },
+    "item_Namegmni_sniper_ballistic_01_mag": {
+      "en": "A03 Sniper Rifle Magazine (15 cap)",
+      "tr": "A03 Sniper Rifle Magazine (15 cap)"
+    },
+    "item_Nameklwe_pistol_energy_01_mag": {
+      "en": "Arclight Pistol Battery (30 cap)",
+      "tr": "Arclight Pistol Battery (30 cap)"
+    },
+    "item_Nameklwe_sniper_energy_01_mag": {
+      "en": "Arrowhead Sniper Rifle Battery (16 cap)",
+      "tr": "Arrowhead Sniper Rifle Battery (16 cap)"
+    },
+    "item_Namelbco_sniper_energy_01_mag": {
+      "en": "Atzkav Sniper Rifle Battery (8 cap)",
+      "tr": "Atzkav Sniper Rifle Battery (8 cap)"
+    },
+    "item_Namebehr_shotgun_ballistic_01_mag": {
+      "en": "BR-2 Shotgun Magazine (12 cap)",
+      "tr": "BR-2 Shotgun Magazine (12 cap)"
+    },
+    "item_NameGMNI_smg_ballistic_01_mag": {
+      "en": "C54 SMG Magazine (50 cap)",
+      "tr": "C54 SMG Magazine (50 cap)"
+    },
+    "item_Nameksar_pistol_ballistic_01_mag": {
+      "en": "Coda Pistol Magazine (6 cap)",
+      "tr": "Coda Pistol Magazine (6 cap)"
+    },
+    "item_Nameksar_smg_energy_01_mag": {
+      "en": "Custodian SMG Magazine (60 cap)",
+      "tr": "Custodian SMG Magazine (60 cap)"
+    },
+    "item_Namenone_shotgun_ballistic_01_mag": {
+      "en": "Deadrig Shotgun Magazine (8 cap)",
+      "tr": "Deadrig Shotgun Magazine (8 cap)"
+    },
+    "item_Nameklwe_lmg_energy_01_mag": {
+      "en": "Demeco LMG Battery (100 cap)",
+      "tr": "Demeco LMG Battery (100 cap)"
+    },
+    "item_Nameksar_shotgun_energy_01_mag": {
+      "en": "Devastator Shotgun Battery (12 cap)",
+      "tr": "Devastator Shotgun Battery (12 cap)"
+    },
+    "item_Namegmni_lmg_ballistic_01_mag": {
+      "en": "F55 LMG Magazine (150 cap)",
+      "tr": "F55 LMG Magazine (150 cap)"
+    },
+    "item_Namebehr_lmg_ballistic_01_mag": {
+      "en": "FS-9 Magazine (75 cap)",
+      "tr": "FS-9 Magazine (75 cap)"
+    },
+    "item_Namevolt_lmg_energy_01_mag": {
+      "en": "Fresnel Energy LMG Battery (165 Cap)",
+      "tr": "Fresnel Energy LMG Battery (165 Cap)"
+    },
+    "item_Nameklwe_rifle_energy_01_mag": {
+      "en": "Gallant Rifle Battery (45 cap)",
+      "tr": "Gallant Rifle Battery (45 cap)"
+    },
+    "item_Nameksar_rifle_energy_01_mag": {
+      "en": "Karna Rifle Battery (35 cap)",
+      "tr": "Karna Rifle Battery (35 cap)"
+    },
+    "item_Namenone_rifle_multi_01_mag": {
+      "en": "Killshot Rifle Magazine (45 Cap)",
+      "tr": "Killshot Rifle Magazine (45 Cap)"
+    },
+    "item_Namegmni_pistol_ballistic_01_mag": {
+      "en": "LH86 Pistol Magazine (25 cap)",
+      "tr": "LH86 Pistol Magazine (25 cap)"
+    },
+    "item_Nameklwe_smg_energy_01_mag": {
+      "en": "Lumin V SMG Battery (45 cap)",
+      "tr": "Lumin V SMG Battery (45 cap)"
+    },
+    "item_Namebehr_rifle_ballistic_01_mag": {
+      "en": "P4-AR Magazine (40 cap)",
+      "tr": "P4-AR Magazine (40 cap)"
+    },
+    "item_Namebehr_sniper_ballistic_01_mag": {
+      "en": "P6-LR Magazine (8 cap)",
+      "tr": "P6-LR Magazine (8 cap)"
+    },
+    "item_Namebehr_rifle_ballistic_02_civilian_mag": {
+      "en": "P8-AR Rifle Magazine (15 Cap)",
+      "tr": "P8-AR Rifle Magazine (15 Cap)"
+    },
+    "item_Namebehr_smg_ballistic_01_mag": {
+      "en": "P8-SC SMG Magazine (45 cap)",
+      "tr": "P8-SC SMG Magazine (45 cap)"
+    },
+    "item_Namevolt_rifle_energy_01_mag": {
+      "en": "Parallax Rifle Battery (80 Cap)",
+      "tr": "Parallax Rifle Battery (80 Cap)"
+    },
+    "item_Namevolt_shotgun_energy_01_mag": {
+      "en": "Prism Laser Shotgun Battery (20 cap)",
+      "tr": "Prism Laser Shotgun Battery (20 cap)"
+    },
+    "item_Namevolt_pistol_energy_01_mag": {
+      "en": "Pulse Laser Pistol Battery (60 Cap)",
+      "tr": "Pulse Laser Pistol Battery (60 Cap)"
+    },
+    "item_Namenone_lmg_ballistic_01_mag": {
+      "en": "Pulverizer LMG Magazine (120 Cap)",
+      "tr": "Pulverizer LMG Magazine (120 Cap)"
+    },
+    "item_Namevolt_smg_energy_01_mag": {
+      "en": "Quartz Energy SMG Battery (45 cap)",
+      "tr": "Quartz Energy SMG Battery (45 cap)"
+    },
+    "item_Namegmni_shotgun_ballistic_01_mag": {
+      "en": "R97 Shotgun Magazine (18 cap)",
+      "tr": "R97 Shotgun Magazine (18 cap)"
+    },
+    "item_Nameksar_shotgun_ballistic_01_mag": {
+      "en": "Ravager-212 Twin Shotgun Magazine (16 cap)",
+      "tr": "Ravager-212 Twin Shotgun Magazine (16 cap)"
+    },
+    "item_Namebehr_pistol_ballistic_01_mag": {
+      "en": "S-38 Magazine (20 cap)",
+      "tr": "S-38 Magazine (20 cap)"
+    },
+    "item_Namegmni_rifle_ballistic_01_mag": {
+      "en": "S71 Rifle Magazine (30 cap)",
+      "tr": "S71 Rifle Magazine (30 cap)"
+    },
+    "item_Nameksar_sniper_ballistic_01_mag": {
+      "en": "Scalpel Sniper Rifle Magazine (12 cap)",
+      "tr": "Scalpel Sniper Rifle Magazine (12 cap)"
+    },
+    "item_Namenone_pistol_ballistic_01_mag": {
+      "en": "Tripledown Pistol Magazine (12 Cap)",
+      "tr": "Tripledown Pistol Magazine (12 Cap)"
+    },
+    "item_Namelbco_pistol_energy_01_mag": {
+      "en": "Yubarev Pistol Battery (10 cap)",
+      "tr": "Yubarev Pistol Battery (10 cap)"
+    },
+    "item_Namevolt_sniper_energy_01_mag": {
+      "en": "Zenith Laser Sniper Rifle Battery (22 Cap)",
+      "tr": "Zenith Laser Sniper Rifle Battery (22 Cap)"
+    },
+    "items_commodities_agricium_ore": {
+      "en": "Agricium (Ore)",
+      "tr": "Agricium (Ore)"
+    },
+    "_noloc_mining_Aluminium (Ore)": {
+      "en": "Aluminium (Ore)",
+      "tr": "Aluminium (Ore)"
+    },
+    "items_commodities_aslarite_raw": {
+      "en": "Aslarite (Raw)",
+      "tr": "Aslarite (Raw)"
+    },
+    "items_commodities_beryl_raw": {
+      "en": "Beryl (Raw)",
+      "tr": "Beryl (Raw)"
+    },
+    "items_commodities_bexalite_raw": {
+      "en": "Bexalite (Raw)",
+      "tr": "Bexalite (Raw)"
+    },
+    "items_commodities_borase_ore": {
+      "en": "Borase (Ore)",
+      "tr": "Borase (Ore)"
+    },
+    "items_commodities_copper_ore": {
+      "en": "Copper (Ore)",
+      "tr": "Copper (Ore)"
+    },
+    "items_commodities_corundum_raw": {
+      "en": "Corundum (Raw)",
+      "tr": "Corundum (Raw)"
+    },
+    "items_commodities_gold_ore": {
+      "en": "Gold (Ore)",
+      "tr": "Gold (Ore)"
+    },
+    "items_commodities_hephaestanite_raw": {
+      "en": "Hephaestanite (Raw)",
+      "tr": "Hephaestanite (Raw)"
+    },
+    "_noloc_mining_Ice (Raw)": {
+      "en": "Ice (Raw)",
+      "tr": "Ice (Raw)"
+    },
+    "items_commodities_iron_ore": {
+      "en": "Iron (Ore)",
+      "tr": "Iron (Ore)"
+    },
+    "items_commodities_laranite_raw": {
+      "en": "Laranite (Raw)",
+      "tr": "Laranite (Raw)"
+    },
+    "items_commodities_lindinium_ore": {
+      "en": "Lindinium (Ore)",
+      "tr": "Lindinium (Ore)"
+    },
+    "hud_mining_fps_rock_name_1": {
+      "en": "Aphorite",
+      "tr": "Aphorite"
+    },
+    "items_commodities_carinite": {
+      "en": "Carinite",
+      "tr": "Carinite"
+    },
+    "_noloc_mining_Carinitepure": {
+      "en": "Carinitepure",
+      "tr": "Carinitepure"
+    },
+    "hud_mining_fps_rock_name_2": {
+      "en": "Dolivine",
+      "tr": "Dolivine"
+    },
+    "hud_mining_fps_rock_name_3": {
+      "en": "Hadanite",
+      "tr": "Hadanite"
+    },
+    "items_commodities_jaclium": {
+      "en": "Jaclium",
+      "tr": "Jaclium"
+    },
+    "items_commodities_janalite": {
+      "en": "Janalite",
+      "tr": "Janalite"
+    },
+    "items_commodities_sadaryx": {
+      "en": "Sadaryx",
+      "tr": "Sadaryx"
+    },
+    "items_commodities_saldynium": {
+      "en": "Saldynium",
+      "tr": "Saldynium"
+    },
+    "items_commodities_beradom": {
+      "en": "Beradom",
+      "tr": "Beradom"
+    },
+    "items_commodities_feynmaline": {
+      "en": "Feynmaline",
+      "tr": "Feynmaline"
+    },
+    "items_commodities_glacosite": {
+      "en": "Glacosite",
+      "tr": "Glacosite"
+    },
+    "_noloc_mining_Ouratite (Raw)": {
+      "en": "Ouratite (Raw)",
+      "tr": "Ouratite (Raw)"
+    },
+    "items_commodities_quantainium_raw": {
+      "en": "Quantainium (Raw)",
+      "tr": "Quantainium (Raw)"
+    },
+    "items_commodities_quartz_raw": {
+      "en": "Quartz (Raw)",
+      "tr": "Quartz (Raw)"
+    },
+    "items_commodities_riccite_ore": {
+      "en": "Riccite (Ore)",
+      "tr": "Riccite (Ore)"
+    },
+    "items_commodities_savrilium_ore": {
+      "en": "Savrilium (Ore)",
+      "tr": "Savrilium (Ore)"
+    },
+    "items_commodities_stileron_ore": {
+      "en": "Stileron (Ore)",
+      "tr": "Stileron (Ore)"
+    },
+    "_noloc_mining_Silicon (Raw)": {
+      "en": "Silicon (Raw)",
+      "tr": "Silicon (Raw)"
+    },
+    "items_commodities_taranite_raw": {
+      "en": "Taranite (Raw)",
+      "tr": "Taranite (Raw)"
+    },
+    "items_commodities_tin_ore": {
+      "en": "Tin (Ore)",
+      "tr": "Tin (Ore)"
+    },
+    "items_commodities_titanium_ore": {
+      "en": "Titanium (Ore)",
+      "tr": "Titanium (Ore)"
+    },
+    "items_commodities_torite_ore": {
+      "en": "Torite (Ore)",
+      "tr": "Torite (Ore)"
+    },
+    "items_commodities_tungsten_ore": {
+      "en": "Tungsten (Ore)",
+      "tr": "Tungsten (Ore)"
     }
   }
 }
