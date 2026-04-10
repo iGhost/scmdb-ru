@@ -2,15 +2,15 @@
   "version": "4.7.1-live.11592622",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 3498,
+  "keyCount": 3603,
   "stats": {
-    "total": 3498,
-    "translated": 3348,
+    "total": 3603,
+    "translated": 3453,
     "missing": 1,
     "noLocKey": 80,
     "placeholderFallback": 69,
     "lengthFallback": 0,
-    "mismatch": 175,
+    "mismatch": 176,
     "missingKeys": [
       "UDM_LocalDelivery_desc"
     ],
@@ -50,6 +50,7 @@
       "Covalex_HaulCargo_AToB_Stanton_Interstellar",
       "Covalex_HaulCargo_AToB_desc_01",
       "Covalex_HaulCargo_AToB_title",
+      "Covalex_HaulCargo_AtoB_desc_DeliverAll",
       "Covalex_HaulCargo_AtoB_desc_FromLevski",
       "Covalex_HaulCargo_AtoB_desc_FromRuinStation",
       "Covalex_HaulCargo_AtoB_desc_ProcessedFood_Stanton2",
@@ -4517,6 +4518,10 @@
       "en": "Hiya, \\n\\nLooking for a hauler willing to make a run to Ruin Station. Know hauls to Pyro can give some people pause, but this is one we do regularly to help supply the station. I’ve also confirmed that everything on the cargo manifest is above board. \\n\\nIf you’re interested, the cargo is ready for pick up at <EM4>[LOCATION]</EM4>.  Make sure you bring a <EM4>handheld tractor beam</EM4> and a ship that can hold <EM4>24 SCU cargo containers</EM4> otherwise it might be a little rough.\\n\\nThanks in advance for ensuring prompt service,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
       "tr": "Здравствуйте, \\n\\nищу перевозчика, готового доставить груз на станцию Ruin. Я знаю, что доставка в Pyro может вызвать у некоторых людей сомнения, но мы регулярно доставляем грузы на станцию, чтобы обеспечить её всем необходимым. Я также подтвердила, что всё в грузовом манифесте соответствует действительности. \\n\\nЕсли вам интересно, груз готов к отправке в <EM4>[LOCATION]</EM4>. Убедитесь, что у вас есть <EM4>ручной тяговый луч</EM4> и корабль, способный вместить <EM4>грузовые контейнеры [MAX_SCU]</EM4>, иначе может быть непросто.\\n\\n[SIGN_OFF]\\n\\nЭлла Тиено \\nМладший координатор по логистике \\nCovalex Shipping   \\n\"Что угодно — куда угодно\" \\n\\n\\n\\n\\n\\n\\n\\n*Covalex Shipping — корпорация с ограниченной ответственностью. Для стимулирования своевременной доставки и предотвращения мошенничества все грузовые рейсы имеют установленный срок доставки. В случае его истечения недоставленный груз считается украденным и обрабатывается соответствующим образом. Оплата производится пропорционально количеству успешно доставленных контейнеров."
     },
+    "Covalex_HaulCargo_AtoB_desc_DeliverAll": {
+      "en": "Hiya, \\n\\nHere’s the deal, I need someone good for a special run. We’ve got an important client that’s threatening to take their business elsewhere, because their deliveries are consistently missing cargo. They’re demanding that 100% of the cargo be delivered on this run, or they won’t pay. Since this was before my time and my supervisor wants to show that it won’t happen again, they agreed with this. Anyway, I think you might be a good fit. \\n\\nIf you’re willing to take that risk too, here are all the pertinent details. The cargo can be collected from <EM4>[LOCATION]</EM4> and delivered to <EM4>[DESTINATION]</EM4>. Looks like the largest cargo container you’ll need to handle is <EM4>24 SCU</EM4>, so be sure to bring a ship big enough and a <EM4>handheld tractor beam</EM4> to help you move those containers around.  \\n \\nThanks in advance for ensuring prompt service, \\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
+      "tr": "Здравствуйте, \\n\\nвот в чём дело: мне нужен хороший сотрудник для особого задания. У нас есть важный клиент, который угрожает перевести свой бизнес в другое место, потому что в его поставках постоянно не хватает груза. Он требует, чтобы в этот раз было доставлено 100% груза, иначе он не заплатит. Поскольку это произошло до меня, а мой начальник хочет показать, что это больше не повторится, он согласился. В любом случае, я думаю, вы нам подходите. \\n\\nЕсли вы готовы пойти на такой риск, вот все необходимые подробности. Груз можно забрать в <EM4>[LOCATION]</EM4> и доставить в <EM4>[DESTINATION]</EM4>. Похоже, вам предстоит работать с самым большим грузовым контейнером <EM4>[MAX_SCU]</EM4>, поэтому не забудьте взять с собой достаточно большой корабль и <EM4>ручной тяговый луч</EM4>, чтобы помочь вам передвигать эти контейнеры. \\n \\n[SIGN_OFF] \\n\\nЭлла Тиено \\nМладший координатор по логистике \\nCovalex Shipping   \\n\"Что угодно — куда угодно\"\\n\\n\\n\\n\\n\\n\\n\\n*Covalex Shipping — корпорация с ограниченной ответственностью. Для стимулирования своевременной доставки и предотвращения мошенничества все грузовые рейсы имеют установленный срок доставки. В случае его истечения недоставленный груз считается украденным и обрабатывается соответствующим образом. Оплата производится пропорционально количеству успешно доставленных контейнеров."
+    },
     "Covalex_HaulCargo_AtoB_desc_FromRuinStation": {
       "en": "Hey, it’s El. \\n\\nGot a client at <EM4>[LOCATION]</EM4>, who needs their cargo picked up from Ruin Station. They’ve been waiting there a while and are starting to get a bit impatient. Any chance you could handle this for us? \\n\\nYou’ll need a ship that can fit <EM4>24 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4> to be able to move them. \\n\\nThanks in advance for ensuring prompt service,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
       "tr": "Здравствуйте, это Элла. \\n\\nУ меня есть клиент в <EM4>[LOCATION]</EM4>, которому нужно, чтобы его груз забрали на станции Ruin. Он уже давно ждёт и начинает терять терпение. Есть ли шанс, что вы сможете нам помочь? \\n\\nВам понадобится корабль, на котором можно разместить <EM4>грузовые контейнеры [MAX_SCU]</EM4>, а также <EM4>ручной тяговый луч</EM4>, чтобы перемещать их. \\n\\n[SIGN_OFF]\\n\\nЭлла Тиено \\nМладший координатор по логистике \\nCovalex Shipping   \\n\"Что угодно — куда угодно\" \\n\\n\\n\\n\\n\\n\\n\\n*Covalex Shipping — корпорация с ограниченной ответственностью. Для стимулирования своевременной доставки и предотвращения мошенничества все грузовые рейсы имеют установленный срок доставки. В случае его истечения недоставленный груз считается украденным и обрабатывается соответствующим образом. Оплата производится пропорционально количеству успешно доставленных контейнеров."
@@ -5961,6 +5966,102 @@
       "en": "Ita",
       "tr": "Ita"
     },
+    "Stanton2": {
+      "en": "Crusader",
+      "tr": "Crusader"
+    },
+    "Stanton2_L1": {
+      "en": "CRU L1",
+      "tr": "CRU-L1"
+    },
+    "Stanton2_L4": {
+      "en": "CRU L4",
+      "tr": "CRU-L4"
+    },
+    "Stanton2_L5": {
+      "en": "CRU L5",
+      "tr": "CRU-L5"
+    },
+    "Stanton2a": {
+      "en": "Cellin",
+      "tr": "Cellin"
+    },
+    "Stanton2b": {
+      "en": "Daymar",
+      "tr": "Daymar"
+    },
+    "Stanton2c": {
+      "en": "Yela",
+      "tr": "Yela"
+    },
+    "Stanton3": {
+      "en": "ArcCorp",
+      "tr": "ArcCorp"
+    },
+    "Stanton3_L1": {
+      "en": "ARC L1",
+      "tr": "ARC-L1"
+    },
+    "Stanton3_L2": {
+      "en": "ARC L2",
+      "tr": "ARC L2"
+    },
+    "Stanton3_L3": {
+      "en": "ARC L3",
+      "tr": "ARC L3"
+    },
+    "Stanton3_L4": {
+      "en": "ARC L4",
+      "tr": "ARC L4"
+    },
+    "Stanton3_L5": {
+      "en": "ARC L5",
+      "tr": "ARC L5"
+    },
+    "Stanton3a": {
+      "en": "Lyria",
+      "tr": "Lyria"
+    },
+    "Stanton3b": {
+      "en": "Wala",
+      "tr": "Wala"
+    },
+    "Stanton4": {
+      "en": "microTech",
+      "tr": "microTech"
+    },
+    "Stanton4_L1": {
+      "en": "MIC L1",
+      "tr": "MIC-L1"
+    },
+    "Stanton4_L2": {
+      "en": "MIC L2",
+      "tr": "MIC-L2"
+    },
+    "Stanton4_L3": {
+      "en": "MIC L3",
+      "tr": "MIC-L3"
+    },
+    "Stanton4_L4": {
+      "en": "MIC L4",
+      "tr": "MIC-L4"
+    },
+    "Stanton4_L5": {
+      "en": "MIC L5",
+      "tr": "MIC-L5"
+    },
+    "Stanton4a": {
+      "en": "Calliope",
+      "tr": "Calliope"
+    },
+    "Stanton4b": {
+      "en": "Clio",
+      "tr": "Clio"
+    },
+    "Stanton4c": {
+      "en": "Euterpe",
+      "tr": "Euterpe"
+    },
     "Stanton1a_HurDynMining_002": {
       "en": "HDMS-Lathan",
       "tr": "HDMS-Lathan"
@@ -6125,10 +6226,6 @@
       "en": "Megumi Refueling Habs",
       "tr": "Megumi Refueling, жилая зона"
     },
-    "Stanton2": {
-      "en": "Crusader",
-      "tr": "Crusader"
-    },
     "Collector_Station_02_Name": {
       "en": "Wikelo Emporium Selo Station",
       "tr": "Wikelo Emporium Selo Station"
@@ -6136,10 +6233,6 @@
     "Collector_Station_03_Name": {
       "en": "Wikelo Emporium Kinga Station",
       "tr": "Wikelo Emporium Kinga Station"
-    },
-    "Stanton4": {
-      "en": "microTech",
-      "tr": "microTech"
     },
     "Collector_Station_01_Name": {
       "en": "Wikelo Emporium Dasi Station",
@@ -6445,38 +6538,6 @@
       "en": "Cluster MNK-833",
       "tr": "Cluster MNK-833"
     },
-    "Stanton4_L1": {
-      "en": "MIC L1",
-      "tr": "MIC-L1"
-    },
-    "Stanton4_L2": {
-      "en": "MIC L2",
-      "tr": "MIC-L2"
-    },
-    "Stanton4_L3": {
-      "en": "MIC L3",
-      "tr": "MIC-L3"
-    },
-    "Stanton4_L4": {
-      "en": "MIC L4",
-      "tr": "MIC-L4"
-    },
-    "Stanton4_L5": {
-      "en": "MIC L5",
-      "tr": "MIC-L5"
-    },
-    "Stanton4a": {
-      "en": "Calliope",
-      "tr": "Calliope"
-    },
-    "Stanton4b": {
-      "en": "Clio",
-      "tr": "Clio"
-    },
-    "Stanton4c": {
-      "en": "Euterpe",
-      "tr": "Euterpe"
-    },
     "Nyx": {
       "en": "Nyx",
       "tr": "Nyx"
@@ -6517,17 +6578,9 @@
       "en": "the Rayari lab on Cellin",
       "tr": "Cellin, исследовательская база Rayari"
     },
-    "Stanton2a": {
-      "en": "Cellin",
-      "tr": "Cellin"
-    },
     "Stanton2c_Rayari_001": {
       "en": "Deakins Research Outpost",
       "tr": "Deakins Research Outpost"
-    },
-    "Stanton2c": {
-      "en": "Yela",
-      "tr": "Yela"
     },
     "Stanton4b_Rayari_001": {
       "en": "Rayari McGrath Research Outpost",
@@ -6536,10 +6589,6 @@
     "StantonSystem": {
       "en": "Stanton System",
       "tr": "СИСТЕМА STANTON"
-    },
-    "Stanton3": {
-      "en": "ArcCorp",
-      "tr": "ArcCorp"
     },
     "Delamar_Levski": {
       "en": "Levski",
@@ -7044,18 +7093,6 @@
     "mission_location_pyro_016": {
       "en": "Yang's Place",
       "tr": "Yang's Place"
-    },
-    "Stanton2b": {
-      "en": "Daymar",
-      "tr": "Daymar"
-    },
-    "Stanton3a": {
-      "en": "Lyria",
-      "tr": "Lyria"
-    },
-    "Stanton3b": {
-      "en": "Wala",
-      "tr": "Wala"
     },
     "mission_location_stanton_1103e": {
       "en": "Starfarer wreck site",
@@ -8249,41 +8286,13 @@
       "en": "the Calliope wreck site",
       "tr": "Calliope, место крушения"
     },
-    "Stanton2_L1": {
-      "en": "CRU L1",
-      "tr": "CRU-L1"
-    },
     "Stanton2_L2": {
       "en": "CRU L2",
       "tr": "CRU-L2"
     },
-    "Stanton3_L1": {
-      "en": "ARC L1",
-      "tr": "ARC-L1"
-    },
-    "Stanton3_L2": {
-      "en": "ARC L2",
-      "tr": "ARC L2"
-    },
     "mission_location_pyro_061_03": {
       "en": "Maintenance Area-03",
       "tr": "Pyro, Зона обслуживания-03"
-    },
-    "Stanton2_L4": {
-      "en": "CRU L4",
-      "tr": "CRU-L4"
-    },
-    "Stanton2_L5": {
-      "en": "CRU L5",
-      "tr": "CRU-L5"
-    },
-    "Stanton3_L3": {
-      "en": "ARC L3",
-      "tr": "ARC L3"
-    },
-    "Stanton3_L4": {
-      "en": "ARC L4",
-      "tr": "ARC L4"
     },
     "mission_location_stanton_873": {
       "en": "Lamina PAF-I",
@@ -8325,6 +8334,46 @@
       "en": "PYAM-FARSTAT-1-3 Clinic",
       "tr": "PYAM-FARSTAT-1-3, клиника"
     },
+    "RR_P3_L5": {
+      "en": "PYAM-FARSTAT-3-5",
+      "tr": "PYAM-FARSTAT-3-5"
+    },
+    "mission_location_pyro_096": {
+      "en": "PYAM-FARSTAT-3-5 Clinic",
+      "tr": "PYAM-FARSTAT-3-5, клиника"
+    },
+    "RR_P5_L1": {
+      "en": "PYAM-FARSTAT-5-1",
+      "tr": "PYAM-FARSTAT-5-1"
+    },
+    "mission_location_pyro_097": {
+      "en": "PYAM-FARSTAT-5-1 Clinic",
+      "tr": "PYAM-FARSTAT-5-1, клиника"
+    },
+    "RR_P5_L4_Clinic": {
+      "en": "Rod's Clinic",
+      "tr": "Клиника: Rod's"
+    },
+    "RR_P6_L2": {
+      "en": "PYAM-FARSTAT-6-2",
+      "tr": "PYAM-FARSTAT-6-2"
+    },
+    "mission_location_pyro_102": {
+      "en": "PYAM-FARSTAT-6-2 Clinic",
+      "tr": "PYAM-FARSTAT-6-2, клиника"
+    },
+    "RR_P6_L4_Clinic": {
+      "en": "Dudley Clinic",
+      "tr": "Клиника: Dudley"
+    },
+    "RR_P6_L5_Clinic": {
+      "en": "Megumi Clinic",
+      "tr": "Клиника: Megumi"
+    },
+    "RR_P5_L3": {
+      "en": "PYAM-FARSTAT-5-3",
+      "tr": "PYAM-FARSTAT-5-3"
+    },
     "mission_location_pyro_049": {
       "en": "Pyro II Cave",
       "tr": "Pyro II, пещера"
@@ -8356,38 +8405,6 @@
     "mission_location_pyro_048": {
       "en": "Pyro I Cave",
       "tr": "Pyro I, пещера"
-    },
-    "Stanton3_L5": {
-      "en": "ARC L5",
-      "tr": "ARC L5"
-    },
-    "RR_P3_L5": {
-      "en": "PYAM-FARSTAT-3-5",
-      "tr": "PYAM-FARSTAT-3-5"
-    },
-    "mission_location_pyro_096": {
-      "en": "PYAM-FARSTAT-3-5 Clinic",
-      "tr": "PYAM-FARSTAT-3-5, клиника"
-    },
-    "RR_P6_L2": {
-      "en": "PYAM-FARSTAT-6-2",
-      "tr": "PYAM-FARSTAT-6-2"
-    },
-    "mission_location_pyro_102": {
-      "en": "PYAM-FARSTAT-6-2 Clinic",
-      "tr": "PYAM-FARSTAT-6-2, клиника"
-    },
-    "RR_P6_L4_Clinic": {
-      "en": "Dudley Clinic",
-      "tr": "Клиника: Dudley"
-    },
-    "RR_P6_L5_Clinic": {
-      "en": "Megumi Clinic",
-      "tr": "Клиника: Megumi"
-    },
-    "RR_P5_L3": {
-      "en": "PYAM-FARSTAT-5-3",
-      "tr": "PYAM-FARSTAT-5-3"
     },
     "Stanton4_Shubin_004": {
       "en": "Shubin Mining Facility SM0-10",
@@ -14184,6 +14201,410 @@
     "items_commodities_tungsten_ore": {
       "en": "Tungsten (Ore)",
       "tr": "Tungsten (Ore)"
+    },
+    "RepScope_Contractor_Rank0": {
+      "en": "Applicant",
+      "tr": "КАНДИДАТ"
+    },
+    "items_commodities_carinite_pure": {
+      "en": "Carinite (Pure)",
+      "tr": "Carinite (Pure)"
+    },
+    "items_commodities_saldynium_ore": {
+      "en": "Saldynium (Ore)",
+      "tr": "Saldynium (Ore)"
+    },
+    "items_commodities_kopionhorn_tundra": {
+      "en": "Tundra Kopion Horn",
+      "tr": "Tundra Kopion Horn"
+    },
+    "items_commodities_jaclium_ore": {
+      "en": "Jaclium (Ore)",
+      "tr": "Jaclium (Ore)"
+    },
+    "items_commodities_valakkarfang_juvenile_irradiated": {
+      "en": "Irradiated Valakkar Fang (Juvenile)",
+      "tr": "Irradiated Valakkar Fang (Juvenile)"
+    },
+    "items_commodities_valakkarfang_adult_irradiated": {
+      "en": "Irradiated Valakkar Fang (Adult)",
+      "tr": "Irradiated Valakkar Fang (Adult)"
+    },
+    "items_commodities_yormandi_eye": {
+      "en": "Yormandi Eye",
+      "tr": "Yormandi Eye"
+    },
+    "harvestable_Armillaria": {
+      "en": "Bluemoon Fungus",
+      "tr": "Bluemoon Fungus"
+    },
+    "items_commodities_quantainium": {
+      "en": "Quantainium",
+      "tr": "Quantainium"
+    },
+    "items_commodities_valakkarfang_apex_irradiated": {
+      "en": "Irradiated Valakkar Fang (Apex)",
+      "tr": "Irradiated Valakkar Fang (Apex)"
+    },
+    "items_commodities_copper": {
+      "en": "Copper",
+      "tr": "Copper"
+    },
+    "items_commodities_kopionhorn_irradiated": {
+      "en": "Irradiated Kopion Horn",
+      "tr": "Irradiated Kopion Horn"
+    },
+    "items_commodities_savrilium": {
+      "en": "Savrilium",
+      "tr": "Savrilium"
+    },
+    "items_commodities_rantadung": {
+      "en": "Ranta Dung",
+      "tr": "Ranta Dung"
+    },
+    "items_commodities_prota": {
+      "en": "Prota",
+      "tr": "Prota"
+    },
+    "items_commodities_revenantpod": {
+      "en": "Revenant Pod",
+      "tr": "Revenant Pod"
+    },
+    "items_commodities_amioshiplague": {
+      "en": "Amioshi Plague",
+      "tr": "Amioshi Plague"
+    },
+    "items_commodities_sunsetberry": {
+      "en": "Sunset Berries",
+      "tr": "Sunset Berries"
+    },
+    "items_commodities_heartofthewoods": {
+      "en": "Heart of the Woods",
+      "tr": "Heart of the Woods"
+    },
+    "items_commodities_kopionhorn_cave": {
+      "en": "Cave Kopion Horn",
+      "tr": "Cave Kopion Horn"
+    },
+    "items_commodities_marokgem": {
+      "en": "Marok Gem",
+      "tr": "Marok Gem"
+    },
+    "items_commodities_valakkarfang_juvenile": {
+      "en": "Valakkar Fang (Juvenile)",
+      "tr": "Valakkar Fang (Juvenile)"
+    },
+    "items_commodities_medicalSupplies": {
+      "en": "Medical Supplies",
+      "tr": "Medical Supplies"
+    },
+    "items_commodities_iodine": {
+      "en": "Iodine",
+      "tr": "Iodine"
+    },
+    "items_commodities_type_plasmaFuel": {
+      "en": "Hydrogen Fuel",
+      "tr": "Hydrogen Fuel"
+    },
+    "items_commodities_scrap": {
+      "en": "Scrap",
+      "tr": "Scrap"
+    },
+    "items_commodities_cobalt": {
+      "en": "Cobalt",
+      "tr": "Cobalt"
+    },
+    "items_commodities_militarySupplies": {
+      "en": "Combat Supplies",
+      "tr": "Combat Supplies"
+    },
+    "items_commodities_type_RMC": {
+      "en": "Recycled Material Composite",
+      "tr": "Recycled Material Composite"
+    },
+    "items_commodities_laranite": {
+      "en": "Laranite",
+      "tr": "Laranite"
+    },
+    "items_commodities_thermalfoam": {
+      "en": "ThermalFoam",
+      "tr": "ThermalFoam"
+    },
+    "items_commodities_freshFood": {
+      "en": "Fresh Food",
+      "tr": "Fresh Food"
+    },
+    "items_commodities_mercury": {
+      "en": "Mercury",
+      "tr": "Mercury"
+    },
+    "items_commodities_agricium": {
+      "en": "Agricium",
+      "tr": "Agricium"
+    },
+    "items_commodities_distilledSpirits": {
+      "en": "Distilled Spirits",
+      "tr": "Distilled Spirits"
+    },
+    "items_commodities_stims": {
+      "en": "Stims",
+      "tr": "Stims"
+    },
+    "items_commodities_organimass": {
+      "en": "Organics",
+      "tr": "Organics"
+    },
+    "items_commodities_iron": {
+      "en": "Iron",
+      "tr": "Iron"
+    },
+    "items_commodities_atlasium": {
+      "en": "Atlasium",
+      "tr": "Atlasium"
+    },
+    "items_commodities_argon": {
+      "en": "Argon",
+      "tr": "Argon"
+    },
+    "items_commodities_ammonia": {
+      "en": "Ammonia",
+      "tr": "Ammonia"
+    },
+    "items_commodities_ConstructionMaterials": {
+      "en": "Construction Materials",
+      "tr": "Construction Materials"
+    },
+    "items_commodities_goldenmedmon": {
+      "en": "Golden Medmon",
+      "tr": "Golden Medmon"
+    },
+    "items_commodities_PartyFavors": {
+      "en": "Party Favors",
+      "tr": "Party Favors"
+    },
+    "items_commodities_Souvenirs": {
+      "en": "Souvenirs",
+      "tr": "Souvenirs"
+    },
+    "items_commodities_altruciatoxin_unprocessed": {
+      "en": "Revenant Tree Pollen",
+      "tr": "Revenant Tree Pollen"
+    },
+    "items_commodities_tritium": {
+      "en": "Tritium",
+      "tr": "Tritium"
+    },
+    "items_commodities_nitrogen": {
+      "en": "Nitrogen",
+      "tr": "Nitrogen"
+    },
+    "items_commodities_diamond": {
+      "en": "Diamond",
+      "tr": "Diamond"
+    },
+    "items_commodities_gold": {
+      "en": "Gold",
+      "tr": "Gold"
+    },
+    "items_commodities_aphorite": {
+      "en": "Aphorite",
+      "tr": "Aphorite"
+    },
+    "items_commodities_potassium": {
+      "en": "Potassium",
+      "tr": "Potassium"
+    },
+    "items_commodities_slam": {
+      "en": "SLAM",
+      "tr": "SLAM"
+    },
+    "items_commodities_widow": {
+      "en": "WiDoW",
+      "tr": "WiDoW"
+    },
+    "items_commodities_etam": {
+      "en": "E'tam",
+      "tr": "E'tam"
+    },
+    "Salvage_Ship_Component_Shield_Generator_S1_Name": {
+      "en": "Shield Generator (S1)",
+      "tr": "Генератор щита (S1)"
+    },
+    "Salvage_Ship_Component_Power_Plant_S1_Name": {
+      "en": "Power Plant (S1)",
+      "tr": "Энергоустановка (S1)"
+    },
+    "Salvage_Ship_Component_Cooler_S1_Name": {
+      "en": "Cooler (S1)",
+      "tr": "Охладитель (S1)"
+    },
+    "Salvage_Ship_Component_Quantum_Drive_S1_Name": {
+      "en": "Quantum Drive (S1)",
+      "tr": "Квантовый двигатель (S1)"
+    },
+    "Salvage_Ship_Component_Ship_Weapon_S1_S2_Name": {
+      "en": "Ship Weapon (S1 or S2)",
+      "tr": "Корабельное оружие (S1 или S2)"
+    },
+    "Salvage_Ship_Component_Ship_Mining_Laser_Name": {
+      "en": "Ship Mining Laser",
+      "tr": "Корабельный добывающий лазер"
+    },
+    "Salvage_Ship_Component_Ship_Salvage_Head_Name": {
+      "en": "Ship Salvage Head",
+      "tr": "Корабельная головка утилизации"
+    },
+    "items_commodities_ConstructionMaterialsPowder": {
+      "en": "Construction Rubble",
+      "tr": "Construction Rubble"
+    },
+    "items_commodities_ConstructionMaterialsScraps": {
+      "en": "Construction Pieces",
+      "tr": "Construction Pieces"
+    },
+    "items_commodities_ConstructionMaterialsChunks": {
+      "en": "Construction Salvage",
+      "tr": "Construction Salvage"
+    },
+    "Salvage_Ship_Component_Ship_Weapon_S3_S4_Name": {
+      "en": "Ship Weapon (S3 or S4)",
+      "tr": "Корабельное оружие (S3 или S4)"
+    },
+    "Salvage_Ship_Component_Ship_Missile_Name": {
+      "en": "Ship Missile",
+      "tr": "Корабельная ракета"
+    },
+    "Salvage_Ship_Component_Ship_Bomb_Name": {
+      "en": "Ship Bomb",
+      "tr": "Корабельная бомба"
+    },
+    "Salvage_Ship_Component_Power_Plant_S2_Civ_G_Name": {
+      "en": "Power Plant, Civilian Grade (S2)",
+      "tr": "Энергоустановка, Гражданской категории (S2)"
+    },
+    "Salvage_Ship_Component_Cooler_S2_Civ_G_Name": {
+      "en": "Cooler, Civilian Grade (S2)",
+      "tr": "Охладитель, Гражданской категории (S2)"
+    },
+    "Salvage_Ship_Component_Shield_Generator_S2_Civ_G_Name": {
+      "en": "Shield Generator, Civilian Grade (S2)",
+      "tr": "Генератор щита, Гражданской категории (S2)"
+    },
+    "Salvage_Ship_Component_Power_Plant_S2_Mil_G_Name": {
+      "en": "Power Plant, Military Grade (S2)",
+      "tr": "Энергоустановка, Военной категории (S2)"
+    },
+    "Salvage_Ship_Component_Cooler_S2_Mil_G_Name": {
+      "en": "Cooler, Military Grade (S2)",
+      "tr": "Охладитель, Военной категории (S2)"
+    },
+    "Salvage_Ship_Component_Shield_Generator_S2_Mil_G_Name": {
+      "en": "Shield Generator, Military Grade (S2)",
+      "tr": "Генератор щита, Военной категории (S2)"
+    },
+    "Salvage_Ship_Component_Power_Plant_S2_Ind_G_Name": {
+      "en": "Power Plant, Industrial Grade (S2)",
+      "tr": "Энергоустановка, Промышленной категории (S2)"
+    },
+    "Salvage_Ship_Component_Cooler_S2_Ind_G_Name": {
+      "en": "Cooler, Industrial Grade (S2)",
+      "tr": "Охладитель, Промышленной категории (S2)"
+    },
+    "Salvage_Ship_Component_Shield_Generator_S2_Ind_G_Name": {
+      "en": "Shield Generator, Industrial Grade (S2)",
+      "tr": "Генератор щита, Промышленной категории (S2)"
+    },
+    "Salvage_Ship_Component_Quantum_Drive_S2_Name": {
+      "en": "Quantum Drive, Industrial (S2)",
+      "tr": "Квантовый двигатель, Промышленной категории (S2)"
+    },
+    "Salvage_Ship_Component_Power_Plant_S2_Comp_G_Name": {
+      "en": "Power Plant, Competition Grade (S2)",
+      "tr": "Энергоустановка, Соревновательной категории (S2)"
+    },
+    "Salvage_Ship_Component_Cooler_S2_Comp_G_Name": {
+      "en": "Cooler, Competition Grade (S2)",
+      "tr": "Охладитель, Соревновательной категории (S2)"
+    },
+    "Salvage_Ship_Component_Shield_Generator_S2_Comp_G_Name": {
+      "en": "Shield Generator, Competition Grade (S2)",
+      "tr": "Генератор щита, Соревновательной категории (S2)"
+    },
+    "items_commodities_dolivine": {
+      "en": "Dolivine",
+      "tr": "Dolivine"
+    },
+    "items_commodities_hadanite": {
+      "en": "Hadanite",
+      "tr": "Hadanite"
+    },
+    "items_commodities_tin": {
+      "en": "Tin",
+      "tr": "Tin"
+    },
+    "items_commodities_beryl": {
+      "en": "Beryl",
+      "tr": "Beryl"
+    },
+    "items_commodities_hephaestanite": {
+      "en": "Hephaestanite",
+      "tr": "Hephaestanite"
+    },
+    "items_commodities_borase": {
+      "en": "Borase",
+      "tr": "Borase"
+    },
+    "items_commodities_torite": {
+      "en": "Torite",
+      "tr": "Torite"
+    },
+    "items_commodities_taranite": {
+      "en": "Taranite",
+      "tr": "Taranite"
+    },
+    "items_commodities_bexalite": {
+      "en": "Bexalite",
+      "tr": "Bexalite"
+    },
+    "items_commodities_lindinium": {
+      "en": "Lindinium",
+      "tr": "Lindinium"
+    },
+    "items_commodities_stileron": {
+      "en": "Stileron",
+      "tr": "Stileron"
+    },
+    "items_commodities_riccite": {
+      "en": "Riccite",
+      "tr": "Riccite"
+    },
+    "items_commodities_MoldTreatment": {
+      "en": "Molina Mold Treatment",
+      "tr": "Molina Mold Treatment"
+    },
+    "items_commodities_MoldSamples": {
+      "en": "Molina Mold Samples",
+      "tr": "Molina Mold Samples"
+    },
+    "items_commodities_VentFilters": {
+      "en": "Molina Ventilation Filters",
+      "tr": "Molina Ventilation Filters"
+    },
+    "items_commodities_decaripod": {
+      "en": "Decari Pod",
+      "tr": "Decari Pod"
+    },
+    "harvestable_MolinaMold": {
+      "en": "Molina Mold",
+      "tr": "Molina Mold"
+    },
+    "items_commodities_type_quantumFuel": {
+      "en": "Quantum Fuel",
+      "tr": "Quantum Fuel"
+    },
+    "items_commodities_aluminum_ore": {
+      "en": "Aluminum (Ore)",
+      "tr": "Aluminum (Ore)"
     }
   }
 }
