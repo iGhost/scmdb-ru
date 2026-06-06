@@ -1,11 +1,11 @@
 {
-  "version": "4.8.0-live.11875683",
+  "version": "4.8.1-live.11952564",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 2693,
+  "keyCount": 2691,
   "stats": {
-    "total": 2693,
-    "translated": 2548,
+    "total": 2691,
+    "translated": 2546,
     "missing": 1,
     "noLocKey": 75,
     "placeholderFallback": 69,
@@ -9219,110 +9219,6 @@
       "en": "Anvil C8X Pisces Expedition",
       "tr": "Anvil C8X Pisces Expedition"
     },
-    "vehicle_NameAEGS_Avenger_Stalker": {
-      "en": "Aegis Avenger Stalker",
-      "tr": "Aegis Avenger Stalker"
-    },
-    "vehicle_NameAEGS_Avenger_Titan_Renegade": {
-      "en": "Aegis Avenger Titan Renegade",
-      "tr": "Aegis Avenger Titan Renegade"
-    },
-    "vehicle_NameAEGS_Avenger_Warlock": {
-      "en": "Aegis Avenger Warlock",
-      "tr": "Aegis Avenger Warlock"
-    },
-    "vehicle_NameAEGS_Eclipse": {
-      "en": "Aegis Eclipse",
-      "tr": "Aegis Eclipse"
-    },
-    "vehicle_NameAEGS_Hammerhead": {
-      "en": "Aegis Hammerhead",
-      "tr": "Aegis Hammerhead"
-    },
-    "vehicle_NameAEGS_Idris_M": {
-      "en": "Aegis Idris-M",
-      "tr": "Aegis Idris-M"
-    },
-    "vehicle_NameAEGS_Idris_P": {
-      "en": "Aegis Idris-P",
-      "tr": "Aegis Idris-P"
-    },
-    "vehicle_NameAEGS_Retaliator": {
-      "en": "Aegis Retaliator",
-      "tr": "Aegis Retaliator"
-    },
-    "vehicle_NameAEGS_Sabre": {
-      "en": "Aegis Sabre",
-      "tr": "Aegis Sabre"
-    },
-    "vehicle_NameAEGS_Sabre_Comet": {
-      "en": "Aegis Sabre Comet",
-      "tr": "Aegis Sabre Comet"
-    },
-    "vehicle_NameAEGS_Sabre_Firebird": {
-      "en": "Aegis Sabre Firebird",
-      "tr": "Aegis Sabre Firebird"
-    },
-    "vehicle_NameAEGS_Sabre_Raven": {
-      "en": "Aegis Sabre Raven",
-      "tr": "Aegis Sabre Raven"
-    },
-    "vehicle_nameANVL_Carrack": {
-      "en": "Anvil Carrack",
-      "tr": "Anvil Carrack"
-    },
-    "vehicle_NameANVL_Hornet_F7C": {
-      "en": "Anvil F7C Hornet Mk I",
-      "tr": "Anvil F7C Hornet Mk I"
-    },
-    "vehicle_NameANVL_Hornet_F7CR": {
-      "en": "Anvil F7C-R Hornet Tracker Mk I",
-      "tr": "Anvil F7C-R Hornet Tracker Mk I"
-    },
-    "vehicle_NameANVL_Hornet_F7CS": {
-      "en": "Anvil F7C-S Hornet Ghost Mk I",
-      "tr": "Anvil F7C-S Hornet Ghost Mk I"
-    },
-    "vehicle_NameANVL_Lightning_F8": {
-      "en": "Anvil F8A Lightning",
-      "tr": "Anvil F8A Lightning"
-    },
-    "vehicle_NameANVL_Gladiator": {
-      "en": "Anvil Gladiator",
-      "tr": "Anvil Gladiator"
-    },
-    "vehicle_NameANVL_Hawk": {
-      "en": "Anvil Hawk",
-      "tr": "Anvil Hawk"
-    },
-    "vehicle_nameANVL_Paladin": {
-      "en": "Anvil Paladin",
-      "tr": "Anvil Paladin"
-    },
-    "vehicle_NameANVL_Terrapin": {
-      "en": "Anvil Terrapin",
-      "tr": "Anvil Terrapin"
-    },
-    "vehicle_NameANVL_Terrapin_Medic": {
-      "en": "Anvil Terrapin Medic",
-      "tr": "Anvil Terrapin Medic"
-    },
-    "vehicle_NameXIAN_Scout": {
-      "en": "Aopoa Khartu-al",
-      "tr": "Aopoa Khartu-al"
-    },
-    "vehicle_NameARGO_Mole": {
-      "en": "Argo MOLE",
-      "tr": "Argo MOLE"
-    },
-    "vehicle_NameBanu_Defender": {
-      "en": "Banu Defender",
-      "tr": "Banu Defender"
-    },
-    "vehicles_NameOrbital_Sentry": {
-      "en": "Broad & Rabiee Overseer Orbital Sentry",
-      "tr": "Орбитальный страж \"Смотритель\" Broad & Rabiee"
-    },
     "vehicle_NameCNOU_Mustang_Alpha": {
       "en": "C.O. Mustang Alpha",
       "tr": "C.O. Mustang Alpha"
@@ -9339,177 +9235,53 @@
       "en": "C.O. Mustang Gamma",
       "tr": "C.O. Mustang Gamma"
     },
-    "vehicle_NameCRUS_Starlifter_A2": {
-      "en": "Crusader A2 Hercules Starlifter",
-      "tr": "Crusader A2 Hercules Starlifter"
-    },
-    "vehicle_NameCRUS_Starfighter_Ion": {
-      "en": "Crusader Ares Star Fighter Ion",
-      "tr": "Crusader Ares Star Fighter Ion"
-    },
-    "vehicle_NameCRUS_Starlifter_C2": {
-      "en": "Crusader C2 Hercules Starlifter",
-      "tr": "Crusader C2 Hercules Starlifter"
-    },
-    "vehicle_NameCRUS_Starlifter_M2": {
-      "en": "Crusader M2 Hercules Starlifter",
-      "tr": "Crusader M2 Hercules Starlifter"
-    },
-    "vehicle_NameDRAK_Corsair": {
-      "en": "Drake Corsair",
-      "tr": "Drake Corsair"
-    },
-    "vehicle_NameDRAK_Cutter_Rambler": {
-      "en": "Drake Cutter Rambler",
-      "tr": "Drake Cutter Rambler"
-    },
-    "vehicle_NameDRAK_Cutter_Scout": {
-      "en": "Drake Cutter Scout",
-      "tr": "Drake Cutter Scout"
-    },
-    "vehicle_NameDRAK_Herald": {
-      "en": "Drake Herald",
-      "tr": "Drake Herald"
-    },
-    "vehicle_NameESPR_Talon": {
-      "en": "Esperia Talon",
-      "tr": "Esperia Talon"
-    },
-    "vehicle_NameMISC_Hull_A": {
-      "en": "MISC Hull A",
-      "tr": "MISC Hull A"
-    },
-    "vehicle_NameMISC_Hull_C": {
-      "en": "MISC Hull C",
-      "tr": "MISC Hull C"
-    },
-    "vehicle_NameMISC_Prospector": {
-      "en": "MISC Prospector",
-      "tr": "MISC Prospector"
-    },
-    "vehicle_NameMISC_Reliant_Mako": {
-      "en": "MISC Reliant Mako",
-      "tr": "MISC Reliant Mako"
-    },
-    "vehicle_NameMISC_Reliant_Sen": {
-      "en": "MISC Reliant Sen",
-      "tr": "MISC Reliant Sen"
-    },
-    "vehicle_NameMISC_Starfarer": {
-      "en": "MISC Starfarer",
-      "tr": "MISC Starfarer"
-    },
-    "vehicle_NameMISC_Starfarer_Gemini": {
-      "en": "MISC Starfarer Gemini",
-      "tr": "MISC Starfarer Gemini"
-    },
-    "vehicle_NameMISC_Razor": {
-      "en": "Mirai Razor",
-      "tr": "Mirai Razor"
+    "vehicle_NameANVL_Hornet_F7C": {
+      "en": "Anvil F7C Hornet Mk I",
+      "tr": "Anvil F7C Hornet Mk I"
     },
     "vehicle_NameMISC_Razor_EX": {
       "en": "Mirai Razor EX",
       "tr": "Mirai Razor EX"
     },
-    "vehicle_NameMISC_Razor_LX": {
-      "en": "Mirai Razor LX",
-      "tr": "Mirai Razor LX"
-    },
-    "vehicle_NameORIG_100i": {
-      "en": "Origin 100i",
-      "tr": "Origin 100i"
-    },
-    "vehicle_NameORIG_125a": {
-      "en": "Origin 125a",
-      "tr": "Origin 125a"
-    },
-    "vehicle_NameORIG_135c": {
-      "en": "Origin 135c",
-      "tr": "Origin 135c"
-    },
-    "vehicle_NameORIG_300i": {
-      "en": "Origin 300i",
-      "tr": "Origin 300i"
-    },
-    "vehicle_NameORIG_315p": {
-      "en": "Origin 315p",
-      "tr": "Origin 315p"
-    },
-    "vehicle_NameORIG_325a": {
-      "en": "Origin 325a",
-      "tr": "Origin 325a"
-    },
-    "vehicle_NameORIG_350r": {
-      "en": "Origin 350r",
-      "tr": "Origin 350r"
-    },
-    "vehicle_NameORIG_600i": {
-      "en": "Origin 600i",
-      "tr": "Origin 600i"
-    },
-    "vehicle_NameORIG_85X": {
-      "en": "Origin 85X Limited",
-      "tr": "Origin 85X Limited"
-    },
-    "vehicle_NameORIG_890Jump": {
-      "en": "Origin 890 Jump",
-      "tr": "Origin 890 Jump"
-    },
-    "vehicle_NameORIG_m50": {
-      "en": "Origin M50 Interceptor",
-      "tr": "Origin M50 Interceptor"
-    },
-    "vehicle_NameRSI_Aurora_LX": {
-      "en": "RSI Aurora Mk I  LX",
-      "tr": "RSI Aurora Mk I  LX"
-    },
-    "vehicle_NameRSI_Aurora_CL": {
-      "en": "RSI Aurora Mk I CL",
-      "tr": "RSI Aurora Mk I CL"
-    },
-    "vehicle_NameRSI_Aurora_ES": {
-      "en": "RSI Aurora Mk I ES",
-      "tr": "RSI Aurora Mk I ES"
-    },
-    "vehicle_NameRSI_Aurora_LN": {
-      "en": "RSI Aurora Mk I LN",
-      "tr": "RSI Aurora Mk I LN"
-    },
-    "vehicle_NameRSI_Aurora_MR": {
-      "en": "RSI Aurora Mk I MR",
-      "tr": "RSI Aurora Mk I MR"
+    "vehicle_NameAEGS_Sabre_Firebird": {
+      "en": "Aegis Sabre Firebird",
+      "tr": "Aegis Sabre Firebird"
     },
     "vehicle_NameRSI_Constellation_Andromeda": {
       "en": "RSI Constellation Andromeda",
       "tr": "RSI Constellation Andromeda"
     },
-    "vehicle_NameRSI_Constellation_Aquila": {
-      "en": "RSI Constellation Aquila",
-      "tr": "RSI Constellation Aquila"
-    },
-    "vehicle_NameRSI_Constellation_Phoenix": {
-      "en": "RSI Constellation Phoenix",
-      "tr": "RSI Constellation Phoenix"
-    },
-    "vehicle_NameRSI_Constellation_Taurus": {
-      "en": "RSI Constellation Taurus",
-      "tr": "RSI Constellation Taurus"
-    },
-    "vehicle_NameRSI_Mantis": {
-      "en": "RSI Mantis",
-      "tr": "RSI Mantis"
-    },
-    "vehicle_NameRSI_Perseus": {
-      "en": "RSI Perseus",
-      "tr": "RSI Perseus"
+    "vehicle_NameAEGS_Hammerhead": {
+      "en": "Aegis Hammerhead",
+      "tr": "Aegis Hammerhead"
     },
     "vehicle_NameRSI_Polaris": {
       "en": "RSI Polaris",
       "tr": "RSI Polaris"
     },
+    "vehicle_NameDRAK_Corsair": {
+      "en": "Drake Corsair",
+      "tr": "Drake Corsair"
+    },
+    "vehicle_NameAEGS_Avenger_Stalker": {
+      "en": "Aegis Avenger Stalker",
+      "tr": "Aegis Avenger Stalker"
+    },
     "vehicle_NameAEGS_Avenger_Titan": {
       "en": "Aegis Avenger Titan",
       "tr": "Aegis Avenger Titan"
+    },
+    "vehicle_NameAEGS_Avenger_Titan_Renegade": {
+      "en": "Aegis Avenger Titan Renegade",
+      "tr": "Aegis Avenger Titan Renegade"
+    },
+    "vehicle_NameAEGS_Avenger_Warlock": {
+      "en": "Aegis Avenger Warlock",
+      "tr": "Aegis Avenger Warlock"
+    },
+    "vehicle_NameAEGS_Eclipse": {
+      "en": "Aegis Eclipse",
+      "tr": "Aegis Eclipse"
     },
     "vehicle_NameAEGS_Gladius_Dunlevy": {
       "en": "Aegis Gladius Dunlevy",
@@ -9518,6 +9290,14 @@
     "vehicle_DescAEGS_Gladius_PIR": {
       "en": "Aegis Gladius Pirate",
       "tr": "Пиратский Aegis Gladius"
+    },
+    "vehicle_NameAEGS_Sabre": {
+      "en": "Aegis Sabre",
+      "tr": "Aegis Sabre"
+    },
+    "vehicle_NameAEGS_Sabre_Comet": {
+      "en": "Aegis Sabre Comet",
+      "tr": "Aegis Sabre Comet"
     },
     "vehicle_NameAEGS_Firebird_Collector_Milt": {
       "en": "Aegis Sabre Firebird Wikelo War Special",
@@ -9535,9 +9315,29 @@
       "en": "Anvil F7C-M Hornet Heartseeker Mk I",
       "tr": "Anvil F7C-M Hornet Heartseeker Mk I"
     },
+    "vehicle_NameANVL_Hornet_F7CR": {
+      "en": "Anvil F7C-R Hornet Tracker Mk I",
+      "tr": "Anvil F7C-R Hornet Tracker Mk I"
+    },
+    "vehicle_NameANVL_Hornet_F7CS": {
+      "en": "Anvil F7C-S Hornet Ghost Mk I",
+      "tr": "Anvil F7C-S Hornet Ghost Mk I"
+    },
+    "vehicle_NameANVL_Gladiator": {
+      "en": "Anvil Gladiator",
+      "tr": "Anvil Gladiator"
+    },
+    "vehicle_NameANVL_Hawk": {
+      "en": "Anvil Hawk",
+      "tr": "Anvil Hawk"
+    },
     "vehicle_NameXNAA_SantokYai": {
       "en": "Aopoa San'tok.yāi",
       "tr": "Aopoa San'tok.yai"
+    },
+    "vehicle_NameBanu_Defender": {
+      "en": "Banu Defender",
+      "tr": "Banu Defender"
     },
     "vehicle_NameCNOU_Nomad_Teach": {
       "en": "C.O. Nomad Teach's Special",
@@ -9555,6 +9355,10 @@
       "en": "Drake Cutlass Blue",
       "tr": "Drake Cutlass Blue"
     },
+    "vehicle_NameDRAK_Herald": {
+      "en": "Drake Herald",
+      "tr": "Drake Herald"
+    },
     "vehicle_NameESPR_Blade": {
       "en": "Esperia Blade",
       "tr": "Esperia Blade"
@@ -9562,6 +9366,10 @@
     "vehicle_NameESPR_Glaive": {
       "en": "Esperia Glaive",
       "tr": "Esperia Glaive"
+    },
+    "vehicle_NameESPR_Talon": {
+      "en": "Esperia Talon",
+      "tr": "Esperia Talon"
     },
     "vehicle_NameGAMA_Syulen": {
       "en": "Gatac Syulen",
@@ -9591,6 +9399,22 @@
       "en": "Mirai Guardian Wikelo War Special",
       "tr": "Mirai Guardian Wikelo War Special"
     },
+    "vehicle_NameORIG_300i": {
+      "en": "Origin 300i",
+      "tr": "Origin 300i"
+    },
+    "vehicle_NameORIG_315p": {
+      "en": "Origin 315p",
+      "tr": "Origin 315p"
+    },
+    "vehicle_NameORIG_325a": {
+      "en": "Origin 325a",
+      "tr": "Origin 325a"
+    },
+    "vehicle_NameRSI_Mantis": {
+      "en": "RSI Mantis",
+      "tr": "RSI Mantis"
+    },
     "vehicle_NameRSI_Scorpius_Collector_Stealth": {
       "en": "RSI Scorpius Wikelo Sneak Special",
       "tr": "RSI Scorpius Wikelo Sneak Special"
@@ -9615,6 +9439,158 @@
       "en": "Wreckage",
       "tr": "ОБЛОМКИ"
     },
+    "vehicle_NameCRUS_Starlifter_A2": {
+      "en": "Crusader A2 Hercules Starlifter",
+      "tr": "Crusader A2 Hercules Starlifter"
+    },
+    "vehicle_NameMISC_Prospector": {
+      "en": "MISC Prospector",
+      "tr": "MISC Prospector"
+    },
+    "vehicle_NameORIG_m50": {
+      "en": "Origin M50 Interceptor",
+      "tr": "Origin M50 Interceptor"
+    },
+    "vehicle_NameMISC_Starfarer": {
+      "en": "MISC Starfarer",
+      "tr": "MISC Starfarer"
+    },
+    "vehicle_NameDRAK_Cutter_Rambler": {
+      "en": "Drake Cutter Rambler",
+      "tr": "Drake Cutter Rambler"
+    },
+    "vehicle_NameDRAK_Cutter_Scout": {
+      "en": "Drake Cutter Scout",
+      "tr": "Drake Cutter Scout"
+    },
+    "vehicle_NameMISC_Hull_A": {
+      "en": "MISC Hull A",
+      "tr": "MISC Hull A"
+    },
+    "vehicle_NameMISC_Razor_LX": {
+      "en": "Mirai Razor LX",
+      "tr": "Mirai Razor LX"
+    },
+    "vehicle_NameORIG_100i": {
+      "en": "Origin 100i",
+      "tr": "Origin 100i"
+    },
+    "vehicle_NameORIG_125a": {
+      "en": "Origin 125a",
+      "tr": "Origin 125a"
+    },
+    "vehicle_NameORIG_135c": {
+      "en": "Origin 135c",
+      "tr": "Origin 135c"
+    },
+    "vehicle_NameORIG_85X": {
+      "en": "Origin 85X Limited",
+      "tr": "Origin 85X Limited"
+    },
+    "vehicle_NameRSI_Aurora_LX": {
+      "en": "RSI Aurora Mk I  LX",
+      "tr": "RSI Aurora Mk I  LX"
+    },
+    "vehicle_NameRSI_Aurora_CL": {
+      "en": "RSI Aurora Mk I CL",
+      "tr": "RSI Aurora Mk I CL"
+    },
+    "vehicle_NameRSI_Aurora_ES": {
+      "en": "RSI Aurora Mk I ES",
+      "tr": "RSI Aurora Mk I ES"
+    },
+    "vehicle_NameRSI_Aurora_MR": {
+      "en": "RSI Aurora Mk I MR",
+      "tr": "RSI Aurora Mk I MR"
+    },
+    "vehicle_NameANVL_Terrapin": {
+      "en": "Anvil Terrapin",
+      "tr": "Anvil Terrapin"
+    },
+    "vehicle_NameANVL_Terrapin_Medic": {
+      "en": "Anvil Terrapin Medic",
+      "tr": "Anvil Terrapin Medic"
+    },
+    "vehicle_NameARGO_Mole": {
+      "en": "Argo MOLE",
+      "tr": "Argo MOLE"
+    },
+    "vehicle_NameMISC_Reliant_Mako": {
+      "en": "MISC Reliant Mako",
+      "tr": "MISC Reliant Mako"
+    },
+    "vehicle_NameMISC_Reliant_Sen": {
+      "en": "MISC Reliant Sen",
+      "tr": "MISC Reliant Sen"
+    },
+    "vehicle_NameMISC_Razor": {
+      "en": "Mirai Razor",
+      "tr": "Mirai Razor"
+    },
+    "vehicle_NameORIG_350r": {
+      "en": "Origin 350r",
+      "tr": "Origin 350r"
+    },
+    "vehicle_NameAEGS_Retaliator": {
+      "en": "Aegis Retaliator",
+      "tr": "Aegis Retaliator"
+    },
+    "vehicle_nameANVL_Carrack": {
+      "en": "Anvil Carrack",
+      "tr": "Anvil Carrack"
+    },
+    "vehicle_NameANVL_Lightning_F8": {
+      "en": "Anvil F8A Lightning",
+      "tr": "Anvil F8A Lightning"
+    },
+    "vehicle_nameANVL_Paladin": {
+      "en": "Anvil Paladin",
+      "tr": "Anvil Paladin"
+    },
+    "vehicle_NameCRUS_Starfighter_Ion": {
+      "en": "Crusader Ares Star Fighter Ion",
+      "tr": "Crusader Ares Star Fighter Ion"
+    },
+    "vehicle_NameCRUS_Starlifter_C2": {
+      "en": "Crusader C2 Hercules Starlifter",
+      "tr": "Crusader C2 Hercules Starlifter"
+    },
+    "vehicle_NameCRUS_Starlifter_M2": {
+      "en": "Crusader M2 Hercules Starlifter",
+      "tr": "Crusader M2 Hercules Starlifter"
+    },
+    "vehicle_NameMISC_Starfarer_Gemini": {
+      "en": "MISC Starfarer Gemini",
+      "tr": "MISC Starfarer Gemini"
+    },
+    "vehicle_NameORIG_600i": {
+      "en": "Origin 600i",
+      "tr": "Origin 600i"
+    },
+    "vehicle_NameORIG_890Jump": {
+      "en": "Origin 890 Jump",
+      "tr": "Origin 890 Jump"
+    },
+    "vehicle_NameRSI_Constellation_Aquila": {
+      "en": "RSI Constellation Aquila",
+      "tr": "RSI Constellation Aquila"
+    },
+    "vehicle_NameRSI_Constellation_Taurus": {
+      "en": "RSI Constellation Taurus",
+      "tr": "RSI Constellation Taurus"
+    },
+    "vehicle_NameRSI_Perseus": {
+      "en": "RSI Perseus",
+      "tr": "RSI Perseus"
+    },
+    "vehicle_NameAEGS_Sabre_Raven": {
+      "en": "Aegis Sabre Raven",
+      "tr": "Aegis Sabre Raven"
+    },
+    "vehicle_NameRSI_Constellation_Phoenix": {
+      "en": "RSI Constellation Phoenix",
+      "tr": "RSI Constellation Phoenix"
+    },
     "vehicle_NameDRAK_Cutlass_Red": {
       "en": "Drake Cutlass Red",
       "tr": "Drake Cutlass Red"
@@ -9622,6 +9598,14 @@
     "vehicle_Nameprobe_comms_1_a": {
       "en": "CHCO Auris PDC Monitor",
       "tr": "Спутник-шпион PDC CHCO Auris"
+    },
+    "vehicle_NameXIAN_Scout": {
+      "en": "Aopoa Khartu-al",
+      "tr": "Aopoa Khartu-al"
+    },
+    "vehicle_NameRSI_Aurora_LN": {
+      "en": "RSI Aurora Mk I LN",
+      "tr": "RSI Aurora Mk I LN"
     },
     "vehicle_NameKRIG_P52_Merlin": {
       "en": "Kruger P-52 Merlin",
@@ -9631,9 +9615,17 @@
       "en": "Vanduul Stinger",
       "tr": "Vanduul Stinger"
     },
+    "vehicle_NameAEGS_Idris_P": {
+      "en": "Aegis Idris-P",
+      "tr": "Aegis Idris-P"
+    },
     "vehicle_NameVNCL_Mauler": {
       "en": "Vanduul Mauler Destroyer",
       "tr": "Vanduul Mauler Destroyer"
+    },
+    "vehicle_NameAEGS_Idris_M": {
+      "en": "Aegis Idris-M",
+      "tr": "Aegis Idris-M"
     },
     "vehicle_NameCRUS_Intrepid": {
       "en": "Crusader Intrepid",
