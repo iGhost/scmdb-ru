@@ -1,11 +1,11 @@
 {
-  "version": "4.9.0-ptu.12206539",
+  "version": "4.9.0-ptu.12218630",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 2724,
+  "keyCount": 2720,
   "stats": {
-    "total": 2724,
-    "translated": 2596,
+    "total": 2720,
+    "translated": 2592,
     "missing": 0,
     "noLocKey": 60,
     "placeholderFallback": 68,
@@ -2103,10 +2103,6 @@
       "en": "Ore To Be Scanned",
       "tr": "НУЖНО ПРОСКАНИРОВАТЬ РУДУ"
     },
-    "northrock_SOO_intro_title_001": {
-      "en": "Orison Platforms Under Attack",
-      "tr": "ПЛАТФОРМЫ ORISON ПОД АТАКОЙ"
-    },
     "ORS_Construct_Large_Title": {
       "en": "Orison Relief: Large Fabrication Order",
       "tr": "ПОМОЩЬ ORISON: КРУПНЫЙ ЗАКАЗ НА ИЗГОТОВЛЕНИЕ"
@@ -2658,10 +2654,6 @@
     "Headhunters_DefendLocation_S_Title_001": {
       "en": "Restore Order at [LOCATION]",
       "tr": "НАВЕДЕНИЕ ПОРЯДКА\\n([LOCATION])"
-    },
-    "northrock_SOO_repeat_title_001": {
-      "en": "Retake Platforms From Nine Tails",
-      "tr": "ОТБИТЬ ПЛАТФОРМЫ У NINE TAILS"
     },
     "cfp_ChainElimAll_2C_ElimSpec_HHAttack_H_title_001": {
       "en": "Retaking Outposts from Headhunters",
@@ -5403,10 +5395,6 @@
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore To Be Scanned\\n\\nWORK BRIEF: \\nGot a job for you. Need someone to scan a deposit of <EM4>[RESOURCES]</EM4>. I'm looking into building a more extensive database on mineral locations, so your data will be helpful.[RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
       "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Нужно просканировать руду\\n\\nОПИСАНИЕ РАБОТЫ: \\nЕсть для тебя работа. Нужен тот, кто просканирует месторождение <EM4>[RESOURCES]</EM4>. Я хочу собрать более обширную базу данных о местах залегания минералов, так что твои данные пригодятся.[RARITY]\\n\\nИ ещё: если не знаешь, где искать, или в добыче новичок, <EM4>United Resource Workers составили полезный справочник — загляни в него. Он у тебя в mobiGlas.</EM4>\\n\\nДержи меня в курсе.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения полного сканирования области.\\n\\nОДОБРЕНО:\\nРекко Батталья"
     },
-    "northrock_SOO_intro_desc_001": {
-      "en": "Greetings,\\n\\nCrusader Security Forces have contacted us seeking our expertise in dealing with an urgent situation. Several platforms near Orison have been overtaken by members of the Nine Tails gang and Northrock is eager to staff an operation to remove them and return the platforms to Crusader.\\n\\nThe Nine Tails have put measures in place to block all air traffic in the area, so we've been granted access to a secure shuttle that will take you, and any other members of your assault team, to the first platform.\\n\\nFor full disclosure, I must warn that this is not a contract for the faint of heart. I am confident though that your combat skills, you and your selected team will be fully up to the challenge. \\n\\nOnce you've arrived at the shuttle I'll be in touch directly with more information.\\n\\nSpeak more soon,\\nAdrienne Du-Buisson\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
-      "tr": "Приветствую,\\n\\nСилы безопасности Crusader обратились к нам за помощью в решении одной неотложной ситуации. Несколько платформ рядом с Orison захватили члены банды Nine Tails, и Northrock намерена собрать команду для операции по их устранению и возврату платформ Crusader.\\n\\nNine Tails приняли меры, чтобы перекрыть всё воздушное движение в этом районе, поэтому нам предоставили защищённый шаттл, который доставит вас и остальных членов вашей штурмовой группы на первую платформу.\\n\\nБудем честны: должна предупредить, что этот контракт не для слабонервных. Тем не менее я уверена, что вы и выбранная вами команда с вашими боевыми навыками полностью справитесь с этой задачей. \\n\\nКак только вы доберётесь до шаттла, я свяжусь с вами напрямую и сообщу подробности.\\n\\nДо скорого,\\nАдриенн Дю-Бюиссон\\nОфицер логистики — филиал Stanton\\nNorthrock Service Group"
-    },
     "ORS_Construct_Large_Desc": {
       "en": "Alright,\\n\\nThe damage reports are still rolling in from the Nine Tails' attack on Orison and the folks at Crusader are saying they might have to repair a significant proportion of the propulsors on those platforms. That's why this one's a massive order.\\n\\nLarger quantity, but same as before otherwise. Either manufacturer them yourself using an Item Fabricator or source them some other way.\\n\\nWhen you're done, drop the propulsors off at <EM4>[DESTINATION]</EM4>. Be a big payout with this one.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
       "tr": "Здравствуйте,\\n\\nОтчёты об ущербе от нападения Nine Tails на Orison всё ещё поступают, и ребята из Crusader говорят, что им, возможно, придётся отремонтировать значительную часть двигателей на этих платформах. Поэтому заказ такой крупный.\\n\\nКоличество больше, но в остальном всё как раньше. Изготовьте их сами с помощью фабрикатора предметов или раздобудьте каким-нибудь другим способом.\\n\\nКогда закончите, доставьте двигатели в <EM4>[DESTINATION]</EM4>. Оплата за это будет солидная.\\n\\nПремного благодарен,\\nХэл Гримсби\\nМенеджер по контрактам\\n\\nCORNERSTONE MAINTENANCE\\n\"Строим на фундаменте нашего прошлого.\""
@@ -5838,10 +5826,6 @@
     "Headhunters_DefendLocation_S_Desc_001": {
       "en": "Our crew at <EM4>[LOCATION]</EM4> needs help. Enemy ships are swarming the area and attacking anything and everything they can find. That’d be bad enough as is, but this site has some absolutely crucial gear and personnel that we can’t have destroyed or compromised. \\n\\nConsidering the size and scale of the attack, you’re gonna need a fully supplied ship and some reliable wingmen. Gather your crew, fly out to the site, and I’ll send you specifics on where you’re needed most.\\n\\nTo prove just how serious we are about getting this done right, the main contractor will earn a bonus <EM4>9 Council Scrip</EM4> for making sure absolutely nothing goes wrong.\\n\\n- Stow",
       "tr": "Наш экипаж в <EM4>[LOCATION]</EM4> нуждается в помощи. Корабли противника заполонили этот район и атакуют всё, что могут найти. Это уже само по себе плохо, но на этом объекте находится крайне важное оборудование и персонал, и мы не можем допустить их компрометацию или уничтожение. \\n\\nУчитывая масштаб атаки, тебе понадобится полностью оснащённый корабль и несколько надёжных ведомых. Собери свою команду и вылетай на место, я пришлю тебе конкретные указания, где ты будешь нужнее всего.\\n\\nЧтобы доказать, насколько серьёзно мы относимся к выполнению этой задачи, главный исполнитель получит премию в размере <EM4>[SCRIPAMOUNT] Council Scrip</EM4> за то, что абсолютно всё пройдёт гладко.\\n\\n— Стоус"
-    },
-    "northrock_SOO_repeat_desc_001": {
-      "en": "Glad to have you undertaking this operation for Northrock. Here is the full brief:\\n\\nYour priority is to <EM4>disable all three Identify Friend or Foe Inverters</EM4> that are blocking Crusader Security from accessing the airspace around these platforms. Once the inverters are offline, Crusader Security will be able to fly their ships in and resecure the platforms. In the meanwhile, the platforms are connected by a series of shuttles unaffected by the inverters and will serve as your main form of transport between them.\\n\\nBe aware that you will meet heavy resistance as you progress. Crusader has tried multiple times to deal with this incursion themselves but have thus far been unsuccessful. However, we believe a small strike team will prove more effective in dealing with the Nine Tails forces. \\n\\nAdditionally, in the spirit of full cooperation, Crusader has given you carte blanche to utilize any of the resources you discover that may prove helpful to the mission. \\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
-      "tr": "Рада, что вы берётесь за эту операцию для Northrock. Вот полный инструктаж:\\n\\nВаша основная задача — <EM4>отключить все три инвертора системы опознавания \"свой-чужой\"</EM4>, которые мешают Crusader Security получить доступ к воздушному пространству вокруг этих платформ. Как только инверторы будут отключены, Crusader Security сможет ввести свои корабли и снова взять платформы под контроль. Тем временем платформы соединены сетью шаттлов, на которые инверторы не влияют, — они и станут вашим основным транспортом между ними.\\n\\nИмейте в виду, что по мере продвижения вы встретите ожесточённое сопротивление. Crusader неоднократно пыталась справиться с этим вторжением своими силами, но пока безуспешно. Тем не менее мы считаем, что небольшая ударная группа окажется эффективнее против сил Nine Tails. \\n\\nКроме того, в духе полного сотрудничества Crusader предоставила вам полную свободу действий: вы можете использовать любые найденные ресурсы, которые могут пригодиться для выполнения задания. \\n\\nУдачи,\\nАдриенн Дю-Бюиссон\\nОфицер логистики — филиал Stanton\\nNorthrock Service Group"
     },
     "cfp_ChainElimAll_2C_ElimSpec_HHAttack_H_desc_001": {
       "en": "Citizens for Prosperity is looking for any available security operatives to retake several former CFP installations near [LOCATION] from Headhunter control. These clusters were violently taken from us by [TARGET] and resulted in the deaths of many volunteers.\\n\\nBringing these outposts back under our control will help provide more stability to the system. Reports indicate that [TARGET] tends to hide behind their rank and file, so they will likely appear once you've cleared out most of the hostiles.\\n\\nXenoThreat are trained and motivated so they will not give up easily.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
