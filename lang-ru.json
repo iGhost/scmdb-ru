@@ -1,11 +1,11 @@
 {
-  "version": "4.9.0-live.12269732",
+  "version": "4.9.0-live.12302499",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 2720,
+  "keyCount": 2722,
   "stats": {
-    "total": 2720,
-    "translated": 2592,
+    "total": 2722,
+    "translated": 2594,
     "missing": 0,
     "noLocKey": 60,
     "placeholderFallback": 68,
@@ -9167,6 +9167,70 @@
       "en": "Ruptura PAF-III",
       "tr": "Ruptura PAF-III"
     },
+    "vehicle_NameAEGS_Gladius": {
+      "en": "Aegis Gladius",
+      "tr": "Aegis Gladius"
+    },
+    "vehicle_NameAEGS_Redeemer": {
+      "en": "Aegis Redeemer",
+      "tr": "Aegis Redeemer"
+    },
+    "vehicle_NameAEGS_Vanguard_Harbinger": {
+      "en": "Aegis Vanguard Harbinger",
+      "tr": "Aegis Vanguard Harbinger"
+    },
+    "vehicle_NameAEGS_Vanguard_Hoplite": {
+      "en": "Aegis Vanguard Hoplite",
+      "tr": "Aegis Vanguard Hoplite"
+    },
+    "vehicle_NameAEGS_Vanguard_Sentinel": {
+      "en": "Aegis Vanguard Sentinel",
+      "tr": "Aegis Vanguard Sentinel"
+    },
+    "vehicle_NameAEGS_Vanguard": {
+      "en": "Aegis Vanguard Warden",
+      "tr": "Aegis Vanguard Warden"
+    },
+    "vehicle_NameARGO_RAFT": {
+      "en": "Argo RAFT",
+      "tr": "Argo RAFT"
+    },
+    "vehicle_NameCNOU_Nomad": {
+      "en": "C.O. Nomad",
+      "tr": "C.O. Nomad"
+    },
+    "vehicle_NameCRUS_A1_Spirit": {
+      "en": "Crusader A1 Spirit",
+      "tr": "Crusader A1 Spirit"
+    },
+    "vehicle_NameCRUS_Starfighter_Inferno": {
+      "en": "Crusader Ares Star Fighter Inferno",
+      "tr": "Crusader Ares Star Fighter Inferno"
+    },
+    "vehicle_NameCRUS_C1_Spirit": {
+      "en": "Crusader C1 Spirit",
+      "tr": "Crusader C1 Spirit"
+    },
+    "vehicle_NameDRAK_Vulture": {
+      "en": "Drake Vulture",
+      "tr": "Drake Vulture"
+    },
+    "vehicle_NameESPR_Prowler": {
+      "en": "Esperia Prowler",
+      "tr": "Esperia Prowler"
+    },
+    "vehicle_NameRSI_Scorpius": {
+      "en": "RSI Scorpius",
+      "tr": "RSI Scorpius"
+    },
+    "vehicle_NameRSI_Scorpius_Antares": {
+      "en": "RSI Scorpius Antares",
+      "tr": "RSI Scorpius Antares"
+    },
+    "vehicle_NameRSI_Zeus_ES": {
+      "en": "RSI Zeus Mk II ES",
+      "tr": "RSI Zeus Mk II ES"
+    },
     "vehicle_NameAEGS_Avenger_Titan": {
       "en": "Aegis Avenger Titan",
       "tr": "Aegis Avenger Titan"
@@ -9174,10 +9238,6 @@
     "vehicle_NameAEGS_Avenger_Warlock": {
       "en": "Aegis Avenger Warlock",
       "tr": "Aegis Avenger Warlock"
-    },
-    "vehicle_NameAEGS_Gladius": {
-      "en": "Aegis Gladius",
-      "tr": "Aegis Gladius"
     },
     "vehicle_NameAEGS_Gladius_Valiant": {
       "en": "Aegis Gladius Valiant",
@@ -9203,14 +9263,6 @@
       "en": "Aegis Sabre Raven",
       "tr": "Aegis Sabre Raven"
     },
-    "vehicle_NameAEGS_Vanguard_Hoplite": {
-      "en": "Aegis Vanguard Hoplite",
-      "tr": "Aegis Vanguard Hoplite"
-    },
-    "vehicle_NameAEGS_Vanguard_Sentinel": {
-      "en": "Aegis Vanguard Sentinel",
-      "tr": "Aegis Vanguard Sentinel"
-    },
     "vehicle_NameANVL_Hawk": {
       "en": "Anvil Hawk",
       "tr": "Anvil Hawk"
@@ -9219,17 +9271,9 @@
       "en": "Argo MOLE",
       "tr": "Argo MOLE"
     },
-    "vehicle_NameARGO_RAFT": {
-      "en": "Argo RAFT",
-      "tr": "Argo RAFT"
-    },
     "vehicle_NameBanu_Defender": {
       "en": "Banu Defender",
       "tr": "Banu Defender"
-    },
-    "vehicle_NameCNOU_Nomad": {
-      "en": "C.O. Nomad",
-      "tr": "C.O. Nomad"
     },
     "vehicle_NameCRUS_Starlifter_C2": {
       "en": "Crusader C2 Hercules Starlifter",
@@ -9242,10 +9286,6 @@
     "vehicle_NameDRAK_Buccaneer": {
       "en": "Drake Buccaneer",
       "tr": "Drake Buccaneer"
-    },
-    "vehicle_NameESPR_Prowler": {
-      "en": "Esperia Prowler",
-      "tr": "Esperia Prowler"
     },
     "vehicle_NameMISC_Freelancer": {
       "en": "MISC Freelancer",
@@ -9303,14 +9343,6 @@
       "en": "RSI Constellation Taurus",
       "tr": "RSI Constellation Taurus"
     },
-    "vehicle_NameAEGS_Vanguard_Harbinger": {
-      "en": "Aegis Vanguard Harbinger",
-      "tr": "Aegis Vanguard Harbinger"
-    },
-    "vehicle_NameAEGS_Vanguard": {
-      "en": "Aegis Vanguard Warden",
-      "tr": "Aegis Vanguard Warden"
-    },
     "vehicle_NameANVL_Arrow": {
       "en": "Anvil Arrow",
       "tr": "Anvil Arrow"
@@ -9330,10 +9362,6 @@
     "vehicle_NameXIAN_Scout": {
       "en": "Aopoa Khartu-al",
       "tr": "Aopoa Khartu-al"
-    },
-    "vehicle_NameCRUS_A1_Spirit": {
-      "en": "Crusader A1 Spirit",
-      "tr": "Crusader A1 Spirit"
     },
     "vehicle_NameCRUS_Starlifter_M2": {
       "en": "Crusader M2 Hercules Starlifter",
@@ -9390,10 +9418,6 @@
     "vehicle_NameRSI_Zeus_CL": {
       "en": "RSI Zeus Mk II CL",
       "tr": "RSI Zeus Mk II CL"
-    },
-    "vehicle_NameRSI_Zeus_ES": {
-      "en": "RSI Zeus Mk II ES",
-      "tr": "RSI Zeus Mk II ES"
     },
     "vehicle_NameDRAK_Cutter": {
       "en": "Drake Cutter",
@@ -9571,10 +9595,6 @@
       "en": "Anvil Terrapin Medic",
       "tr": "Anvil Terrapin Medic"
     },
-    "vehicle_NameDRAK_Vulture": {
-      "en": "Drake Vulture",
-      "tr": "Drake Vulture"
-    },
     "vehicle_NameMISC_Reliant_Mako": {
       "en": "MISC Reliant Mako",
       "tr": "MISC Reliant Mako"
@@ -9594,10 +9614,6 @@
     "vehicle_NameAEGS_Idris_P": {
       "en": "Aegis Idris-P",
       "tr": "Aegis Idris-P"
-    },
-    "vehicle_NameAEGS_Redeemer": {
-      "en": "Aegis Redeemer",
-      "tr": "Aegis Redeemer"
     },
     "vehicle_NameANVL_Hornet_F7C_Mk2": {
       "en": "Anvil F7C Hornet Mk II",
@@ -9623,10 +9639,6 @@
       "en": "Anvil Paladin",
       "tr": "Anvil Paladin"
     },
-    "vehicle_NameCRUS_Starfighter_Inferno": {
-      "en": "Crusader Ares Star Fighter Inferno",
-      "tr": "Crusader Ares Star Fighter Inferno"
-    },
     "vehicle_NameCRUS_Starfighter_Ion": {
       "en": "Crusader Ares Star Fighter Ion",
       "tr": "Crusader Ares Star Fighter Ion"
@@ -9646,14 +9658,6 @@
     "vehicle_NameRSI_Constellation_Phoenix": {
       "en": "RSI Constellation Phoenix",
       "tr": "RSI Constellation Phoenix"
-    },
-    "vehicle_NameRSI_Scorpius": {
-      "en": "RSI Scorpius",
-      "tr": "RSI Scorpius"
-    },
-    "vehicle_NameRSI_Scorpius_Antares": {
-      "en": "RSI Scorpius Antares",
-      "tr": "RSI Scorpius Antares"
     },
     "vehicle_NameANVL_Hornet_F7A_Mk2": {
       "en": "Anvil F7A Hornet Mk II",
@@ -9694,6 +9698,10 @@
     "vehicle_NameXNAA_SantokYai": {
       "en": "Aopoa San'tok.yāi",
       "tr": "Aopoa San'tok.yai"
+    },
+    "vehicle_NameCRUS_Intrepid": {
+      "en": "Crusader Intrepid",
+      "tr": "Crusader Intrepid"
     },
     "vehicle_NameDRAK_Cutlass_Blue": {
       "en": "Drake Cutlass Blue",
