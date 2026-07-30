@@ -1,17 +1,20 @@
 {
-  "version": "4.10.0-ptu.12311913",
+  "version": "4.10.0-ptu.12344240",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 2725,
+  "keyCount": 2732,
   "stats": {
-    "total": 2725,
-    "translated": 2597,
-    "missing": 0,
+    "total": 2732,
+    "translated": 2602,
+    "missing": 2,
     "noLocKey": 60,
     "placeholderFallback": 68,
     "lengthFallback": 0,
     "mismatch": 223,
-    "missingKeys": [],
+    "missingKeys": [
+      "TheCollector_Recipes_Desc_CombatSuit",
+      "TheCollector_Recipes_Title_CombatSuit"
+    ],
     "mismatchKeys": [
       "CFP_Delivery_Outpost_Multi_title_001",
       "CFP_SecurityPatrol_E_Desc_001",
@@ -239,6 +242,10 @@
     ]
   },
   "keys": {
+    "TheCollector_Recipes_Title_CombatSuit": {
+      "en": "@TheCollector_Recipes_Title_CombatSuit",
+      "tr": "@TheCollector_Recipes_Title_CombatSuit"
+    },
     "Headhunters_Delivery_Outpost_title_001": {
       "en": "[DESTINATION] Errand",
       "tr": "КОМАНДИРОВКА\\n([DESTINATION])"
@@ -1434,6 +1441,10 @@
     "headhunters_defendship_MRT_title_001": {
       "en": "Headhunter Ship Needs Backup",
       "tr": "КОРАБЛЮ HEADHUNTERS ТРЕБУЕТСЯ ПОДКРЕПЛЕНИЕ"
+    },
+    "TheCollector_Recipes_Title_SuperHeavyCombat": {
+      "en": "Heavy and Bright",
+      "tr": "ТЯЖЁЛАЯ И ЯРКАЯ"
     },
     "cfp_defendship_multi_HRT_SB_title_001": {
       "en": "Help Ambushed Convoy",
@@ -3147,6 +3158,10 @@
       "en": "Time to Teach a Lesson",
       "tr": "ПРИШЛО ВРЕМЯ ПРЕПОДАТЬ УРОК"
     },
+    "TheCollector_Recipes_Title_aparGatlingGun": {
+      "en": "Too Much Gun",
+      "tr": "СЛИШКОМ МНОГО ОРУЖИЯ"
+    },
     "Eckhart_EscortShips_S_title": {
       "en": "Top Tier Operator Needed",
       "tr": "ТРЕБУЕТСЯ СПЕЦИАЛИСТ ВЫСШЕГО ЗВЕНА"
@@ -3498,6 +3513,10 @@
     "Covalex_HaulCargo_MultiToSingle_title": {
       "en": "Senior Rank - Large Cargo Haul",
       "tr": "РАНГ: [RANK] — ГРУЗОПЕРЕВОЗКА [CARGO_GRADE] ГРУЗА"
+    },
+    "TheCollector_Recipes_Desc_CombatSuit": {
+      "en": "@TheCollector_Recipes_Desc_CombatSuit",
+      "tr": "@TheCollector_Recipes_Desc_CombatSuit"
     },
     "Headhunters_Delivery_Outpost_desc_001": {
       "en": "Got a box sitting at <EM4>[LOCATION]</EM4> that needs to make its way over to <EM4>[DESTINATION]</EM4>. Any chance you can knock this out real quick?\\n\\nMight be the easiest gig I’ve ever assigned out. Only real threat would be tripping over your own feet. A <EM4>handheld tractor beam</EM4> would also be smart to bring along. \\n\\nStows out.",
@@ -4718,6 +4737,10 @@
     "headhunters_defendship_MRT_desc_001": {
       "en": "One of my pilots wasn't thinking straight and got themselves mixed up in a heap of trouble over at [LOCATION]. \\n\\nThe real kicker is the fool has a full hold. Can't really afford to lose the stuff they're carrying, so I'd appreciate it if you could go bail them out for me. \\n\\n- Stows out",
       "tr": "Один из моих пилотов плохо соображал и вляпался в кучу неприятностей в области [LOCATION]. \\n\\nСамое интересное, что у дурака есть товар. На самом деле я не могу позволить себе потерять товар, который наш пилот перевозит, поэтому буду признателен, если ты заберёшь его для меня. \\n\\n— Стоус, конец связи."
+    },
+    "TheCollector_Recipes_Desc_SuperHeavyCombat": {
+      "en": "This armor is big, yes! Protect you real good. Wikelo make it extra bright so everyone can see how good your armor is. If you bring the things I need, I trade for it.",
+      "tr": "Эта броня большая, да! Защитит вас очень хорошо. Викело сделает её особенно яркой, чтобы все видели, какая хорошая ваша броня. Принесите Викело нужные вещи — Викело обменяет."
     },
     "cfp_defendship_multi_HRT_SB_desc_001": {
       "en": "One of our convoys is in need of combat support. Sounds like they stumbled upon a Shattered Blade hideout while trying to make a delivery. Now, despite their best efforts, the convoy can’t get away. Looking for a combat pilot willing to head to <EM4>[LOCATION]</EM4> to help them fight off this attack before it’s too late. \\n  \\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
@@ -6362,6 +6385,10 @@
     "Eckhart_ShipAmbush_E_desc": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Ship Ambush\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client of ours has been receiving anonymous threats in an attempt to blackmail them, and after a bit of leg work on our part, we’ve managed to trace it back to an individual who pilots a particular <EM4>[TARGET]</EM4>. The client wants us to take care of this blackmailer before they have a chance to make good. \\n\\nBased on our assessment, the target shouldn’t be too difficult to handle. They fly by <EM4>[LOCATION]</EM4> on the regular, which has an <EM4>emission cloud</EM4> that’s an ideal spot to power down your ship and lie in wait. Sometimes the target is alone but they often travel with other single-seat ships as protection. Best be strategic when you launch your ambush or the <EM4>[TARGET]</EM4> could have a chance to get away. We don’t want to lose this one. We’ll alert other contractors in the area of the ambush so they can come help once it pops off.     \\n\\nPayment will be issued upon successful completion of contract. The client has also added a bonus payment of <EM4>3 MG Scrip</EM4> for the main contractor.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
       "tr": "ECKHART SECURITY, LLC.\\nКОНТРАКТЫ И КОРРЕСПОНДЕНЦИЯ\\n\\nТИП КОНТРАКТА: Засада на корабль\\nКОД ПОДТВЕРЖДЕНИЯ: = [APPROVAL_CODE]\\n\\nДЛЯ НЕМЕДЛЕННОГО ИСПОЛНЕНИЯ\\n\\nОдин из наших клиентов получает анонимные угрозы с попыткой его шантажировать. После некоторой розыскной работы нам удалось выйти на человека, управляющего конкретным кораблём <EM4>[TARGET]</EM4>. Клиент хочет, чтобы мы разобрались с этим шантажистом до того, как у него появится шанс осуществить свои намерения.\\n\\nПо нашей оценке, с целью не должно быть слишком сложно справиться. Он регулярно пролетает мимо области <EM4>[LOCATION]</EM4>, где есть <EM4>облако выбросов</EM4> — идеальное место, чтобы отключить питание корабля и залечь в засаде. Иногда цель летит в одиночку, но зачастую её сопровождают другие одноместные корабли в качестве охраны. Продумайте стратегию, когда будете устраивать засаду, иначе у <EM4>[TARGET]</EM4> может появиться шанс скрыться. Мы не хотим упустить эту цель. Мы оповестим других исполнителей в районе о засаде, чтобы они могли прийти на помощь, когда она начнётся.\\n\\nОплата будет выполнена после успешного завершения контракта. Клиент также добавил премиальную выплату в размере <EM4>[SCRIPAMOUNT] MG Scrip</EM4> для основного исполнителя.\\n\\nДанный контракт обсуждению не подлежит.\\n\\nЭто сообщение может содержать конфиденциальную, корпоративную, личную или не подлежащую разглашению информацию. Эта информация предназначена для использования физическим или юридическим лицом, указанным выше."
+    },
+    "TheCollector_Recipes_Desc_aparGatlingGun": {
+      "en": "This gun is very big and very loud. Wikelo love it. Made it extra bright so that everyone can see how special this gun is. I think you will like this so bring me trade.",
+      "tr": "Это оружие очень большое и очень громкое. Викело его любит. Сделал особенно ярким, чтобы все видели, какое особенное это оружие. Викело думает, вам понравится, так что принесите Викело обмен."
     },
     "Eckhart_EscortShips_S_desc": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Escort Ship\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nThis contract should only be considered by the most capable of pilots. A highly valued client is currently under attack at <EM4>[LOCATION]</EM4> and requires immediate extraction. They’re sitting in the hangar ready to leave, but are unable to move until the hostile ships in the area have been neutralized. \\n\\nI don’t see the outlaws stopping any time soon and our client’s reporting they’re packing high-grade weaponry on their ships. This will be a test of your skill as much as your endurance. Assemble whoever you need and head there immediately to assist them.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -9699,6 +9726,10 @@
       "en": "RSI Constellation Phoenix",
       "tr": "RSI Constellation Phoenix"
     },
+    "vehicle_NameMisc_Fury": {
+      "en": "Mirai Fury",
+      "tr": "Mirai Fury"
+    },
     "vehicle_NameANVL_Hornet_F7A_Mk2": {
       "en": "Anvil F7A Hornet Mk II",
       "tr": "Anvil F7A Hornet Mk II"
@@ -9715,25 +9746,25 @@
       "en": "CHCO Auris PDC Monitor",
       "tr": "Спутник-шпион PDC CHCO Auris"
     },
-    "vehicle_NameMisc_Fury": {
-      "en": "Mirai Fury",
-      "tr": "Mirai Fury"
-    },
-    "vehicle_NameANVL_Hornet_F7A": {
-      "en": "Anvil F7A Hornet Mk I",
-      "tr": "Anvil F7A Hornet Mk I"
+    "vehicle_NameVNCL_Mauler": {
+      "en": "Vanduul Mauler Destroyer",
+      "tr": "Vanduul Mauler Destroyer"
     },
     "vehicle_NameVNCL_Stinger": {
       "en": "Vanduul Stinger",
       "tr": "Vanduul Stinger"
     },
+    "vehicle_NameANVL_Hornet_F7A": {
+      "en": "Anvil F7A Hornet Mk I",
+      "tr": "Anvil F7A Hornet Mk I"
+    },
     "vehicle_NameKRIG_P52_Merlin": {
       "en": "Kruger P-52 Merlin",
       "tr": "Kruger P-52 Merlin"
     },
-    "vehicle_NameVNCL_Mauler": {
-      "en": "Vanduul Mauler Destroyer",
-      "tr": "Vanduul Mauler Destroyer"
+    "vehicles_NameOrbital_Sentry": {
+      "en": "Broad & Rabiee Overseer Orbital Sentry",
+      "tr": "Орбитальный часовой Broad & Rabiee Overseer"
     },
     "vehicle_NameXNAA_SantokYai": {
       "en": "Aopoa San'tok.yāi",
@@ -10087,6 +10118,10 @@
       "en": "XenoThreat",
       "tr": "XenoThreat"
     },
+    "ContractManager_TempTab_Small_Items": {
+      "en": "Wikelo - Other Items",
+      "tr": "ВИКЕЛО — ДРУГИЕ ПРЕДМЕТЫ"
+    },
     "mobiGlas_ui_MissionType_Delivery": {
       "en": "Delivery",
       "tr": "ДОСТАВКА"
@@ -10118,10 +10153,6 @@
     "mobiglas_ui_Priority": {
       "en": "Priority",
       "tr": "ПРИОРИТЕТ"
-    },
-    "ContractManager_TempTab_Small_Items": {
-      "en": "Wikelo - Other Items",
-      "tr": "ВИКЕЛО — ДРУГИЕ ПРЕДМЕТЫ"
     },
     "ContractManager_TempTab_Vehicles": {
       "en": "Wikelo - Vehicles",
@@ -10341,7 +10372,7 @@
     },
     "mineabletype_type_shipasteroid": {
       "en": "Asteroid",
-      "tr": "добыча на корабле в космосе"
+      "tr": "корабль/космос"
     },
     "mineabletype_primary_bexalite": {
       "en": "Bexalite",
