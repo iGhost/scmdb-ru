@@ -1,20 +1,17 @@
 {
-  "version": "4.10.0-ptu.12344240",
+  "version": "4.10.0-ptu.12358556",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 2732,
+  "keyCount": 2726,
   "stats": {
-    "total": 2732,
-    "translated": 2602,
-    "missing": 2,
+    "total": 2726,
+    "translated": 2598,
+    "missing": 0,
     "noLocKey": 60,
     "placeholderFallback": 68,
     "lengthFallback": 0,
     "mismatch": 223,
-    "missingKeys": [
-      "TheCollector_Recipes_Desc_CombatSuit",
-      "TheCollector_Recipes_Title_CombatSuit"
-    ],
+    "missingKeys": [],
     "mismatchKeys": [
       "CFP_Delivery_Outpost_Multi_title_001",
       "CFP_SecurityPatrol_E_Desc_001",
@@ -242,10 +239,6 @@
     ]
   },
   "keys": {
-    "TheCollector_Recipes_Title_CombatSuit": {
-      "en": "@TheCollector_Recipes_Title_CombatSuit",
-      "tr": "@TheCollector_Recipes_Title_CombatSuit"
-    },
     "Headhunters_Delivery_Outpost_title_001": {
       "en": "[DESTINATION] Errand",
       "tr": "КОМАНДИРОВКА\\n([DESTINATION])"
@@ -1334,10 +1327,6 @@
       "en": "Fracturing the Alliance",
       "tr": "РАСПАД АЛЬЯНСА"
     },
-    "Battaglia_RPT_Scan_04_title": {
-      "en": "Full Area Scan for Ore",
-      "tr": "ПОЛНОЕ СКАНИРОВАНИЕ ЗОНЫ С РУДОЙ"
-    },
     "TheCollector_Recipes_Title_KopSkull": {
       "en": "Fun Kopion Skull Gun",
       "tr": "ЗАБАВНОЕ ОРУЖИЕ С ЧЕРЕПОМ КОПИОНА"
@@ -1474,10 +1463,6 @@
       "en": "Hide Snow Suit",
       "tr": "УКРОЙТЕСЬ В СНЕЖНОМ КОСТЮМЕ"
     },
-    "Battaglia_RPT_Scan_06_title": {
-      "en": "High Priority Ore Scan",
-      "tr": "ПРИОРИТЕТНОЕ СКАНИРОВАНИЕ РУДЫ"
-    },
     "EckhartSecurity_RecoverCargo_Hard_Title": {
       "en": "High Risk Shipment Recovery",
       "tr": "ВЫСОКОРИСКОВАННЫЙ ВОЗВРАТ ГРУЗА"
@@ -1529,6 +1514,10 @@
     "LingFamily_delivery_name_ICC_Special_Cryo": {
       "en": "ICC Special Delivery",
       "tr": "СПЕЦИАЛЬНАЯ ДОСТАВКА ДЛЯ ICC"
+    },
+    "Battaglia_Story03_title": {
+      "en": "Idea for Isaac",
+      "tr": "Идея насчёт Айзека"
     },
     "EckhartSecurity_DestroyServers_FacilityDelving_Title_001": {
       "en": "INFILITRATE ASD SITE AND DESTROY SERVERS",
@@ -1649,10 +1638,6 @@
     "Covalex_RecoverCargo_Hard_Title": {
       "en": "Large Covalex Shipment Needs Recovering",
       "tr": "COVALEX: ТРЕБУЕТСЯ ВЕРНУТЬ БОЛЬШУЮ ПАРТИЮ"
-    },
-    "Battaglia_RPT_Scan_05_title": {
-      "en": "Large Deposit Of Ore To Confirm",
-      "tr": "ПОДТВЕРДИТЬ КРУПНОЕ МЕСТОРОЖДЕНИЕ РУДЫ"
     },
     "headhunters_maintenance_local_M_title_001": {
       "en": "Last Landings needs a bunch of repairs",
@@ -2102,21 +2087,9 @@
       "en": "Orange Lvl. Contract: Protect Fuel Tanks and Escort Employees",
       "tr": "КОНТРАКТ ОРАНЖЕВОГО УРОВНЯ: ЗАЩИТА [OBJECTS] И СОПРОВОЖДЕНИЕ СОТРУДНИКОВ"
     },
-    "Battaglia_RPT_Scan_03_title": {
-      "en": "Ore Deposit Needs Scanning",
-      "tr": "НУЖНО ПРОСКАНИРОВАТЬ МЕСТОРОЖДЕНИЕ"
-    },
     "Battaglia_RPT_ScanMine_04_title": {
       "en": "Ore Needs Gathering",
       "tr": "НУЖНО СОБРАТЬ РУДУ"
-    },
-    "Battaglia_RPT_Scan_01_title": {
-      "en": "Ore Scan Needed",
-      "tr": "ТРЕБУЕТСЯ СКАНИРОВАНИЕ РУДЫ"
-    },
-    "Battaglia_RPT_Scan_02_title": {
-      "en": "Ore To Be Scanned",
-      "tr": "НУЖНО ПРОСКАНИРОВАТЬ РУДУ"
     },
     "northrock_SOO_intro_title_001": {
       "en": "Orison Platforms Under Attack",
@@ -3326,6 +3299,10 @@
       "en": "Wasting Their Stockpile",
       "tr": "РАЗОРИТЬ ИХ ЗАПАСЫ"
     },
+    "Battaglia_Story01_title": {
+      "en": "Welcome to the System",
+      "tr": "ДОБРО ПОЖАЛОВАТЬ В СИСТЕМУ"
+    },
     "TheCollector_Ships_Terrapin_Medic_Title": {
       "en": "What is Terrapin?",
       "tr": "ЧТО ТАКОЕ TERRAPIN?"
@@ -3513,10 +3490,6 @@
     "Covalex_HaulCargo_MultiToSingle_title": {
       "en": "Senior Rank - Large Cargo Haul",
       "tr": "РАНГ: [RANK] — ГРУЗОПЕРЕВОЗКА [CARGO_GRADE] ГРУЗА"
-    },
-    "TheCollector_Recipes_Desc_CombatSuit": {
-      "en": "@TheCollector_Recipes_Desc_CombatSuit",
-      "tr": "@TheCollector_Recipes_Desc_CombatSuit"
     },
     "Headhunters_Delivery_Outpost_desc_001": {
       "en": "Got a box sitting at <EM4>[LOCATION]</EM4> that needs to make its way over to <EM4>[DESTINATION]</EM4>. Any chance you can knock this out real quick?\\n\\nMight be the easiest gig I’ve ever assigned out. Only real threat would be tripping over your own feet. A <EM4>handheld tractor beam</EM4> would also be smart to bring along. \\n\\nStows out.",
@@ -4296,7 +4269,7 @@
     },
     "Battaglia_RPT_MissCrew_01_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Crew Hasn’t Checked In\\n\\nWORK BRIEF: \\nJust got word that one of the mining teams is unaccounted for. They were supposed to be back hours ago, but no one’s heard from them. Family have tried to reach out but haven’t gotten a response from anyone on the crew.\\n\\nI can send you their last known location, so we’re looking for someone to go check in and see if they’re okay. If the worst happened, <EM4>please identify anyone you find</EM4>. I’m sure the families would appreciate some closure on what happened.\\n\\nThanks\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Бригада не выходит на связь\\n\\nОПИСАНИЕ РАБОТЫ: \\nТолько что стало известно, что одна из добывающих бригад пропала. Они должны были вернуться несколько часов назад, но от них нет вестей. Родные пытались связаться с ними, но никто из бригады не отвечает.\\n\\nЯ могу отправить тебе их последнее известное местоположение — нам нужен тот, кто проверит, всё ли с ними в порядке. Если случилось худшее, <EM4>опознай всех, кого найдёшь</EM4>. Уверен, родные будут благодарны за возможность узнать, что произошло.\\n\\nСпасибо\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения статуса всей бригады.\\n\\nОДОБРЕНО:\\nРекко Батталья"
+      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Бригада не вышла на связь\\n\\nОПИСАНИЕ РАБОТЫ: \\nТолько что стало известно, что одна из добывающих бригад пропала. Они должны были вернуться несколько часов назад, но от них нет вестей. Родные пытались связаться с ними, но никто из бригады не отвечает.\\n\\nЯ могу отправить тебе их последнее известное местоположение — нам нужен тот, кто проверит, всё ли с ними в порядке. Если случилось худшее, <EM4>опознай всех, кого найдёшь</EM4>. Уверена, родные будут благодарны за возможность узнать, что произошло.\\n\\nСпасибо\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения статуса всей бригады.\\n\\nОДОБРЕНО:\\nРекко Батталья"
     },
     "EckhartSecurity_RecoverCargo_VeryHard_Description": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nCalling for a skilled contractor to recover a displaced shipment located at <EM4>[LOCATION]</EM4>. Client's hauler was transporting some high value cargo when they decided to respond to a distress beacon and got ambushed by a group of outlaws. The client believes their pilot is gone but their cargo could still be recovered.\\n\\nThe information we have so far is that you'll need a ship that can carry <EM4>[MAX_SCU] cargo containers</EM4>, a <EM4>heavy-duty tractor beam</EM4> for shifting the goods, as well as your support ships to help deal with the outlaws at the location. \\n\\nClient will be expecting the completed delivery to be made to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -4630,10 +4603,6 @@
       "en": "It seems the People’s Alliance have been ruffling some feathers recently. A client of ours would be most thrilled if you can prevent [TARGET] from meddling in their affairs ever again.\\n\\nYou’ll find them around <EM4>[LOCATION]</EM4>, and from what our client has told us, it’s unlikely that they’re alone. These aren’t your run-of-the-mill pilots, they might even pose a slight threat to your safety.\\n\\nDo try your best to keep it as clean as possible.\\n\\nSincerely,\\nVaughn",
       "tr": "Похоже, People's Alliance в последнее время успел насолить кое-кому. Наш клиент будет крайне рад, если ты сможешь раз и навсегда помешать [TARGET] вмешиваться в его дела.\\n\\nТы найдёшь цель в области <EM4>[LOCATION]</EM4>, и, судя по тому, что сообщил нам клиент, вряд ли там будет только твоя цель. Это не какие-то заурядные пилоты — они вполне могут представлять определённую угрозу для твоей безопасности.\\n\\nПостарайся сделать всё максимально аккуратно.\\n\\nС уважением,\\nВон"
     },
-    "Battaglia_RPT_Scan_04_desc": {
-      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Full Area Scan For Ore\\n\\nWORK BRIEF: \\nI need you to check something out for me if you’re not busy. I'm looking to build on our mineral database and need some scans of <EM4>[RESOURCES]</EM4>. I can handle the mining if you want to leave it. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Полное сканирование зоны с рудой\\n\\nОПИСАНИЕ РАБОТЫ: \\nЕсли у тебя есть время, проверь для меня кое-что. Я хочу пополнить нашу базу данных по минералам, и мне нужны сканы <EM4>[RESOURCES]</EM4>. С добычей я и сам разберусь, если не захочешь возиться. [RARITY]\\n\\nИ ещё: если не знаешь, где искать, или в добыче новичок, <EM4>в твоём mobiGlas есть справочник по добыче от United Resource Workers</EM4> — обязательно загляни в него.\\n\\nДай знать.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения полного сканирования области.\\n\\nОДОБРЕНО:\\nРекко Батталья"
-    },
     "TheCollector_Recipes_Desc_KopSkull": {
       "en": "Hello. Can make fun change to gun if you want. Use kopion skin for pattern and little skull dangle. Very effective. Shoot much better.\\n\\nAll you need is bring me parts to <EM4>[DESTINATIONS]</EM4> and will make. \\n\\nBye.",
       "tr": "Здравствуйте. Могу внести забавные изменения в ваше оружие, если хотите. Использую кожу копиона в качестве узора и добавлю небольшой свисающий черепок. Это очень эффективно — оружие будет стрелять гораздо лучше.\\n\\nВсё, что вам нужно, — это принести мне детали в регион <EM4>[DESTINATIONS]</EM4>, и я всё сделаю. \\n\\nДо свидания."
@@ -4770,10 +4739,6 @@
       "en": "You want be hidden. Wikelo understand. Not ask questions why. But what do when you in snow? Wikelo have suit for that.\\n\\nWelcome.",
       "tr": "Вы хотите скрыться. Викело понимает. Не задавайте вопросов, почему. Но что делать, когда вы в снегу? У Викело есть костюм для этого.\\n\\nПриходите."
     },
-    "Battaglia_RPT_Scan_06_desc": {
-      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Priority Ore Scan\\n\\nWORK BRIEF: \\nI'm looking for people to go out and find deposits of <EM4>[RESOURCES]</EM4> to contribute to a system-wide experiment that will help plan future mining operations. [RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nHope I can rely on you.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Приоритетное сканирование руды\\n\\nОПИСАНИЕ РАБОТЫ: \\nИщу людей, готовых слетать и найти месторождения <EM4>[RESOURCES]</EM4>, чтобы внести вклад в общесистемный эксперимент, который поможет спланировать будущие добывающие операции. [RARITY]\\n\\nИ ещё: если не знаешь, где искать, или в добыче новичок, <EM4>United Resource Workers составили полезный справочник — загляни в него. Он у тебя в mobiGlas.</EM4>\\n\\nНадеюсь, на тебя можно положиться.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения полного сканирования области.\\n\\nОДОБРЕНО:\\nРекко Батталья"
-    },
     "EckhartSecurity_RecoverCargo_Hard_Description": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nGot a transport in need of backup over at <EM4>[LOCATION]</EM4>. Signal was patchy, but their comms made it sound like a group of outlaws had gotten wind of what they were hauling and attempted to take it from them.\\n\\nConsidering the state of things before we lost contact, I'm considering this a recovery mission. Multiple hostiles are expected at the site, so a skilled crew is crucial for the success of this operation. There will be a high volume of cargo to deal with, so a ship that can carry <EM4>[MAX_SCU] cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> will be needed. \\n\\nUpon successful extraction of cargo, deliver to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
       "tr": "ECKHART SECURITY, LLC.\\nКОНТРАКТЫ И КОРРЕСПОНДЕНЦИЯ\\n\\nТИП КОНТРАКТА: Возврат груза\\nКод подтверждения: = [APPROVAL_CODE]\\n\\nДЛЯ НЕМЕДЛЕННОГО ИСПОЛНЕНИЯ\\n\\nУ нас есть транспорт, которому требуется подкрепление в локации <EM4>[LOCATION]</EM4>. Сигнал был нестабильным, но из их сообщений стало понятно, что группа преступников прознала о том, что они перевозят, и попыталась это у них отобрать.\\n\\nУчитывая обстановку на момент потери связи, я расцениваю это как операцию по возврату груза. Ожидается присутствие нескольких враждебных лиц на месте, поэтому для успеха этой операции крайне важна опытная команда. Предстоит иметь дело с большим объёмом груза, поэтому понадобится корабль, способный перевозить <EM4>[MAX_SCU] грузовых контейнеров</EM4>, и <EM4>тяжёлый тяговый луч</EM4>.\\n\\nПосле успешного извлечения груза доставьте его в грузовой лифт в локацию <EM4>[DESTINATION]</EM4>.\\n\\nДанный контракт обсуждению не подлежит.\\n\\nЭто сообщение может содержать конфиденциальную, корпоративную, личную или не подлежащую разглашению информацию. Эта информация предназначена для использования физическим или юридическим лицом, указанным выше."
@@ -4825,6 +4790,10 @@
     "LingFamily_delivery_desc_ICC_Special_Cryo": {
       "en": "Hi,\\n\\nNot sure if you ever heard of them, but a rep from the ICC (they make starmaps and study space for the empire) just reached out to us about a special job they need picked up from Wikelo's Emporium. \\n\\nKind of surprised to be honest that they having any dealings there since that Banu's trading-post doesn't exactly scream \"cutting-edge science\" to me.\\n\\nAnyway, they want the delivery brought from there to [DESTINATION]. They also emphasized that the cargo's very delicate so make sure that you use kid gloves when you're handling it, okay? (Not that you aren't careful normally, but you know how clients are.) \\n\\nBe sure to bring a <EM4>heavy-duty tractor beam</EM4> and a ship with enough space to store <EM4>1 SCU cargo</EM4>.\\n\\nThanks,  \\nConni Ling \\nCargo Logistics Coordinator \\nLing Family Hauling",
       "tr": "Здравствуйте,\\n\\nНе уверена, слышали ли вы о них, но представитель ICC (они составляют звёздные карты и изучают космос для империи) только что обратился к нам по поводу особого заказа, который нужно забрать из Wikelo's Emporium. \\n\\nЧестно говоря, немного удивлена, что у них вообще есть с ним дела, ведь эта торговая лавка Бану не очень-то похожа на оплот \"передовой науки\".\\n\\n\\nКак бы то ни было, они хотят, чтобы груз доставили оттуда в область [DESTINATION]. Они также подчеркнули, что груз очень хрупкий, поэтому обращайтесь с ним предельно бережно, хорошо? (Не то чтобы вы обычно неосторожны, но вы же знаете этих клиентов.) \\n\\nОбязательно возьмите <EM4>тяжёлый тяговый луч</EM4> и корабль с достаточным местом для размещения <EM4>груза объёмом [MAX_SCU]</EM4>.\\n\\nСпасибо,  \\nКонни Линг \\nКоординатор грузовой логистики \\nLing Family Hauling"
+    },
+    "Battaglia_Story03_desc": {
+      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Idea for Isaac\\n\\nWORK BRIEF: \\nI need your help with a plan I've come up with for Isaac. <EM4>I'll give you the details in person</EM4>, but it will involve heading back into Moraine territory, so you'll need to be prepared.\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Идея насчёт Айзека\\n\\nОПИСАНИЕ РАБОТЫ: \\nМне нужна твоя помощь с планом, который я придумала насчёт Айзека. <EM4>Подробности расскажу при встрече</EM4>, но придётся снова отправиться на территорию Moraine, так что готовься.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения статуса всей бригады.\\n\\nОДОБРЕНО:\\nРекко Батталья"
     },
     "EckhartSecurity_DestroyServers_FacilityDelving_Desc_001": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Destroy Server\\nAPPROVAL CODE = VS-14\\n\\nFOR IMMEDIATE PROCESSING\\n\\nOur client has requested the immediate destruction of a group of servers located at a long-shuttered ASD research site. The servers in question contain information that our client considers extremely damaging and is eager to see the data completely eliminated.\\n\\nInitial surveillance indicates the servers are within the facility’s <EM4>Energy Lab, located in the Research wing</EM4>. We’ve also picked up on a number of hostile forces, so be on alert.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -4949,10 +4918,6 @@
     "Covalex_RecoverCargo_Hard_Description": {
       "en": "Hi, it's El.\\n\\nNeed a hauler for a job ASAP. One of our contractors had a \"personal emergency\" and had to ditch their ship and it seems like they're not coming back. Not ideal, really.\\n\\nGood news is the cargo is still intact, at least according to the tracker. It'd be a huge win for me if you could finish the job by grabbing the cargo at <EM4>[LOCATION]</EM4> and bringing it to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nSeems like this was a pretty big one, you'll need a ship that can transport <EM4>[MAX_SCU] cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> to move it all. Really appreciate your help.\\n\\nThanks in advance for ensuring prompt service,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
       "tr": "Здравствуйте, это Эл.\\n\\nСрочно нужен перевозчик для выполнения задания. Один из наших исполнителей столкнулся с \"личной чрезвычайной ситуацией\" и был вынужден покинуть свой корабль — похоже, он не вернётся. Ситуация не самая идеальная, честно говоря.\\n\\nХорошая новость в том, что груз, по крайней мере согласно данным трекера, остался цел. Для меня будет большой удачей, если вы сможете завершить задание: заберите груз в локации <EM4>[LOCATION]</EM4> и доставьте его к грузовому лифту в локации <EM4>[DESTINATION]</EM4>.\\n\\nСудя по всему, груз довольно крупный — вам понадобится корабль, способный перевозить <EM4>[MAX_SCU] грузовых контейнеров</EM4>, и <EM4>тяжёлый тяговый луч</EM4>, чтобы переместить всё это. Очень признательна за вашу помощь.\\n\\n[SIGN_OFF]\\n\\nЭлла Тиено \\nМладший координатор по логистике \\nCovalex Shipping   \\n\"Что угодно — куда угодно\" \\n\\n\\n\\n\\n\\n\\n\\n*Covalex Shipping — корпорация с ограниченной ответственностью. Для стимулирования своевременной доставки и предотвращения мошенничества все грузовые рейсы имеют установленный срок доставки. В случае его истечения недоставленный груз считается украденным и обрабатывается соответствующим образом. Оплата производится пропорционально количеству успешно доставленных контейнеров."
-    },
-    "Battaglia_RPT_Scan_05_desc": {
-      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Large Deposit Of Ore To Confirm\\n\\nWORK BRIEF: \\nNeed your help with a prospecting job. Need someone to track down a deposit of <EM4>[RESOURCES]</EM4>. \\nThis data will be helpful for some studies we're doing about mineral levels. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Подтвердить крупное месторождение руды\\n\\nОПИСАНИЕ РАБОТЫ: \\nМне нужна твоя помощь с разведкой. Нужен тот, кто разыщет месторождение <EM4>[RESOURCES]</EM4>. \\nЭти данные пригодятся для исследований, которые мы проводим по уровню минералов. [RARITY]\\n\\nИ ещё: если не знаешь, где искать, или в добыче новичок, <EM4>в твоём mobiGlas есть справочник по добыче от United Resource Workers</EM4> — обязательно загляни в него.\\n\\nЗаранее спасибо.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения полного сканирования области.\\n\\nОДОБРЕНО:\\nРекко Батталья"
     },
     "headhunters_maintenance_local_M_desc_001": {
       "en": "Sending a call out to anyone nearby. Got a pretty heavy work order for one of our outposts at <EM4>[LOCATION]</EM4>. Sounds like we need <EM4>six fuses</EM4> fixed. You'll also need a <EM4>salvaging tool</EM4> with <EM4>enough RMC to patch up about five pipes</EM4> to stop the place from falling apart.\\n\\nIf you bring all the shit needed to patch them up, we'll pay you out.\\n\\nHopefully you know what you're doing, but just in case, the <EM4>“Guide to Maintenance”</EM4> in your mobiGlas Journal might be worth a look.\\n\\nStows out.",
@@ -5200,7 +5165,7 @@
     },
     "Battaglia_RPT_ScanMine_Mole_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and MOLE\\n\\nWORK BRIEF: \\nAnother special job for you with an extra special payout. Like the previous jobs, I need you to find and extract <EM4> [RESOURCES] [MINEABLETYPE]</EM4> and relay your stats back to us. [RARITY] \\n\\nI can't even tell you how helpful your work has been in the past so I've arranged an extra special payout for this one. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nYou'll receive a custom ARGO MOLE as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Добыча и MOLE\\n\\nОПИСАНИЕ РАБОТЫ: \\nЕщё одно особое задание для тебя — с особо щедрой наградой. Как и в прошлые разы, нужно найти и добыть <EM4> [RESOURCES] ([MINEABLETYPE])</EM4> и передать нам свою статистику. [RARITY] \\n\\nДаже не передать, как сильно твоя работа выручала нас раньше, так что за это дело я приготовил особо щедрую награду. [RARITY]\\n\\nК этому моменту ты уже знаешь своё дело, но всё же напомню: <EM4>если застрял — справочник по добыче от United Resource Workers в твоём mobiGlas очень выручает.</EM4>\\n\\nДай знать, если возьмёшься.\\n\\nОПЛАТА:\\nВ качестве оплаты за всю твою помощь ты получишь кастомный ARGO MOLE.\\n\\nОДОБРЕНО:\\nРекко Батталья"
+      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Добыча и MOLE\\n\\nОПИСАНИЕ РАБОТЫ: \\nЕщё одно особое задание для тебя — с особо щедрой наградой. Как и в прошлые разы, нужно найти и добыть <EM4> [RESOURCES] ([MINEABLETYPE])</EM4> и передать нам свою статистику. [RARITY] \\n\\nДаже не передать, как сильно твоя работа выручала нас раньше, так что за это дело я приготовила особо щедрую награду. [RARITY]\\n\\nК этому моменту ты уже знаешь своё дело, но всё же напомню: <EM4>если застрял — справочник по добыче от United Resource Workers в твоём mobiGlas очень выручает.</EM4>\\n\\nДай знать, если возьмёшься.\\n\\nОПЛАТА:\\nВ качестве оплаты за всю твою помощь ты получишь кастомный ARGO MOLE.\\n\\nОДОБРЕНО:\\nРекко Батталья"
     },
     "Battaglia_RPT_ScanMine_01_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. I'm building a database of mineral types and their locations but I need some raw data, so I need someone to locate <EM4>[RESOURCES] [MINEABLETYPE]</EM4>. You can keep what you find, I'll pull the data I need. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
@@ -5426,21 +5391,9 @@
       "en": "Crew managing one of our client's operations at <EM4>[LOCATION]</EM4> have reported that they're under attack from a criminal gang targeting the <EM4>[OBJECTS] and ships</EM4> in the area. It will be your job to keep both safe at all costs. I don't have all the facts yet, but I reckon this will be a tough mission – these outlaws seem determined to do some real carnage. \\n\\nIf it were me, I would <EM>bring backup</EM4> to deal with them. And if you manage to protect everyone, we’re offering a well-earned <EM4>4 MG Scrip</EM4> to the main contractor who deals with these lowlife's successfully. \\n\\nBest of luck,\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
       "tr": "Экипаж, управляющий одной из операций нашего клиента в области <EM4>[LOCATION]</EM4>, сообщил, что подвергается нападению преступной группировки, нацелившейся на <EM4>[OBJECTS] и корабли</EM4> в этом районе. Ваша задача: любой ценой обеспечить их безопасность. У меня пока нет всех данных, но полагаю, что это будет непростая миссия: эти преступники, похоже, твёрдо намерены устроить настоящую бойню.\\n\\nНа вашем месте я бы <EM4>привлёк подкрепление</EM4>, чтобы разобраться с ними. Если вам удастся всех защитить, мы предложим заслуженные <EM4>[SCRIPAMOUNT] MG Scrip</EM4> основному исполнителю, который успешно справился с этими отморозками. \\n\\nУдачи,\\n\\nКевин Уолтон\\nДиспетчер, Foxwell Enforcement\\n\"Безопасность, Ваш путь\"\\n\\nFoxwell Enforcement — это компания по обеспечению безопасности, имеющая лицензию на работу на всей территории UEE. Мы всегда ищем новых сотрудников, которые присоединятся к нашей команде. Если вы или кто-то из ваших знакомых заинтересован, пожалуйста, свяжитесь с одним из наших представителей по контракту."
     },
-    "Battaglia_RPT_Scan_03_desc": {
-      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Deposit Needs Scanning\\n\\nWORK BRIEF: \\nI'm looking for an available miner to go out and scan for <EM4>[RESOURCES]</EM4>. Just need confirmation that it’s there and worth sending someone to collect. [RARITY]\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know if you’ve got the time.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Нужно просканировать месторождение руды\\n\\nОПИСАНИЕ РАБОТЫ: \\nИщу свободного шахтёра, готового слетать и просканировать <EM4>[RESOURCES]</EM4>. Нужно лишь подтверждение, что оно там есть и что имеет смысл кого-то за ним отправлять. [RARITY]\\n\\nИ ещё: если не знаешь, с чего начать, или в добыче новичок, <EM4>в твоём mobiGlas есть справочник по добыче от United Resource Workers</EM4> — обязательно загляни в него.\\n\\nДай знать, если найдётся время.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения полного сканирования области.\\n\\nОДОБРЕНО:\\nРекко Батталья"
-    },
     "Battaglia_RPT_ScanMine_04_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Needs Gathering\\n\\nWORK BRIEF: \\nGot a big mining job with your name on it. We're looking to update our records about mineral yields so we need someone to scan and extract about <EM4>[RESOURCES]</EM4> <EM4>[MINEABLETYPE]</EM4> mined if possible. [RARITY]\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
       "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Нужно собрать руду\\n\\nОПИСАНИЕ РАБОТЫ: \\nЕсть крупная работа по добыче как раз для тебя. Мы хотим обновить наши записи о выходе минералов, так что нам нужен тот, кто просканирует и по возможности добудет около <EM4>[RESOURCES]</EM4> <EM4>([MINEABLETYPE])</EM4>. [RARITY]\\n\\nИ ещё: если не знаешь, с чего начать, или в добыче новичок, <EM4>в твоём mobiGlas есть справочник по добыче от United Resource Workers</EM4> — обязательно загляни в него.\\n\\nДай знать.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения полного сканирования области и добычи.\\n\\nОДОБРЕНО:\\nРекко Батталья"
-    },
-    "Battaglia_RPT_Scan_01_desc": {
-      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Scan Needed\\n\\nWORK BRIEF: \\nGot a simple one for you today. I'm looking for some mining data so I need someone to scan some <EM4>[RESOURCES]</EM4>. The data will be helpful to plan future expeditions. [RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Требуется сканирование руды\\n\\nОПИСАНИЕ РАБОТЫ: \\nСегодня для тебя есть простое дельце. Мне нужны данные по добыче, так что нужен тот, кто просканирует немного <EM4>[RESOURCES]</EM4>. Эти данные помогут спланировать будущие экспедиции. [RARITY]\\n\\nИ ещё: если не знаешь, где искать, или в добыче новичок, <EM4>United Resource Workers составили полезный справочник — загляни в него. Он у тебя в mobiGlas.</EM4>\\n\\nСпасибо.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения полного сканирования области.\\n\\nОДОБРЕНО:\\nРекко Батталья"
-    },
-    "Battaglia_RPT_Scan_02_desc": {
-      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore To Be Scanned\\n\\nWORK BRIEF: \\nGot a job for you. Need someone to scan a deposit of <EM4>[RESOURCES]</EM4>. I'm looking into building a more extensive database on mineral locations, so your data will be helpful.[RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Нужно просканировать руду\\n\\nОПИСАНИЕ РАБОТЫ: \\nЕсть для тебя работа. Нужен тот, кто просканирует месторождение <EM4>[RESOURCES]</EM4>. Я хочу собрать более обширную базу данных о местах залегания минералов, так что твои данные пригодятся.[RARITY]\\n\\nИ ещё: если не знаешь, где искать, или в добыче новичок, <EM4>United Resource Workers составили полезный справочник — загляни в него. Он у тебя в mobiGlas.</EM4>\\n\\nДержи меня в курсе.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения полного сканирования области.\\n\\nОДОБРЕНО:\\nРекко Батталья"
     },
     "northrock_SOO_intro_desc_001": {
       "en": "Greetings,\\n\\nCrusader Security Forces have contacted us seeking our expertise in dealing with an urgent situation. Several platforms near Orison have been overtaken by members of the Nine Tails gang and Northrock is eager to staff an operation to remove them and return the platforms to Crusader.\\n\\nThe Nine Tails have put measures in place to block all air traffic in the area, so we've been granted access to a secure shuttle that will take you, and any other members of your assault team, to the first platform.\\n\\nFor full disclosure, I must warn that this is not a contract for the faint of heart. I am confident though that your combat skills, you and your selected team will be fully up to the challenge. \\n\\nOnce you've arrived at the shuttle I'll be in touch directly with more information.\\n\\nSpeak more soon,\\nAdrienne Du-Buisson\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
@@ -6561,6 +6514,10 @@
     "headhunters_bombingrun_H_desc_001": {
       "en": "Look, Headhunters don't waste time on petty revenge, but I'm not about to let this nonsense fly either.\\n\\nSome asshole took out a bunch of my crew and has been bragging all over about it. I've also heard that this nullbrain is stockpiling quantum fuel over at <EM4>[LOCATION]</EM4>. I'd like to see how they deal with some real heat when you fly over there and burn everything they've built to the ground. Oh, and with the amount of firepower they got gathered over there, wouldn't be smart to fly alone on this one, so take a crew with you.\\n\\n-Stows out",
       "tr": "Слушай, Headhunters не тратят время на мелочную месть, но и спускать это безобразие я тоже не собираюсь.\\n\\nКакой-то мерзавец уничтожил часть моей команды и вовсю хвастается этим. Ещё я слышал, что этот недоумок накапливает квантовое топливо в области <EM4>[LOCATION]</EM4>. Хотелось бы посмотреть, как он справится с настоящей угрозой, когда ты прилетишь туда и сожжёшь всё, что он настроил, дотла. О, и с учётом того количества огневой мощи, которое они там собрали, лететь в одиночку было бы неразумно — возьми с собой команду.\\n\\nСтоус, конец связи."
+    },
+    "Battaglia_Story01_desc": {
+      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Welcome to the System\\n\\nWORK BRIEF: \\nHello, the People's Alliance is committed to providing opportunities to miners, prospectors, and salvagers in the system and have an exciting opportunity to offer you as a welcome to the system.\\n\\nIf you're interested <EM4>just accept the mission and come by to see me</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon completion of tasks.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: Добро пожаловать в систему\\n\\nОПИСАНИЕ РАБОТЫ: \\nПривет, People's Alliance стремится предоставить возможности шахтёрам, старателям и утилизаторам в системе, и у нас есть интересное предложение для тебя в качестве приветствия.\\n\\nЕсли интересно — <EM4>просто прими контракт и загляни ко мне</EM4>.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после выполнения задач.\\n\\nОДОБРЕНО:\\nРекко Батталья"
     },
     "TheCollector_Ships_Terrapin_Medic_Desc": {
       "en": "Wikelo not know this Human word but ship is very useful when things go danger. If you want, can give new version of it. Maybe more useful?\\n\\nYou fly and tell. Bye.",
@@ -10118,10 +10075,6 @@
       "en": "XenoThreat",
       "tr": "XenoThreat"
     },
-    "ContractManager_TempTab_Small_Items": {
-      "en": "Wikelo - Other Items",
-      "tr": "ВИКЕЛО — ДРУГИЕ ПРЕДМЕТЫ"
-    },
     "mobiGlas_ui_MissionType_Delivery": {
       "en": "Delivery",
       "tr": "ДОСТАВКА"
@@ -10153,6 +10106,10 @@
     "mobiglas_ui_Priority": {
       "en": "Priority",
       "tr": "ПРИОРИТЕТ"
+    },
+    "ContractManager_TempTab_Small_Items": {
+      "en": "Wikelo - Other Items",
+      "tr": "ВИКЕЛО — ДРУГИЕ ПРЕДМЕТЫ"
     },
     "ContractManager_TempTab_Vehicles": {
       "en": "Wikelo - Vehicles",
@@ -10406,22 +10363,6 @@
       "en": "Savrillium",
       "tr": "Savrillium"
     },
-    "mineabletype_primary_torite": {
-      "en": "Torite",
-      "tr": "Torite"
-    },
-    "mineabletype_primary_ice": {
-      "en": "Ice",
-      "tr": "Ice"
-    },
-    "scanentities_multi3": {
-      "en": "~mission(AmountToScan) of ~mission(ResourceType), ~mission(AmountToScan2) of ~mission(ResourceType2) and ~mission(AmountToScan3) of ~mission(ResourceType3)",
-      "tr": "[AMOUNTTOSCAN] [RESOURCETYPE], [AMOUNTTOSCAN2] [RESOURCETYPE2] и [AMOUNTTOSCAN3] [RESOURCETYPE3]"
-    },
-    "Battaglia_RPT_Rarity_Uncommon_desc": {
-      "en": "These might be a little tricky to find, just a head's up.",
-      "tr": "Эти ресурсы может быть немного сложновато найти."
-    },
     "HaulCargo_3_MultiToSingleToken": {
       "en": "- Freight elevator at <EM4>~mission(Location|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location2|Address)</EM4>",
       "tr": "— Грузовой лифт в локации <EM4>[LOCATION]</EM4>\\n— Грузовой лифт в локации <EM4>[LOCATION1]</EM4>\\n— Грузовой лифт в локации <EM4>[LOCATION2]</EM4>"
@@ -10429,6 +10370,22 @@
     "hurston_danger_006": {
       "en": "Moderate-Risk Target (Small Multicrew Craft, Average Support)",
       "tr": "УМЕРЕННАЯ ОПАСНОСТЬ ЦЕЛИ (МАЛЫЙ МНОГОМЕСТНЫЙ КОРАБЛЬ, СРЕДНЕЕ СОПРОВОЖДЕНИЕ)"
+    },
+    "area_name_entrance": {
+      "en": "Entrance",
+      "tr": "ВХОД"
+    },
+    "Battaglia_Story03_obj_long_02": {
+      "en": "Head to Isaac Kepler's location and establish contact.",
+      "tr": "Прибудьте к местоположению Айзека Кеплера и установите контакт."
+    },
+    "Battaglia_Story03_obj_short_02": {
+      "en": "Rendezvous With Isaac",
+      "tr": "Встретьтесь с Айзеком"
+    },
+    "Battaglia_Story03_obj_marker_01": {
+      "en": "Isaac Kepler",
+      "tr": "Айзек Кеплер"
     },
     "RepairOxygenKiosk_Route1": {
       "en": "Route 1",
@@ -10506,6 +10463,10 @@
       "en": "These ores can be mined on the surface of the planet or moon that we require the ore to be delivered to.",
       "tr": "Добыча данных руд возможна непосредственно на поверхности целевой планеты или спутника, куда предполагается их доставка."
     },
+    "scanentities_multi3": {
+      "en": "~mission(AmountToScan) of ~mission(ResourceType), ~mission(AmountToScan2) of ~mission(ResourceType2) and ~mission(AmountToScan3) of ~mission(ResourceType3)",
+      "tr": "[AMOUNTTOSCAN] [RESOURCETYPE], [AMOUNTTOSCAN2] [RESOURCETYPE2] и [AMOUNTTOSCAN3] [RESOURCETYPE3]"
+    },
     "mineabletype_primary_aluminium": {
       "en": "Aluminium",
       "tr": "Aluminium"
@@ -10518,13 +10479,13 @@
       "en": "These should be pretty easy to find.",
       "tr": "Эти ресурсы довольно легко найти."
     },
-    "area_name_entrance": {
-      "en": "Entrance",
-      "tr": "ВХОД"
-    },
     "DataDownload_obj_marker_01a": {
       "en": "Server",
       "tr": "Сервер"
+    },
+    "mineabletype_primary_ice": {
+      "en": "Ice",
+      "tr": "Ice"
     },
     "HaulCargo_CargoScale_ExtraSmall": {
       "en": "Extra Small",
@@ -10537,6 +10498,14 @@
     "destroyitemsspace_item_01": {
       "en": "Satellite",
       "tr": "Спутник"
+    },
+    "mineabletype_primary_torite": {
+      "en": "Torite",
+      "tr": "Torite"
+    },
+    "Battaglia_RPT_Rarity_Uncommon_desc": {
+      "en": "These might be a little tricky to find, just a head's up.",
+      "tr": "Эти ресурсы может быть немного сложновато найти."
     },
     "hurston_danger_002": {
       "en": "Medium",
@@ -10669,6 +10638,10 @@
     "hurston_danger_003": {
       "en": "High",
       "tr": "СЕРЬЁЗНАЯ УГРОЗА"
+    },
+    "mineabletype_primary_titanium": {
+      "en": "Titanium",
+      "tr": "Titanium"
     },
     "Industrial_Hint_Interstellar": {
       "en": "These ores can be mined on the surface of planets or moons in different solar systems and then delivered to the requested location.",
