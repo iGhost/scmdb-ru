@@ -1,11 +1,11 @@
 {
-  "version": "4.10.0-ptu.12358556",
+  "version": "4.10.0-ptu.12368639",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 2726,
+  "keyCount": 2736,
   "stats": {
-    "total": 2726,
-    "translated": 2598,
+    "total": 2736,
+    "translated": 2608,
     "missing": 0,
     "noLocKey": 60,
     "placeholderFallback": 68,
@@ -1007,6 +1007,10 @@
       "en": "Critical Cargo Extraction",
       "tr": "ВОЗВРАТ КРИТИЧЕСКОГО ГРУЗА"
     },
+    "UWC_Refueling_multiple_hard_title_001": {
+      "en": "CRITICAL FLEET REFUEL",
+      "tr": "КРИТИЧЕСКИ ВАЖНАЯ ДОЗАПРАВКА ФЛОТА"
+    },
     "UWC_Refueling_high_title_001": {
       "en": "CRITICAL REFUEL REQUEST: [SHIP]",
       "tr": "КРИТИЧЕСКИЙ ЗАПРОС НА ДОЗАПРАВКУ: [SHIP]"
@@ -1214,6 +1218,10 @@
     "HeadHunters_ShipAmbush_S_title_001": {
       "en": "Elite Op",
       "tr": "ЭЛИТНАЯ ОПЕРАЦИЯ"
+    },
+    "Battaglia_Story02_title": {
+      "en": "Emergency: Blinding Hope in Trouble",
+      "tr": "ЧП: \"BLINDING HOPE\" В БЕДЕ"
     },
     "FTL_Courier_Nyx_Easy_Title_001": {
       "en": "ENTRY LVL. COURIER NEEDED IN NYX",
@@ -3207,13 +3215,13 @@
       "en": "Urgent - Ship Under XenoThreat Attack",
       "tr": "СРОЧНО — КОРАБЛЬ ПОДВЕРГСЯ АТАКЕ XENOTHREAT"
     },
+    "UWC_Refuelling_BespokeCapital_Title": {
+      "en": "URGENT CAPITAL FLEET REFUEL",
+      "tr": "СРОЧНАЯ ДОЗАПРАВКА КАПИТАЛА ФЛОТА"
+    },
     "UWC_Refueling_multiple_med_title_001": {
       "en": "URGENT CONVOY REFUEL",
       "tr": "СРОЧНАЯ ДОЗАПРАВКА КОНВОЯ"
-    },
-    "UWC_Refueling_moderate_title_001": {
-      "en": "URGENT REFUEL REQUEST: [SHIP]",
-      "tr": "СРОЧНО ТРЕБУЕТСЯ ДОЗАПРАВКА: [SHIP]"
     },
     "northrock_boarders_890J_title_001": {
       "en": "URGENT: Boarding Action In Progress",
@@ -4275,6 +4283,10 @@
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nCalling for a skilled contractor to recover a displaced shipment located at <EM4>[LOCATION]</EM4>. Client's hauler was transporting some high value cargo when they decided to respond to a distress beacon and got ambushed by a group of outlaws. The client believes their pilot is gone but their cargo could still be recovered.\\n\\nThe information we have so far is that you'll need a ship that can carry <EM4>[MAX_SCU] cargo containers</EM4>, a <EM4>heavy-duty tractor beam</EM4> for shifting the goods, as well as your support ships to help deal with the outlaws at the location. \\n\\nClient will be expecting the completed delivery to be made to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
       "tr": "ECKHART SECURITY, LLC.\\nКОНТРАКТЫ И КОРРЕСПОНДЕНЦИЯ\\n\\nТИП КОНТРАКТА: Возврат груза\\nКод подтверждения: = [APPROVAL_CODE]\\n\\nДЛЯ НЕМЕДЛЕННОГО ИСПОЛНЕНИЯ\\n\\nТребуется опытный исполнитель для возвращения перевозимого груза, находящегося в регионе <EM4>[LOCATION]</EM4>. Перевозчик клиента транспортировал ценный груз, когда решил откликнуться на сигнал бедствия и попал в засаду, устроенную группой преступников. Клиент полагает, что его пилот погиб, но груз ещё можно вернуть.\\n\\nПо имеющейся у нас на данный момент информации, вам понадобится корабль, способный перевозить <EM4>[MAX_SCU] грузовых контейнеров</EM4>, <EM4>тяжёлый тяговый луч</EM4> для перемещения груза, а также ваши сопровождающие корабли, чтобы разобраться с преступниками на месте.\\n\\nКлиент ожидает, что завершённая доставка будет осуществлена в грузовой лифт в регион <EM4>[DESTINATION]</EM4>.\\n\\nДанный контракт обсуждению не подлежит.\\n\\nЭто сообщение может содержать конфиденциальную, корпоративную, личную или не подлежащую разглашению информацию. Эта информация предназначена для использования физическим или юридическим лицом, указанным выше."
     },
+    "UWC_Refueling_multiple_hard_desc_001": {
+      "en": "Heyo,\\n\\nOver at <EM4>[LOCATION]</EM4> we just got a refueling job for an entire small fleet of ships who all together need [FUELTYPE]. Talk about when it rains it pours!\\n\\nThe client will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nUnfortunately, where they're held up isn't the nicest of sectors so I'd be alert for any tomfoolery while you're doing the run. \\n\\nIt'll be best to try get them all back on their way as soon as you can.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+      "tr": "Приветик,\\n\\nВ области <EM4>[LOCATION]</EM4> нам только что подкинули заказ на дозаправку целого небольшого флота кораблей, которым всем вместе нужно [FUELTYPE]. Вот уж действительно: пришла беда — отворяй ворота!\\n\\nКлиент заплатит вам по ставке [REFUELREQUEST], а как исполнитель United Wayfarers Club вы по завершении также получите право на сервисный сбор UWC, указанный выше.\\n\\nК сожалению, застряли они не в самом приятном секторе, так что во время вылета я бы держала ухо востро на случай всяких проделок. \\n\\nЛучше всего постараться поскорее отправить их всех в путь.\\n\\nСчастливого пути,\\n\\nДина Делойт\\nДиспетчерский центр\\nUnited Wayfarers Club\\n\"Мы вас поддержим\""
+    },
     "UWC_Refueling_high_desc_001": {
       "en": "Hi,\\n\\nAnother day another beacon. There's a <EM4>[SHIP]</EM4> looking to be topped up with [FUELTYPE] at <EM4>[LOCATION]</EM4>.  The client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI can't lie: it's a nasty place to get stuck and a worse place to get caught by surprise. We've lost good people out there - even the ones who got lucky made it home with pieces missing.\\n\\nIf you decide to take the job, do me a favor and keep everything peeled. If you've got a buddy with time to spare, maybe reach out for a little back-up.\\n\\nMaybe I'm being paranoid, but that doesn't mean they're not out to get you, as Momma Deloit used to say. \\n\\nActually she never said that - but I'm pretty sure she would if she did this for a living.\\n\\nJust do the job and get home safe, okay?\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
       "tr": "Здравствуйте,\\n\\nНовый день — новый маяк. В области <EM4>[LOCATION]</EM4> есть <EM4>[SHIP]</EM4>, которому требуется дозаправка [FUELTYPE].  Корабль клиента заплатит вам по ставке [REFUELREQUEST], а как исполнитель United Wayfarers Club вы по завершении также получите право на сервисный сбор UWC, указанный выше.\\n\\nНе стану врать: застрять там — паршиво, а попасться врасплох — ещё хуже. Мы теряли там хороших людей, и даже те, кому повезло, возвращались домой не в полном комплекте.\\n\\nЕсли решите взяться за работу, сделайте одолжение — держите ухо востро. Если есть свободный напарник, может, стоит позвать его для подстраховки.\\n\\nВозможно, я перестраховщица, но это не значит, что за вами не охотятся, как говаривала мамаша Делойт. \\n\\nВообще-то она такого не говорила — но я почти уверена, что сказала бы, займись она этим ремеслом.\\n\\nПросто сделайте работу и вернитесь домой целыми, договорились?\\n\\nДина Делойт\\nДиспетчерский центр\\nUnited Wayfarers Club\\n\"Мы вас поддержим\""
@@ -4482,6 +4494,10 @@
     "HeadHunters_ShipAmbush_S_desc_001": {
       "en": "Headhunters are looking for someone with the skills and crew to execute an elite op. A military frigate and escort ships are stalking one of our Clips around the system. Don’t know their intentions but it can’t be good. Figure while they’ve got their eyes focused on their prize, we get someone to gather a crew to hit ‘em.  \\n\\nAlready got a spot picked out. If you get to <EM4>[LOCATION]</EM4> there’s an emission cloud that’s exactly what we need. Head there with friends, power down your ships, and wait for the <EM4>[TARGET]</EM4> and its escorts to pass by. \\n\\nWith a bonus of <EM4>16 Council Scrip</EM4> for the main contractor, payment alone should make this worth your while, but you can also keep anything you scrounge from the wreckage.\\n\\n- Stows",
       "tr": "Headhunters ищут кого-то с навыками и командой для выполнения элитной операции. Военный фрегат и корабли сопровождения преследуют одного из наших Вырезателей по всей системе. Не знаю их намерений, но ничего хорошего в этом нет. Думаю, пока они сосредоточены на своей добыче, мы можем найти кого-то, кто соберёт команду и атакует их.  \\n\\nМесто уже подобрано. Если отправишься в регион <EM4>[LOCATION]</EM4>, там есть эмиссионное облако, которое нам как раз нужно. Лети туда с друзьями, отключите питание своих кораблей и ждите пока <EM4>[TARGET]</EM4> с сопровождением пройдут мимо. \\n\\nС бонусом в размере <EM4>[SCRIPAMOUNT] Council Scrip</EM4> для главного исполнителя, оплата сама по себе того стоит, но ты также можешь оставить себе всё, что найдёшь в обломках.\\n\\n— Стоус"
+    },
+    "Battaglia_Story02_desc": {
+      "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blinding Hope in trouble\\n\\nWORK BRIEF: \\nWe received a distress call from the Blinding Hope that said they were under attack from the Moraine again before they were cut off. I just want to know if they're okay. <EM4>Head to their last known location and report what you find</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+      "tr": "*********** People's Alliance ***********\\n******/ \"Сила — в единстве\" /******\\n\\nRE: \"Blinding Hope\" в беде\\n\\nОПИСАНИЕ РАБОТЫ: \\nМы получили сигнал бедствия с \"Blinding Hope\": они сообщили, что на них снова напали Moraine, а потом связь оборвалась. Я просто хочу знать, всё ли с ними в порядке. <EM4>Отправляйся к их последнему известному местоположению и доложи, что найдёшь</EM4>.\\n\\nОПЛАТА:\\nСтандартная заявленная ставка после подтверждения статуса всей бригады.\\n\\nОДОБРЕНО:\\nРекко Батталья"
     },
     "FTL_Courier_Nyx_Easy_Desc_001": {
       "en": "AVAILABLE FTL CONTRACT\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS**\\nFTL requires an entry-level courier to complete deliveries in Nyx.\\nCourier must provide own transportation.\\nPrior training in manual lifting is preferred, with the <EM4>ability to move boxes of up to .25 SCU</EM4> in weight.\\nBy accepting this contract you agree to take full responsibility for the safety of the assigned packages.\\n\\nGood luck and good speed, courier!",
@@ -6415,13 +6431,13 @@
       "en": "A distress beacon came in from <EM4>[LOCATION]</EM4> about a ship under attack from XenoThreat. The pilot reports that their shields are failing and they can't outrun the attackers.\\n\\nThe ship's a <EM4>[SHIP]</EM4>, but the pilot's Human, which  according to XenoThreat's twisted way of thinking, makes them a traitor to Humanity and a target for their hate.\\n\\nWe're looking for operators to head out there and do some good.\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
       "tr": "Поступил сигнал бедствия из локации <EM4>[LOCATION]</EM4> — корабль подвергается нападению XenoThreat. Пилот сообщает, что щиты вышли из строя и оторваться от нападающих не получается.\\n\\nКорабль — <EM4>[SHIP]</EM4>, а пилот — человек. Согласно извращённой логике XenoThreat, это делает его предателем человечества и мишенью для их ненависти.\\n\\nМы ищем оперативников, которые отправятся туда и помогут в этой ситуации.\\n\\nКевин Уолтон\\nДиспетчер, Foxwell Enforcement\\n\"Безопасность, Ваш путь\"\\n\\nFoxwell Enforcement — это компания по обеспечению безопасности, имеющая лицензию на работу на всей территории UEE. Мы всегда ищем новых сотрудников, которые присоединятся к нашей команде. Если вы или кто-то из ваших знакомых заинтересован, пожалуйста, свяжитесь с одним из наших представителей по контракту."
     },
+    "UWC_Refuelling_BespokeCapital_Desc": {
+      "en": "DD here - I've got something special for you,\\n\\nI just received a ping from <EM4>[LOCATION]</EM4>. A strike force led by a [SHIP] just dropped into the system and are looking for a fast refuel before heading back out. \\n\\nThey  need [FUELTYPE] asap and will pay [REFUELREQUEST] for it. As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI won't lie - I'm more than a little jealous. Getting up close and personal to a ship that big? Should be one to tell the grandkids about.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+      "tr": "На связи ДД — у меня для вас кое-что особенное,\\n\\nМне только что пришёл сигнал из региона <EM4>[LOCATION]</EM4>. В систему только что вошла ударная группа во главе с [SHIP], и им нужна быстрая дозаправка перед вылетом обратно. \\n\\nИм как можно скорее требуется [FUELTYPE], и за это они заплатят [REFUELREQUEST]. Как исполнитель United Wayfarers Club, вы по завершении также получите право на сервисный сбор UWC, указанный выше.\\n\\nНе буду врать — завидую вам, и немало. Оказаться вплотную к такому огромному кораблю? Будет что рассказать внукам.\\n\\nДина Делойт\\nДиспетчерский центр\\nUnited Wayfarers Club\\n\"Мы вас поддержим\""
+    },
     "UWC_Refueling_multiple_med_desc_001": {
       "en": "Hey again,\\n\\nI've got a beacon at <EM4>[LOCATION]</EM4> and this one's a bit more complicated than usual. Got small convoy of ships requesting [FUELTYPE]. Impressive coordination and lack of planning to all need refueling at the same time. \\n\\nThe client will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nHopefully since the area they're in is pretty safe, there shouldn't be too much trouble lurking, but these days you never know. Wouldn't hurt to get them back flying again as quick as you're able.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
       "tr": "И снова здравствуйте,\\n\\nУ меня есть маяк в регионе <EM4>[LOCATION]</EM4>, и этот случай чуть сложнее обычного. Тут небольшой конвой кораблей запрашивает [FUELTYPE]. Впечатляющая слаженность и полное отсутствие планирования — умудриться всем разом остаться без топлива. \\n\\nКлиент заплатит вам по ставке [REFUELREQUEST], а как исполнитель United Wayfarers Club вы по завершении также получите право на сервисный сбор UWC, указанный выше.\\n\\nК счастью, район, где они находятся, довольно безопасный, так что серьёзных неприятностей быть не должно, но в наши дни ни в чём нельзя быть уверенным. Не помешает поскорее вернуть их в небо.\\n\\nСчастливого пути,\\n\\nДина Делойт\\nДиспетчерский центр\\nUnited Wayfarers Club\\n\"Мы вас поддержим\""
-    },
-    "UWC_Refueling_moderate_desc_001": {
-      "en": "Hey, you!\\n\\nI've got a beacon at <EM4>[LOCATION]</EM4>. They say their tanks are running dry and they could use [FUELTYPE]. If you're interested, I get the feeling they'll be really pleased to see you.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nThey're stuck out in an area with a bad reputation, though things have been a bit more quiet recently. Still worth staying alert I'd say, just in case there's still trouble lurking out there. \\n\\nEither way, the sooner everyone's able to get flying again - and that includes you - the better.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
-      "tr": "Здравствуйте!\\n\\nУ меня есть маяк в регионе <EM4>[LOCATION]</EM4>. Говорят, их баки почти пусты и им бы пригодилось [FUELTYPE]. Если интересно, у меня такое чувство, что вам будут очень рады.\\n\\nКорабль клиента заплатит вам по ставке [REFUELREQUEST], а как исполнитель United Wayfarers Club вы по завершении также получите право на сервисный сбор UWC, указанный выше.\\n\\nОни застряли в районе с дурной славой, хотя в последнее время там стало поспокойнее. И всё же я бы советовала быть начеку — на случай, если там ещё затаилась беда. \\n\\nТак или иначе, чем скорее все снова смогут подняться в небо — включая вас, — тем лучше.\\n\\nСчастливого пути,\\n\\nДина Делойт\\nДиспетчерский центр\\nUnited Wayfarers Club\\n\"Мы вас поддержим\""
     },
     "northrock_boarders_890J_desc_001": {
       "en": "An executive client just informed us that their 890 Jump had been intercepted at [LOCATION] and boarded by outlaws. They would prefer to have this handled privately owing to the sensitive nature of proprietary data that's being stored aboard. \\n\\nYour first priority will be to clear all outlaws as quickly as possible so that a recovery team can be dispatched to return the ship to the owner. The longer the outlaws have control of the vessel, the higher the chance it will be lost. I recommend you acquire a team for this outing to expedite matters. \\n\\nNote that thanks to a small contingent of Security Personnel who stayed aboard, all surviving members of the crew were able to flee in an escape craft. The current status of the remaining security is unknown, but just in case, keep an eye out for friendlies when you engage the hostiles.\\n\\nSecondly, if at all possible, the client is *very* interested in preventing the theft of the aforementioned data. If you are able to stop the theft of their confidential data stores before they are transmitted, a generous bonus will be issued.\\n\\nNeedless to say, this is a client I would very much like to keep happy. \\n\\nBraden Corchado\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
@@ -10291,6 +10307,22 @@
       "en": "Investigate",
       "tr": "Расследовать"
     },
+    "FuelType_Both": {
+      "en": "<EM4>~mission(HydrogenFuel) SCU of Hydrogen and ~mission(QTFuel) SCU of Quantum Fuel</EM4>",
+      "tr": "<EM4>[HYDROGENFUEL] SCU водорода и [QTFUEL] SCU квантового топлива</EM4>"
+    },
+    "RefuelRequest_Hydrogen": {
+      "en": "<EM4>~mission(FuelRate) aUEC per SCU of Hydrogen</EM4>",
+      "tr": "<EM4>[FUELRATE] aUEC за SCU Водородного топлива</EM4>"
+    },
+    "RefuelRequest_Both": {
+      "en": "<EM4>~mission(FuelRate) aUEC per SCU of Hydrogen</EM4> and  <EM4>~mission(QTFuelRate) aUEC per SCU of Quantum</EM4>",
+      "tr": "<EM4>[FUELRATE] aUEC за SCU водорода</EM4> и <EM4>[QTFUELRATE] aUEC за SCU квантового топлива</EM4>"
+    },
+    "FuelType_Hydrogen": {
+      "en": "<EM4>~mission(HydrogenFuel) SCU of Hydrogen Fuel</EM4>",
+      "tr": "<EM4>[HYDROGENFUEL] SCU водородного топлива</EM4>"
+    },
     "HaulCargo_2_SingleToMultiToken": {
       "en": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>",
       "tr": "— Грузовой лифт в области <EM4>[DESTINATION]</EM4>\\n— Грузовой лифт в области <EM4>[DESTINATION1]</EM4>"
@@ -10351,6 +10383,14 @@
       "en": "Pyro",
       "tr": "Pyro"
     },
+    "area_name_entrance": {
+      "en": "Entrance",
+      "tr": "ВХОД"
+    },
+    "DataDownload_obj_marker_01a": {
+      "en": "Server",
+      "tr": "Сервер"
+    },
     "FTL_SignOff_001": {
       "en": "Good luck and good speed, courier!",
       "tr": "Удачи и скорости, курьер!"
@@ -10370,10 +10410,6 @@
     "hurston_danger_006": {
       "en": "Moderate-Risk Target (Small Multicrew Craft, Average Support)",
       "tr": "УМЕРЕННАЯ ОПАСНОСТЬ ЦЕЛИ (МАЛЫЙ МНОГОМЕСТНЫЙ КОРАБЛЬ, СРЕДНЕЕ СОПРОВОЖДЕНИЕ)"
-    },
-    "area_name_entrance": {
-      "en": "Entrance",
-      "tr": "ВХОД"
     },
     "Battaglia_Story03_obj_long_02": {
       "en": "Head to Isaac Kepler's location and establish contact.",
@@ -10479,10 +10515,6 @@
       "en": "These should be pretty easy to find.",
       "tr": "Эти ресурсы довольно легко найти."
     },
-    "DataDownload_obj_marker_01a": {
-      "en": "Server",
-      "tr": "Сервер"
-    },
     "mineabletype_primary_ice": {
       "en": "Ice",
       "tr": "Ice"
@@ -10510,6 +10542,14 @@
     "hurston_danger_002": {
       "en": "Medium",
       "tr": "УМЕРЕННАЯ УГРОЗА"
+    },
+    "FuelType_Quantum": {
+      "en": "<EM4>~mission(QTFuel) SCU of Quantum Fuel</EM4>",
+      "tr": "<EM4>[QTFUEL] SCU квантового топлива</EM4>"
+    },
+    "RefuelRequest_Quantum": {
+      "en": "<EM4>~mission(QTFuelRate) aUEC per SCU of Quantum </EM4>",
+      "tr": "<EM4>[QTFUELRATE] aUEC за SCU квантового топлива </EM4>"
     },
     "mission_location_nyx_020": {
       "en": "the Glaciem Ring",
