@@ -1,5 +1,5 @@
 {
-  "version": "4.10.0-ptu.12368639",
+  "version": "4.10.0-ptu.12381782",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
   "keyCount": 2736,
@@ -10625,7 +10625,7 @@
     },
     "ui_interactor_ST2_GreenCircle": {
       "en": "Green Circle Lobby",
-      "tr": "Green Circle: ХОЛЛ"
+      "tr": "GREEN CIRCLE: ХОЛЛ"
     },
     "Tutorial_Shop_Orison": {
       "en": "Kel-To",
