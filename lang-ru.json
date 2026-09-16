@@ -1,16 +1,20 @@
 {
-  "version": "4.10.0-live.12519617",
+  "version": "4.10.0-live.12572603",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 4418,
+  "keyCount": 4504,
   "stats": {
-    "total": 4418,
-    "translated": 2629,
+    "total": 4504,
+    "translated": 2656,
     "missing": 0,
-    "noLocKey": 1721,
-    "placeholderFallback": 68,
+    "noLocKey": 1779,
+    "placeholderFallback": 69,
     "lengthFallback": 0,
     "mismatch": 222,
+    "communityUiHits": 0,
+    "communityUiUnknown": 0,
+    "communityUiOverridden": 0,
+    "uiUntranslated": 59,
     "missingKeys": [],
     "mismatchKeys": [
       "CFP_Delivery_Outpost_Multi_title_001",
@@ -235,6 +239,70 @@
       "mg_miles_capturegang_desc_004",
       "mg_miles_capturegang_desc_005",
       "mg_miles_capturegang_desc_006"
+    ],
+    "communityUiKeys": [],
+    "communityUiUnknownKeys": [],
+    "communityUiOverriddenKeys": [],
+    "uiUntranslatedKeys": [
+      "scmdb_ui_fab_dismantle_blacklist_filter_exclude_tt",
+      "scmdb_ui_fab_dismantle_blacklist_filter_include_tt",
+      "scmdb_ui_fab_dismantle_blacklist_filter_off_tt",
+      "scmdb_ui_fab_dismantle_blacklist_material_tt",
+      "scmdb_ui_fab_preset_base",
+      "scmdb_ui_fab_preset_base_tt",
+      "scmdb_ui_fab_preset_max",
+      "scmdb_ui_fab_preset_max_tt",
+      "scmdb_ui_fab_preset_mid",
+      "scmdb_ui_fab_preset_mid_tt",
+      "scmdb_ui_fab_preset_min",
+      "scmdb_ui_fab_preset_min_tt",
+      "scmdb_ui_fab_product_stats",
+      "scmdb_ui_fab_quality_presets",
+      "scmdb_ui_fab_slider_free",
+      "scmdb_ui_fab_slider_mode",
+      "scmdb_ui_fab_slider_snap",
+      "scmdb_ui_fab_slider_snap_tt",
+      "scmdb_ui_stat_ammo_speed",
+      "scmdb_ui_stat_dps",
+      "scmdb_ui_stat_fire_rate",
+      "scmdb_ui_stat_mag_tt",
+      "scmdb_ui_stat_phys_dmg_per_shot",
+      "scmdb_ui_stat_range_suffix",
+      "scmdb_ui_stat_recoil_pitch",
+      "scmdb_ui_stat_recoil_smooth",
+      "scmdb_ui_stat_recoil_yaw",
+      "scmdb_ui_stat_spread",
+      "scmdb_ui_tag_ace",
+      "scmdb_ui_tag_ace_suppressed",
+      "scmdb_ui_tag_ace_suppressed_full",
+      "scmdb_ui_tag_ace_suppressed_tt",
+      "scmdb_ui_tag_ace_tt",
+      "scmdb_ui_tag_cargo_tt",
+      "scmdb_ui_tag_chain",
+      "scmdb_ui_tag_chain_member_tt",
+      "scmdb_ui_tag_chain_starter_tt",
+      "scmdb_ui_tag_event_inactive",
+      "scmdb_ui_tag_event_inactive_tt",
+      "scmdb_ui_tag_evt",
+      "scmdb_ui_tag_illegal",
+      "scmdb_ui_tag_legal",
+      "scmdb_ui_tag_max",
+      "scmdb_ui_tag_min",
+      "scmdb_ui_tag_multi",
+      "scmdb_ui_tag_multi_tt",
+      "scmdb_ui_tag_new",
+      "scmdb_ui_tag_new_tt",
+      "scmdb_ui_tag_prereq",
+      "scmdb_ui_tag_ship_friendly_tt",
+      "scmdb_ui_tag_ship_hostile_tt",
+      "scmdb_ui_tag_solo",
+      "scmdb_ui_tag_starter",
+      "scmdb_ui_tag_unique",
+      "scmdb_ui_tag_variants_tt",
+      "scmdb_ui_tag_waves_tt",
+      "scmdb_ui_tag_wip",
+      "scmdb_ui_unit_ms",
+      "scmdb_ui_unit_rpm"
     ]
   },
   "keys": {
@@ -5416,7 +5484,7 @@
     },
     "ORS_Construct_Large_Desc": {
       "en": "Alright,\\n\\nThe damage reports are still rolling in from the Nine Tails' attack on Orison and the folks at Crusader are saying they might have to repair a significant proportion of the propulsors on those platforms. That's why this one's a massive order.\\n\\nLarger quantity, but same as before otherwise. Either manufacturer them yourself using an Item Fabricator or source them some other way.\\n\\nWhen you're done, drop the propulsors off at <EM4>[DESTINATION]</EM4>. Be a big payout with this one.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
-      "tr": "Здравствуйте,\\n\\nОтчёты об ущербе от нападения Nine Tails на Orison всё ещё поступают, и ребята из Crusader говорят, что им, возможно, придётся отремонтировать значительную часть двигателей на этих платформах. Поэтому заказ такой крупный.\\n\\nКоличество больше, но в остальном всё как раньше. Изготовьте их сами с помощью фабрикатора предметов или раздобудьте каким-нибудь другим способом.\\n\\nКогда закончите, доставьте двигатели в локацию <EM4>[DESTINATION]</EM4>. Оплата за это будет солидная.\\n\\nПремного благодарен,\\nХэл Гримсби\\nМенеджер по контрактам\\n\\nCORNERSTONE MAINTENANCE\\n\"Строим на фундаменте нашего прошлого.\""
+      "tr": "Здравствуйте,\\n\\nОтчёты об ущербе от нападения Nine Tails на Orison всё ещё поступают, и ребята из Crusader говорят, что им, возможно, придётся отремонтировать значительную часть двигателей на этих платформах. Поэтому заказ такой крупный.\\n\\nКоличество больше, но в остальном всё как раньше. Изготовьте их сами с помощью фабрикатора предметов или раздобудьте каким-нибудь другим способом.\\n\\nКогда закончите, доставьте двигатели в локацию <EM4>[DESTINATION]</EM4>. Оплата за это будет солидная.\\n\\nПремного благодарен,\\nХэл Гримсби\\nМенеджер по контрактам\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Строим на фундаменте нашего прошлого.\""
     },
     "ORS_ConstructionAid_ResourceGatherLarge_Desc": {
       "en": "Alright,\\n\\nGot a large scale order from the Crusader folks to help them fix up their platforms. Big order means a big payout.\\n\\nWhen you're done collecting all the materials, take them to <EM4>[DESTINATION]</EM4> and job's a good'un.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
@@ -5432,7 +5500,7 @@
     },
     "ORS_Construct_Medium_Desc": {
       "en": "Hullo,\\n\\nCrusader have been in touch to say that the scale of the damage to their platforms is greater than they initially thought and they'll need more propulsors than they originally estimated for.\\n\\nWe're contracting out their request to anyone with an available Item Fabricator standing by. Though I guess you could source the propulsors some other way, but that's on you.\\n\\nOnce ready, deliver them to <EM4>[DESTINATION]</EM4>. Payment sent on completion.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
-      "tr": "Здравствуйте,\\n\\nCrusader связался с нами и сообщил, что масштаб повреждений их платформ оказался больше, чем они изначально полагали, и им понадобится больше двигателей, чем рассчитывали.\\n\\nМы передаём их запрос всем, у кого под рукой есть свободный фабрикатор предметов. Хотя, полагаю, двигатели можно раздобыть и другим способом — это уже на ваше усмотрение.\\n\\nКак будут готовы, доставьте их в область <EM4>[DESTINATION]</EM4>. Оплата по завершении.\\n\\nПремного благодарен,\\nХэл Гримсби\\nМенеджер по контрактам\\n\\nCORNERSTONE MAINTENANCE\\n\"Строим на фундаменте нашего прошлого.\""
+      "tr": "Здравствуйте,\\n\\nCrusader связался с нами и сообщил, что масштаб повреждений их платформ оказался больше, чем они изначально полагали, и им понадобится больше двигателей, чем рассчитывали.\\n\\nМы передаём их запрос всем, у кого под рукой есть свободный фабрикатор предметов. Хотя, полагаю, двигатели можно раздобыть и другим способом — это уже на ваше усмотрение.\\n\\nКак будут готовы, доставьте их в область <EM4>[DESTINATION]</EM4>. Оплата по завершении.\\n\\nПремного благодарен,\\nХэл Гримсби\\nМенеджер по контрактам\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Строим на фундаменте нашего прошлого.\""
     },
     "ORS_ConstructionAid_ResourceGatherMedium_Desc": {
       "en": "Ey up,\\n\\nWe're still on the hunt for more materials to help Crusader after the Nine Tails attack. Need a bit more this time though. Will make sure you're compensated accordingly.\\n\\nAfter you've got the materials, head to <EM4>[DESTINATION]</EM4> and we'll get it sorted.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
@@ -5448,7 +5516,7 @@
     },
     "ORS_Construct_Small_Desc": {
       "en": "Now then,\\n\\nAfter the Nine Tails attack, the folks at Crusader could do with more than just a helping hand. What they need are proper propulsors to help replace the ones damaged in the attacks.\\n\\nWe've attached a blueprint outlining what materials you'll need to create them. Up to you whether you go out and find those materials yourself or buy them from a trader. Either way you will need access to an Item Fabricator to make the propulsors yourself.\\n\\nOnce you're done bring them to <EM4>[DESTINATION]</EM4> and one of the team will sort out the rest.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
-      "tr": "Итак,\\n\\nПосле нападения Nine Tails ребятам из Crusader нужна не просто помощь. Им нужны настоящие двигатели взамен повреждённых при нападениях.\\n\\nМы приложили чертёж с перечнем материалов, необходимых для их изготовления. Сами решайте, добывать ли эти материалы самостоятельно или купить у торговца. В любом случае, чтобы изготовить двигатели своими силами, вам понадобится доступ к фабрикатору предметов.\\n\\nКак закончите, привезите их в область <EM4>[DESTINATION]</EM4>, а остальным займётся кто-нибудь из команды.\\n\\nПремного благодарен,\\nХэл Гримсби\\nМенеджер по контрактам\\n\\nCORNERSTONE MAINTENANCE\\n\"Строим на фундаменте нашего прошлого.\""
+      "tr": "Итак,\\n \\nПосле нападения Nine Tails ребятам из Crusader нужна не просто помощь. Им нужны настоящие двигатели взамен повреждённых при нападениях.\\n \\nМы приложили чертёж двигателя TH-01, открыть который можно на <EM4>фабрикаторе предметов.</EM4> Просто найдите его в терминале фабрикатора — там будет видно, какие материалы нужны. Сами решайте, добывать ли эти материалы самостоятельно или купить у торговца. (А если фабрикатора у вас ещё нет, его придётся купить в магазине, выгрузить на грузовом лифте, а затем установить в ангаре или грузовом отсеке корабля.)\\n \\nКак закончите, привезите их в область <EM4>[DESTINATION]</EM4>, а остальным займётся кто-нибудь из команды.\\n \\nПремного благодарен,\\nХэл Гримсби\\nМенеджер по контрактам\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Строим на фундаменте нашего прошлого.\""
     },
     "ORS_ConstructionAid_ResourceGatherSmall_desc": {
       "en": "Now then,\\n\\nYou might have heard about the recent attacks on the Orison platforms. Terrible stuff. The folks at Crusader are scrambling around trying to put it all back together and have contracted us to help.\\n\\nTo get them back on their feet what we need is construction materials. Can give you a decent pay packet for them too.\\n\\nIf you don't know already how to get construction materials, your best bet is to read United Resource Workers' <EM4>A Salvager's Guide to Material Collection</EM4>. That'll set you on the right path.\\n\\nOnce you've got the order ready, you'll need to drop it all off at <EM4>[DESTINATION]</EM4>.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
@@ -10089,6 +10157,118 @@
     "Xenothreat_RepUI_Name": {
       "en": "XenoThreat",
       "tr": "XenoThreat"
+    },
+    "headhunters_from": {
+      "en": "Headhunters",
+      "tr": "Headhunters"
+    },
+    "roughready_from": {
+      "en": "Rough & Ready",
+      "tr": "Rough & Ready"
+    },
+    "cfp_from": {
+      "en": "Citizens for Prosperity",
+      "tr": "Citizens For Prosperity"
+    },
+    "vaughn_from": {
+      "en": "Vaughn",
+      "tr": "ВОН"
+    },
+    "cdf_from": {
+      "en": "Civilian Defense Force",
+      "tr": "Civilian Defense Force"
+    },
+    "Adagio_from": {
+      "en": "Adagio Holdings",
+      "tr": "Adagio Holdings"
+    },
+    "BHG_From": {
+      "en": "Bounty Hunters Guild",
+      "tr": "Bounty Hunters Guild"
+    },
+    "shubin_from": {
+      "en": "Shubin Interstellar",
+      "tr": "Shubin Interstellar"
+    },
+    "FTL_from": {
+      "en": "FTL Courier",
+      "tr": "FTL Courier"
+    },
+    "Rayari_from": {
+      "en": "Rayari Inc.",
+      "tr": "Rayari Inc."
+    },
+    "foxwell_from": {
+      "en": "Foxwell Enforcement",
+      "tr": "Foxwell Enforcement"
+    },
+    "TheCollector_From": {
+      "en": "Wikelo",
+      "tr": "ВИКЕЛО"
+    },
+    "InterSec_From": {
+      "en": "InterSec Defense Solutions",
+      "tr": "InterSec Defense Solutions"
+    },
+    "Hockrow_from": {
+      "en": "Hockrow Agency",
+      "tr": "Hockrow Agency"
+    },
+    "MissionGivers_ReccoBattaglia": {
+      "en": "Recco Battaglia",
+      "tr": "РЕККО БАТТАЛЬЯ"
+    },
+    "BitZeros_from": {
+      "en": "Bit Zeros",
+      "tr": "Bit Zeros"
+    },
+    "northrock_from_001": {
+      "en": "Northrock Service Group",
+      "tr": "Northrock Service Group"
+    },
+    "mission_contractor_0003": {
+      "en": "Covalex Independent Contractors",
+      "tr": "Covalex Independent Contractors"
+    },
+    "mg_miles_MissionLegal_from": {
+      "en": "Eckhart Security",
+      "tr": "Eckhart Security"
+    },
+    "mission_contractor_0009": {
+      "en": "Ling Family Hauling",
+      "tr": "Ling Family Hauling"
+    },
+    "mission_contractor_0012": {
+      "en": "Red Wind Linehaul",
+      "tr": "Red Wind Linehaul"
+    },
+    "SalvageContractor_From": {
+      "en": "Adagio Holdings",
+      "tr": "Adagio Holdings"
+    },
+    "deadsaints_from": {
+      "en": "Dead Saints",
+      "tr": "Dead Saints"
+    },
+    "GFS_From": {
+      "en": "Gilly's Flight School",
+      "tr": "Gilly's Flight School"
+    },
+    "UWC_From": {
+      "en": "United Wayfarers Club",
+      "tr": "United Wayfarers Club"
+    },
+    "Highpoint_from": {
+      "en": "Highpoint Wilderness Specialists",
+      "tr": "Highpoint Wilderness Specialists"
+    },
+    "LingFamily_From": {
+      "en": "Ling Family Hauling",
+      "tr": "Ling Family Hauling"
+    },
+    "ConerstoneDevelopments_From": {
+      "en": "Cornerstone Developments",
+      "tr": "Cornerstone Developments"
     },
     "mobiGlas_ui_MissionType_Delivery": {
       "en": "Delivery",
@@ -17074,10 +17254,6 @@
       "en": "ZeroRush",
       "tr": "ZeroRush"
     },
-    "_noloc_craftingslot_Frame": {
-      "en": "Frame",
-      "tr": "Frame"
-    },
     "_noloc_craftingslot_Substrate": {
       "en": "Substrate",
       "tr": "Substrate"
@@ -17090,6 +17266,10 @@
       "en": "Filament Coating",
       "tr": "Filament Coating"
     },
+    "_noloc_craftingslot_Frame": {
+      "en": "Frame",
+      "tr": "Frame"
+    },
     "_noloc_craftingslot_Electronics": {
       "en": "Electronics",
       "tr": "Electronics"
@@ -17101,10 +17281,6 @@
     "_noloc_craftingslot_Support Structure": {
       "en": "Support Structure",
       "tr": "Support Structure"
-    },
-    "_noloc_craftingslot_Wiring": {
-      "en": "Wiring",
-      "tr": "Wiring"
     },
     "_noloc_craftingslot_Magazine": {
       "en": "Magazine",
@@ -17197,6 +17373,10 @@
     "_noloc_craftingslot_Bus Bars": {
       "en": "Bus Bars",
       "tr": "Bus Bars"
+    },
+    "_noloc_craftingslot_Wiring": {
+      "en": "Wiring",
+      "tr": "Wiring"
     },
     "_noloc_craftingslot_Voltage Regulator": {
       "en": "Voltage Regulator",
@@ -17394,9 +17574,9 @@
       "en": "Carinite",
       "tr": "Carinite"
     },
-    "_noloc_mining_Carinitepure": {
-      "en": "Carinitepure",
-      "tr": "Carinitepure"
+    "items_commodities_carinite_pure": {
+      "en": "Carinite (Pure)",
+      "tr": "Carinite (Pure)"
     },
     "hud_mining_fps_rock_name_2": {
       "en": "Dolivine",
@@ -17481,10 +17661,6 @@
     "items_commodities_tungsten_ore": {
       "en": "Tungsten (Ore)",
       "tr": "Tungsten (Ore)"
-    },
-    "items_commodities_carinite_pure": {
-      "en": "Carinite (Pure)",
-      "tr": "Carinite (Pure)"
     },
     "items_commodities_saldynium_ore": {
       "en": "Saldynium (Ore)",
@@ -17909,6 +18085,242 @@
     "items_commodities_aluminum_ore": {
       "en": "Aluminum (Ore)",
       "tr": "Aluminum (Ore)"
+    },
+    "scmdb_ui_tag_legal": {
+      "en": "LEGAL",
+      "tr": "LEGAL"
+    },
+    "scmdb_ui_tag_illegal": {
+      "en": "ILLEGAL",
+      "tr": "ILLEGAL"
+    },
+    "scmdb_ui_tag_solo": {
+      "en": "SOLO",
+      "tr": "SOLO"
+    },
+    "scmdb_ui_tag_unique": {
+      "en": "UNIQUE",
+      "tr": "UNIQUE"
+    },
+    "scmdb_ui_tag_starter": {
+      "en": "STARTER",
+      "tr": "STARTER"
+    },
+    "scmdb_ui_tag_chain": {
+      "en": "CHAIN",
+      "tr": "CHAIN"
+    },
+    "scmdb_ui_tag_prereq": {
+      "en": "PREREQ",
+      "tr": "PREREQ"
+    },
+    "scmdb_ui_tag_new": {
+      "en": "NEW",
+      "tr": "NEW"
+    },
+    "scmdb_ui_tag_new_tt": {
+      "en": "Added in patch {patch}",
+      "tr": "Added in patch {patch}"
+    },
+    "scmdb_ui_tag_ace": {
+      "en": "ACE",
+      "tr": "ACE"
+    },
+    "scmdb_ui_tag_ace_tt": {
+      "en": "Ace Pilot - {chance}% spawn chance",
+      "tr": "Ace Pilot - {chance}% spawn chance"
+    },
+    "scmdb_ui_tag_ace_suppressed": {
+      "en": "ACE*",
+      "tr": "ACE*"
+    },
+    "scmdb_ui_tag_ace_suppressed_tt": {
+      "en": "Per community feedback, ACE pilots do not spawn on ambush missions",
+      "tr": "Per community feedback, ACE pilots do not spawn on ambush missions"
+    },
+    "scmdb_ui_tag_ace_suppressed_full": {
+      "en": "ACE* - does not spawn",
+      "tr": "ACE* - does not spawn"
+    },
+    "scmdb_ui_tag_multi": {
+      "en": "Multi",
+      "tr": "Multi"
+    },
+    "scmdb_ui_tag_multi_tt": {
+      "en": "Spawns across {systems}",
+      "tr": "Spawns across {systems}"
+    },
+    "scmdb_ui_tag_evt": {
+      "en": "EVT",
+      "tr": "EVT"
+    },
+    "scmdb_ui_tag_wip": {
+      "en": "WIP",
+      "tr": "WIP"
+    },
+    "scmdb_ui_tag_event_inactive": {
+      "en": "EVENT INACTIVE",
+      "tr": "EVENT INACTIVE"
+    },
+    "scmdb_ui_tag_event_inactive_tt": {
+      "en": "Required event is currently not active",
+      "tr": "Required event is currently not active"
+    },
+    "scmdb_ui_tag_variants_tt": {
+      "en": "{n} variants",
+      "tr": "{n} variants"
+    },
+    "scmdb_ui_tag_waves_tt": {
+      "en": "{n} waves",
+      "tr": "{n} waves"
+    },
+    "scmdb_ui_tag_ship_hostile_tt": {
+      "en": "{n} hostile ships from a pool of {pool}",
+      "tr": "{n} hostile ships from a pool of {pool}"
+    },
+    "scmdb_ui_tag_ship_friendly_tt": {
+      "en": "{n} friendly/neutral ships",
+      "tr": "{n} friendly/neutral ships"
+    },
+    "scmdb_ui_tag_cargo_tt": {
+      "en": "Target ships carry lootable cargo",
+      "tr": "Target ships carry lootable cargo"
+    },
+    "scmdb_ui_tag_chain_starter_tt": {
+      "en": "First mission in a chain",
+      "tr": "First mission in a chain"
+    },
+    "scmdb_ui_tag_chain_member_tt": {
+      "en": "Part of a mission chain",
+      "tr": "Part of a mission chain"
+    },
+    "scmdb_ui_tag_min": {
+      "en": "MIN",
+      "tr": "MIN"
+    },
+    "scmdb_ui_tag_max": {
+      "en": "MAX",
+      "tr": "MAX"
+    },
+    "scmdb_ui_fab_product_stats": {
+      "en": "Product Stats",
+      "tr": "Product Stats"
+    },
+    "scmdb_ui_fab_slider_mode": {
+      "en": "SLIDER MODE:",
+      "tr": "SLIDER MODE:"
+    },
+    "scmdb_ui_fab_slider_free": {
+      "en": "Free",
+      "tr": "Free"
+    },
+    "scmdb_ui_fab_slider_snap": {
+      "en": "Snap",
+      "tr": "Snap"
+    },
+    "scmdb_ui_fab_slider_snap_tt": {
+      "en": "Snap to game quality bands - limits the slider to the handful of in-game values",
+      "tr": "Snap to game quality bands - limits the slider to the handful of in-game values"
+    },
+    "scmdb_ui_fab_quality_presets": {
+      "en": "QUALITY PRESETS",
+      "tr": "QUALITY PRESETS"
+    },
+    "scmdb_ui_fab_preset_min": {
+      "en": "Min",
+      "tr": "Min"
+    },
+    "scmdb_ui_fab_preset_min_tt": {
+      "en": "Lowest possible quality for each material",
+      "tr": "Lowest possible quality for each material"
+    },
+    "scmdb_ui_fab_preset_base": {
+      "en": "Base",
+      "tr": "Base"
+    },
+    "scmdb_ui_fab_preset_base_tt": {
+      "en": "Base quality - no bonus, no penalty (0%)",
+      "tr": "Base quality - no bonus, no penalty (0%)"
+    },
+    "scmdb_ui_fab_preset_mid": {
+      "en": "50%",
+      "tr": "50%"
+    },
+    "scmdb_ui_fab_preset_mid_tt": {
+      "en": "Halfway between 0% quality loss and max quality gain",
+      "tr": "Halfway between 0% quality loss and max quality gain"
+    },
+    "scmdb_ui_fab_preset_max": {
+      "en": "Max",
+      "tr": "Max"
+    },
+    "scmdb_ui_fab_preset_max_tt": {
+      "en": "Maximum quality for each material",
+      "tr": "Maximum quality for each material"
+    },
+    "scmdb_ui_fab_dismantle_blacklist_material_tt": {
+      "en": "{material} is on the dismantle blacklist - won't be returned when you take items apart",
+      "tr": "{material} is on the dismantle blacklist - won't be returned when you take items apart"
+    },
+    "scmdb_ui_fab_dismantle_blacklist_filter_off_tt": {
+      "en": "Filter by dismantle blacklist. Click cycles include -> exclude -> off; right-click jumps to exclude.",
+      "tr": "Filter by dismantle blacklist. Click cycles include -> exclude -> off; right-click jumps to exclude."
+    },
+    "scmdb_ui_fab_dismantle_blacklist_filter_include_tt": {
+      "en": "Showing only recipes with non-returning materials. Click to flip to exclude.",
+      "tr": "Showing only recipes with non-returning materials. Click to flip to exclude."
+    },
+    "scmdb_ui_fab_dismantle_blacklist_filter_exclude_tt": {
+      "en": "Hiding recipes with non-returning materials. Click to clear.",
+      "tr": "Hiding recipes with non-returning materials. Click to clear."
+    },
+    "scmdb_ui_stat_fire_rate": {
+      "en": "Fire Rate",
+      "tr": "Fire Rate"
+    },
+    "scmdb_ui_stat_dps": {
+      "en": "DPS",
+      "tr": "DPS"
+    },
+    "scmdb_ui_stat_phys_dmg_per_shot": {
+      "en": "Physical Damage / Shot",
+      "tr": "Physical Damage / Shot"
+    },
+    "scmdb_ui_stat_recoil_pitch": {
+      "en": "Recoil Pitch",
+      "tr": "Recoil Pitch"
+    },
+    "scmdb_ui_stat_recoil_yaw": {
+      "en": "Recoil Yaw",
+      "tr": "Recoil Yaw"
+    },
+    "scmdb_ui_stat_recoil_smooth": {
+      "en": "Recoil Smooth",
+      "tr": "Recoil Smooth"
+    },
+    "scmdb_ui_stat_spread": {
+      "en": "Spread",
+      "tr": "Spread"
+    },
+    "scmdb_ui_stat_ammo_speed": {
+      "en": "Ammo Speed",
+      "tr": "Ammo Speed"
+    },
+    "scmdb_ui_stat_mag_tt": {
+      "en": "Mag: {count}",
+      "tr": "Mag: {count}"
+    },
+    "scmdb_ui_stat_range_suffix": {
+      "en": "Range",
+      "tr": "Range"
+    },
+    "scmdb_ui_unit_rpm": {
+      "en": "RPM",
+      "tr": "RPM"
+    },
+    "scmdb_ui_unit_ms": {
+      "en": "m/s",
+      "tr": "m/s"
     }
   }
 }
