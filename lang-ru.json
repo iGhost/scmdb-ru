@@ -2,19 +2,19 @@
   "version": "4.10.1-live.12660092",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "keyCount": 4504,
+  "keyCount": 4505,
   "stats": {
-    "total": 4504,
+    "total": 4505,
     "translated": 2656,
     "missing": 0,
-    "noLocKey": 1779,
+    "noLocKey": 1780,
     "placeholderFallback": 69,
     "lengthFallback": 0,
     "mismatch": 222,
     "communityUiHits": 0,
     "communityUiUnknown": 0,
     "communityUiOverridden": 0,
-    "uiUntranslated": 59,
+    "uiUntranslated": 60,
     "missingKeys": [],
     "mismatchKeys": [
       "CFP_Delivery_Outpost_Multi_title_001",
@@ -286,6 +286,7 @@
       "scmdb_ui_tag_evt",
       "scmdb_ui_tag_illegal",
       "scmdb_ui_tag_legal",
+      "scmdb_ui_tag_lockout",
       "scmdb_ui_tag_max",
       "scmdb_ui_tag_min",
       "scmdb_ui_tag_multi",
@@ -18101,6 +18102,10 @@
     "scmdb_ui_tag_unique": {
       "en": "UNIQUE",
       "tr": "UNIQUE"
+    },
+    "scmdb_ui_tag_lockout": {
+      "en": "LOCKOUT",
+      "tr": "LOCKOUT"
     },
     "scmdb_ui_tag_starter": {
       "en": "STARTER",
