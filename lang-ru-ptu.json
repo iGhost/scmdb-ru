@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0-ptu.13215521",
+  "version": "5.0.0-ptu.13238477",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
   "keyCount": 5107,
@@ -9557,8 +9557,8 @@
       "tr": "Private Landing Pad"
     },
     "mission_location_stanton_393": {
-      "en": "a Landing Pad Locker in New Babbage",
-      "tr": "New Babbage, камера хранения на посадочной площадке"
+      "en": "a Landing Pad's Storage in New Babbage",
+      "tr": "New Babbage, хранилище на посадочной площадке"
     },
     "area_name_maintenance": {
       "en": "Service Entrance",
@@ -10025,8 +10025,8 @@
       "tr": "Maria Pure of Heart"
     },
     "mission_location_stanton_461": {
-      "en": "a Landing Pad Locker in Orison",
-      "tr": "Orison, шкафчик на посадочной площадке"
+      "en": "a Landing Pad's Storage in Orison",
+      "tr": "Orison, хранилище на посадочной площадке"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton4_Drlct_Stmnt_001": {
       "en": "Inhabited_Derelict_Civilian_Stanton4_Drlct_Stmnt_001",
@@ -11732,13 +11732,9 @@
       "en": "RSI Constellation Mk IV Andromeda",
       "tr": "RSI Constellation Mk IV Andromeda"
     },
-    "vehicle_NameRSI_Constellation_Aquila": {
-      "en": "RSI Constellation Mk IV Aquila",
-      "tr": "RSI Constellation Mk IV Aquila"
-    },
-    "vehicle_NameRSI_Constellation_Phoenix": {
-      "en": "RSI Constellation Mk IV Phoenix",
-      "tr": "RSI Constellation Mk IV Phoenix"
+    "vehicle_NameAEGS_Hammerhead": {
+      "en": "Aegis Hammerhead",
+      "tr": "Aegis Hammerhead"
     },
     "vehicle_NameRSI_Polaris": {
       "en": "RSI Polaris",
@@ -11912,6 +11908,14 @@
       "en": "Origin M80",
       "tr": "Origin M80"
     },
+    "vehicle_NameRSI_Constellation_Aquila": {
+      "en": "RSI Constellation Mk IV Aquila",
+      "tr": "RSI Constellation Mk IV Aquila"
+    },
+    "vehicle_NameRSI_Constellation_Phoenix": {
+      "en": "RSI Constellation Mk IV Phoenix",
+      "tr": "RSI Constellation Mk IV Phoenix"
+    },
     "vehicles_NameOrbital_Sentry": {
       "en": "Broad & Rabiee Overseer Orbital Sentry",
       "tr": "Орбитальный часовой Broad & Rabiee Overseer"
@@ -11935,10 +11939,6 @@
     "vehicle_NameRSI_Aurora_MR": {
       "en": "RSI Aurora Mk I MR",
       "tr": "RSI Aurora Mk I MR"
-    },
-    "vehicle_NameAEGS_Hammerhead": {
-      "en": "Aegis Hammerhead",
-      "tr": "Aegis Hammerhead"
     },
     "vehicle_NameANVL_Hornet_F7A_Mk2": {
       "en": "Anvil F7A Hornet Mk II",
@@ -20204,10 +20204,6 @@
       "en": "Construction Materials",
       "tr": "Construction Materials"
     },
-    "items_commodities_VentFilters": {
-      "en": "Molina Ventilation Filters",
-      "tr": "Molina Ventilation Filters"
-    },
     "items_commodities_processedFood": {
       "en": "Processed Food",
       "tr": "Processed Food"
@@ -20523,6 +20519,10 @@
     "items_commodities_MoldSamples": {
       "en": "Molina Mold Samples",
       "tr": "Molina Mold Samples"
+    },
+    "items_commodities_VentFilters": {
+      "en": "Molina Ventilation Filters",
+      "tr": "Molina Ventilation Filters"
     },
     "items_commodities_decaripod": {
       "en": "Decari Pod",
